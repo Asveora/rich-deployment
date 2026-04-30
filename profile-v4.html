@@ -420,6 +420,16 @@
 			</div>
 		</a>   
 	</div>
+	
+	<!--SCTN-DISABLE-EXTRAS-->
+	<!--This button allows viewers to disable the extra elements of the Asveora framework's profile space.-->
+
+	<a href="https://framework.asveora.social/p/profile-home.html">
+		<div class="return-button">
+			<img class="rb-image" alt="Asveora logo." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/power_button.png" width="100" height="100"/>
+			<span class="lb-text-02"><b>Disable Extras</b></span>
+		</div>
+	</a>
 
 	<!--SCTN-RETURN-TO-WHEELCORE-->
 	<!--This button allows viewers to return to the wheelcore that you belong to.-->
@@ -1229,12 +1239,17 @@
 		color: var(--primary-color);		
 	}
 
-	/*Font styling for the word "Post" in the comment section.*/
+	/*Font styling for the word "Post" and its background in the comment section.*/
   
   	.jpJyCg{
 		font-family: helvetica, arial, sans-serif;
 		font-size: 16px;
 		color: var(--secondary-color);
+		background: var(--hover-color);
+	}
+  
+  	.jpJyCg:hover{
+		background: #454545;
 	}
 
 	/*Font styling for user entered text in main comment section field.*/

@@ -39,6 +39,30 @@
 		</nav>
 	</div>
 
+	<!--SCTN-NETWORK-MEMBER-COUNT-->
+	<!--Displays the current number of users online within the given network and which platforms those user counts are coming from.-->
+
+	<div class="members-online-bar">
+		<div class="mbo-area-01">
+			<div class="mbo-sub-area-01">
+				<div class="pulse"></div>
+			</div>
+			<div class="mbo-sub-area-02">
+				<span class="members-online-text">
+					<strong>Network Members: <span id="totalCount"></span></strong>
+				</span>
+			</div>
+		</div>
+		<div class="mbo-area-02">
+			<a href="https://stoat.chat/">
+				<img class="platform-icon" src="https://cdn.asveora.social/PageBin/app/Image-Select/Platform-Icons/Stoat/Stoat_Chat_WSS_Icon_0001_M4X.png"/>
+			</a>
+			<a href="https://matrix.org/ecosystem/clients/">
+				<img class="platform-icon" src="https://cdn.asveora.social/PageBin/app/Image-Select/Platform-Icons/Matrix/Matrix_Protocols_Icon_0001_M4X.png"/>
+			</a>
+		</div>
+	</div>
+
 	<!--SCTN-DASHBOARD-->
 	<!--The dashboard contains the primary selection of navigation panels that allow users to sort through different categories and indexes of content and entities within the Asveora network.-->
 	<!--Since panels are organized into rows, to add more panels you will need to duplicate an existing row and then change the contents. Six is the recommended number but you can have nine or more!-->
@@ -145,6 +169,40 @@
       
 	</div>
 
+	<!--SCTN-SERVICES-BANNER-->
+	<!--Allows users to access the services marketplace from the landhub's main dashboard if your network has one.-->
+
+	<a href="https://wheelcore.asveora.social/p/services.html">
+		<div class="services-button">
+			<span class="services-text"><b>Looking for help? Check out the services marketplace! 🛒</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-EVENT-BANNERS-->
+	<!--Cycles through banners of featured events within your network.-->
+
+	<div class="event-banners-area">
+		<ul class="fading-slideshow">
+          
+			<!--EVENT-BANNER-0001-->
+          
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<li>
+					<img class="event-banner" src="https://cdn.asveora.social/CardTile/Event-Banner/0000/Event_Banner_Sample_01_M4X.png" alt="Event banner sample 1. Click here to read about the event.">
+				</li>
+			</a>
+          
+			<!--EVENT-BANNER-0002-->
+          
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<li>
+					<img class="event-banner" src="https://cdn.asveora.social/CardTile/Event-Banner/0000/Event_Banner_Sample_02_M4X.png" alt="Event banner sample 2. Click here to read about the event.">
+				</li>
+			</a>
+          
+		</ul>
+	</div>
+
 	<!--SCTN-SEASON-ART-->
 	<!--Season art is a large panel placed below the navigation dashboard that is displayed for aesthetic purposes with some sort of community message on it.-->
 	<!--It also doubles as a button to view live rooms or community gathering spaces within Asveora. It can also link to other kinds of pages or resources.-->
@@ -243,13 +301,6 @@
 			</div>
 		</a>
 
-	</div>
-
-	<!--SCTN-FOOTER-->
-	<!--This is the footer of the webpage where you can place copyright information, links to various resources, contact information, etc.-->
-
-	<div class="footer-area">
-      <span class="footer-text">© 2026 Asveora, LLC<br><a href="https://github.com/asveora-social"><span class="link-text">GitHub</span></a> • <a href="https://wheelcore.asveora.social/p/library.html"><span class="link-text">Documentation</span></a> • <a href="https://wheelcore.asveora.social/p/support.html"><span class="link-text">Support</span></a> • <a href="https://ko-fi.com/asveora"><span class="link-text">Donate</span></a> </span>
 	</div>
 
 <!--HTML-END-->
@@ -423,7 +474,7 @@
 	.panels-row-top{
 		display: flex;
 		justify-content: space-between;
-		margin-top: 150px;
+		margin-top: 40px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -468,6 +519,101 @@
 		font-family: helvetica, arial, sans-serif;
 		font-size: 36px;
 		color: var(--secondary-color);
+	}
+  
+	/*SCTN-SERVICES-BUTTON-CLASSES*/
+	/*Dictates the spacing, shape, styling, and layout of the services button.*/
+
+	.services-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.services-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.services-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-EVENT-BANNERS-AREA*/
+	/*Dictates the spacing, shape, styling, and layout of the event banners area.*/
+  
+	.event-banners-area{
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.widget .post-body ul{
+		padding: 0;
+		margin: 0;
+	}
+  
+	@keyframes fader {
+		from { opacity: 1.0; }
+		to   { opacity: 0.0; }
+	}
+
+	.fading-slideshow {
+		position: relative;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right: 100px;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 250px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+		padding: 0;
+		list-style-type: none;
+
+	}
+
+	.fading-slideshow > a {
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 250px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+	}
+  
+	.event-banner{
+		border-radius: 50px;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 250px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+	}
+
+	/*Current slide being displayed.*/
+
+	.fading-slideshow > a:first-of-type {
+		animation-name: fader;
+		animation-delay: 2s;
+		animation-duration: 1s;
+		z-index: -1;
+	}
+
+	/*The next slide that is queued to display.*/
+
+	.fading-slideshow > li:nth-of-type(2) {
+		z-index: -2;
+	}
+
+	/*Controls all other slides.*/
+
+	.fading-slideshow > li:nth-of-type(n+3) {
+		display: none;
 	}
   
 	/*SCTN-SEASON-ART-CLASSES*/
@@ -697,26 +843,152 @@
 		font-size: 44px;
 	}
   
-	/*SCTN-FOOTER-CLASSES*/
-	/*Controls the color, spacing, size, alignment, and text-styling of the footer div.*/
+	/*SCTN-NETWORK-MEMBER-COUNT-CLASSES*/
+	/*Controls the spacing, padding, colors, and layout of the network members counter bar*/
   
-	.footer-area{
-		background: var(--primary-color);
+	.members-online-bar{
+		background: rgba(255, 255, 255, 0.2);
+		box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(7px);
+		-webkit-box-shadow: inset 0 0 30px #ffffff;
+		-moz-box-shadow: inset 0 0 30px #ffffff;
+		border: 1px solid rgba(255, 255, 255, 0.6);
 		border-radius: 50px;
+		margin-top: 150px;
 		margin-left: auto;
-		margin-right: auto;
-		margin-top: 50px;
-		margin-bottom: 80px;
-		padding: 20px;
-		text-align: center;	
+		margin-left: auto;
+		padding-top: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 18px;
+		display: flex;
+		justify-content: space-between;
 	}
   
-	.footer-text{
+	.mbo-area-01{
+		background: transparent;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.mbo-sub-area-01{
+		background: transparent;
+	}
+  
+  
+	.mbo-sub-area-02{
+		background: transparent;
+		margin-left: 25px;
+	}
+  
+	.mbo-area-02{
+		background: transparent;
+		display: flex;
+		gap: 20px;
+	}
+
+	.members-online-text{
 		font-family: helvetica, arial, sans-serif;
 		font-size: 28px;
-		color: var(--secondary-color);
+		color: var(--secondary-color);		
+	}
+  
+	.platform-icon{
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.pulse{
+    	background: rgb(207, 255, 207);
+    	border-radius: 50%;
+   		height: 40px;
+    	width: 40px;
+		box-shadow: 0 0 0 0 rgba(207, 255, 207, 1);
+		transform: scale(1);
+		animation: pulse 2s infinite;
+	}
+
+	@keyframes pulse{
+    	0%{
+        	transform: scale(0.95);
+        	box-shadow: 0 0 0 0 rgba(207, 255, 207, 0.7);
+    	}
+
+    	70%{
+        	transform: scale(1);
+        	box-shadow: 0 0 0 15px rgba(207, 255, 207, 0);
+    	}
+
+    	100%{
+        	transform: scale(0.95);
+        	box-shadow: 0 0 0 0 rgba(207, 255, 207, 0);
+    	}
 	}
   
 </style>
 
 <!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+
+<script>
+  
+	// SCTN-EVENT-BANNERS-AREA
+	// Cycles through the list of event banners.
+	// Base code written by www.chirpinternet.eu and modified by AmzroSevca!
+
+	window.addEventListener("DOMContentLoaded", (e) => {
+		document.querySelectorAll(".fading-slideshow > a").forEach((current) => {
+			current.addEventListener("animationend", (e) => {
+				e.target.parentNode.appendChild(e.target);
+			});
+		});
+
+	});
+  
+	// SCTN-NETWORK-MEMBER-COUNTS
+	// Fetches the data from both the Stoat and Matrix APIs.
+  
+	Promise.all([
+		fetch("https://api.stoat.chat/invites/5wB2Zzb0").then(r => {
+			if (!r.ok) throw new Error("Stoat fetch failed");
+			return r.json();
+		}),
+		fetch("https://matrix-member-count.asveora-social.workers.dev").then(r => {
+			if (!r.ok) throw new Error("Matrix fetch failed");
+			return r.json();
+		})
+	])
+  
+	// Combines the fetched numbers from Stoat and Matrix.
+  
+	.then(([stoatData, matrixData]) => {
+		const stoatCount = Number(stoatData.member_count) || 0;
+		const matrixCount = Number(matrixData.count) || 0;
+
+		const total = stoatCount + matrixCount;
+
+		document.getElementById("totalCount").textContent = total;
+	})
+  
+	// Helps with debugging any possible conflicts or problems with pulling in API data.
+  
+	.catch(error => {
+		console.error(error);
+		document.getElementById("totalCount").textContent = "Error";
+	});
+
+</script>
+
+<!--JS-END-->
