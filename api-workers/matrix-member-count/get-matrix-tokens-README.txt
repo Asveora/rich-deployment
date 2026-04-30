@@ -1,0 +1,3 @@
+Make a copy of "get-matrix-tokens-COPYME", open up the .txt document, edit the contents, and then copy the contents into a powershell window and run the script to get the Matrix "access_token" and "device_id" values. 
+
+WARNING: Do NOT save your credentials in either the origin file nor the copy you made. Those credentials should be kept in your password manager or somewhere private. When you are finished with the copy you made of "get-matrix-tokens-COPYME" make sure to delete it immediately.
