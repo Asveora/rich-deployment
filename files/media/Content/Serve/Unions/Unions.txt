@@ -1,0 +1,159 @@
+	<ul id="searchUL">
+
+		<!--USER-SLOT-0001-->
+    
+		<li>
+			<a href="https://www.asveora.social/p/under-construction.html">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Genesis</span>
+					<img class="avatar-dec" alt="Asveora Genesis" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/PageBin/friends/Image-Select/Asveora_Genesis_Avtr_0001_CMS.jpg"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Genesis</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0002-->
+    
+		<li>
+			<a href="https://www.asveora.social/p/under-construction.html">
+				<div class="user-entry">
+					<span class="hidden-name">Little Asveora</span>
+					<img class="avatar-dec" alt="Little Asveora" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/PageBin/friends/Image-Select/Little_Asveora_Avatar_0001_CMS.jpg"/>	
+					<br>
+					<span class="user-text"><b>Little<br>Asveora</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0003-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0004-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0005-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0006-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0007-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0008-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0009-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0010-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0011-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-0012-->
+    
+		<li>
+			<a href="https://framework.asveora.social/">
+				<div class="user-entry">
+					<span class="hidden-name">Asveora Framework</span>
+					<img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+	</ul>

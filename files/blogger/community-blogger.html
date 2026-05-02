@@ -1,0 +1,791 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+  
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.cmmty-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.cmmty-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.cmmty-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.cmmty-logomark-img-slot{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.cmmty-latest-news-img-slot{
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.cmmty-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.cmmty-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.cmmty-content-body{
+		margin-top: 40px;
+	}
+  
+  	.cmmty-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.cmmty-community-tags{
+		color: #ffac54;
+	}
+  
+	.cmmty-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.cmmty-content-img{
+		border-radius: 10px;
+	}
+  
+	.cmmty-join-button{
+		background: var(--hover-color);
+		border-radius: 10px;
+		margin-top: 60px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.cmmty-join-button:hover{
+		background: #8a8a8a;
+	}
+  
+	.cmmty-join-button-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.cmmty-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.cmmty-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-FEATURED-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the most recent blog posts displayed on the main profile page.*/
+  
+	#postsUL {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 44px; /*Change the gap to 44px if using Blogger. Change the gap to 76px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#postsUL li a {
+		text-decoration: none;
+	}
+
+	#postsUL li a:hover:not(.header) {
+	}
+  
+	.cmmty-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+	}
+  
+	.cmmty-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.cmmty-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.cmmty-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.cmmty-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.cmmty-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.cmmty-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.cmmty-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.cmmty-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.cmmty-blog-post-info{
+		text-align: left;
+	}
+
+	.cmmty-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.cmmty-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.cmmty-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-FORUM-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+  
+	.cmmty-forum-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.cmmty-forum-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.cmmty-forum-link{
+		text-decoration: underline;
+		color: #ffffff;
+    }
+  
+	#cmmtyForums table{
+		margin-top: 40px;
+		border-collapse: collapse;
+		width: 100%;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		table-layout: fixed;
+	}
+
+	#cmmtyForums td, th{
+		border: 5px solid var(--secondary-color);
+		text-align: left;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+
+	#cmmtyForums th{
+		background: #242424;
+    }
+  
+	#cmmtyForums td{
+		background: #363636;
+    }
+
+	/*SCTN-SHARE-POST-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the share post div.*/
+  
+	.cmmty-share-post-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.cmmty-share-txt-title{
+		text-align: center;
+	}
+
+	.cmmty-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.cmmty-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.cmmty-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.cmmty-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-COMMENT-SECTION-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the comment section div and components.*/
+  
+	.cmmty-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.cmmty-comments-txt-title{
+		text-align: center;
+	}
+  
+	#zoomment{
+		margin-top: 60px;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.gKnrUR{
+		display: none;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.beCpri{
+		display: none;
+	}
+
+	/*Font styling for the number counter in the comment section.*/
+  
+	.gsmuov{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+  
+	/*Font styling for the word "View" in the comment section.*/
+  
+  	.jmmNHI{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+
+	/*Font styling for the word "Post" and its background in the comment section.*/
+  
+  	.jpJyCg{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 16px;
+		color: var(--secondary-color);
+		background: var(--hover-color);
+	}
+  
+  	.jpJyCg:hover{
+		background: #454545;
+	}
+
+	/*Font styling for user entered text in main comment section field.*/
+  
+  	.lmOcFQ{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+
+	/*Font styling for user entered text in user id comment section field.*/
+  
+  	.vPMAp{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+  
+	/*Font styling for comment counter under comment section field.*/
+  
+	.cAzkdF{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for border between comment counter and comments list.*/
+  
+	.lbBTjp{
+		border-bottom: 5px solid #ffffff;
+		margin-bottom: 5px;
+	}
+
+	/*Styling for comment sorting buttons.*/
+  
+	.gsniG{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+  
+	.bOCNnA{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+
+	/*Styling for comment avatars.*/
+  
+	.dHFrgi{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	/*Font styling for commenter names.*/
+  
+	.dHhnUu{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Font styling for comment date stamps.*/
+  
+	.fAeiix{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #9c9c9c;
+	}
+  
+	/*Font styling for comment body.*/
+
+	.jTeMWm{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for reply button.*/
+  
+	.cgQJCP{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #a1a1ff;
+	}
+
+	/*Font styling for "Show X reply" prompt.*/
+  
+	.jSDwIc{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9c9c9c;
+		transitioin 0.3s;
+	}
+
+	.jSDwIC:hover{
+		color: #a1a1ff;
+	}
+  
+	/*Styling for comment voting counter.*/
+  
+	.gSVtBc{
+		display: none;
+    }
+
+	/*Font styling for the placeholder text in the comment section fields*/
+
+	#zoomment::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9e9e9e;		
+	}
+  
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-CONTENT-BODY-->
+	<!--This is the primary div containing the body of your blog post.-->
+
+	<div class="cmmty-content-area">
+          
+		<!--COMMUNITY-LOGOMARK-->         
+          
+		<a href="https://cdn.asveora.social/PageBin/community/Image-Select/Sample_Community_Logo_M4X.png">
+			<div class="cmmty-logomark-img-slot">
+				<img alt="Logo with the words 'Community Logomark' next to an icon showing a group of people." class="cmmty-content-img" data-original-height="1280" data-original-width="720" width="612" height="153" src="https://cdn.asveora.social/PageBin/community/Image-Select/Sample_Community_Logo_CMS.png"/>
+			</div>
+		</a>
+      
+		<!--COMMUNITY-COVER-NEWS-->   
+      
+		<a href="https://cdn.asveora.social/PageBin/community/Image-Select/Sample_Community_News_M4X.png">
+			<div class="cmmty-latest-news-img-slot">
+				<img alt="Sample news cover image with the words 'Latest Community News Image.'" class="cmmty-content-img" data-original-height="1280" data-original-width="720" width="812" height="456" src="https://cdn.asveora.social/PageBin/community/Image-Select/Sample_Community_News_M4X.png"/>
+			</div>
+		</a>
+      
+		<!--VISIT-BUTTON-->
+
+		<a href="https://stoat.chat/">
+			<div class="cmmty-join-button">
+				<span class="cmmty-join-button-text"><b>Visit the Community</b></span>
+			</div>
+		</a>
+      
+		<!--COMMUNITY-BIO-->
+      
+		<div class="cmmty-content-body">
+			<span class="cmmty-content-body-text">This is a sample community page that allows users to view the latest news of a community, join its conversation spaces, and learn what the community is about. It also allows communities to feature certain chat rooms and pieces of content. What you are reading right now is the community biography where you can also add tags. The latest community news image featured above can feature either community artwork or an image link to recent news regarding the community's topic.<br><br><span class="cmmty-community-tags">#community #space #sample #gathering #chatting #forums</span>
+			</span>
+		</div>
+      
+	</div>
+
+	<!--SCTN-FEATURED-BANNER-->
+	<!--Page banner that sits at the top before all featured posts.-->
+
+	<div class="cmmty-title-banner">
+		<span class="cmmty-lb-text-01"><b>Featured Posts</b></span>
+	</div>
+
+	<!--SCTN-BLOG-POSTS-GRID-->
+	<!--This grid contains previews of the latest posts that you have featured within a static feed. You can change the number of blog posts displayed by duplicating a list item-->
+	<!--To change blog previews simply replace the information within the post slots such as blog post link, title, author, date, and the preview text.-->
+	<!--Keep the preview text to three lines and truncate with ellipses.-->
+      
+	<ul id="postsUL">
+      
+		<!--POST-SLOT-000000004-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/under-construction.html">
+				<div class="cmmty-blog-post-preview">
+					<div class="cmmty-blog-post-img-area">
+						<img class="cmmty-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="cmmty-blog-post-lead">
+						<div class="cmmty-content-indicator">
+							<img class="cmmty-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="cmmty-blog-post-title">
+							<span class="cmmty-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="cmmty-blog-post-info">
+						<span class="cmmty-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="cmmty-blog-post-body">
+						<span class="cmmty-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--POST-SLOT-000000003-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/under-construction.html">
+				<div class="cmmty-blog-post-preview">
+					<div class="cmmty-blog-post-img-area">
+						<img class="cmmty-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="cmmty-blog-post-lead">
+						<div class="cmmty-content-indicator">
+							<img class="cmmty-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="cmmty-blog-post-title">
+							<span class="cmmty-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="cmmty-blog-post-info">
+						<span class="cmmty-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="cmmty-blog-post-body">
+						<span class="cmmty-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+		<!--POST-SLOT-000000002-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<div class="cmmty-blog-post-preview">
+					<div class="cmmty-blog-post-img-area">
+						<img class="cmmty-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="cmmty-blog-post-lead">
+						<div class="cmmty-content-indicator">
+							<img class="cmmty-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="cmmty-blog-post-title">
+							<span class="cmmty-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="cmmty-blog-post-info">
+						<span class="cmmty-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="cmmty-blog-post-body">
+						<span class="cmmty-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+
+		<!--POST-SLOT-000000001-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<div class="cmmty-blog-post-preview">
+					<div class="cmmty-blog-post-img-area">
+						<img class="cmmty-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="cmmty-blog-post-lead">
+						<div class="cmmty-content-indicator">
+							<img class="cmmty-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="cmmty-blog-post-title">
+							<span class="cmmty-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="cmmty-blog-post-info">
+						<span class="cmmty-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="cmmty-blog-post-body">
+						<span class="cmmty-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+	</ul>
+
+	<!--SCTN-FORUMS-TABLE-->
+	<!--This is the primary div containing the forum table of your community.-->
+
+	<div id="cmmtyForums" class="cmmty-forum-area">
+          
+		<!--FORUMS-TABLE-->         
+          
+		<div class="cmmty-forum-title">
+			<span class="cmmty-content-title-text"><b>Forum Rooms</b></span>
+		</div>
+      
+		<div class="cmmty-content-body">
+			<span class="cmmty-content-body-text">Welcome to the forum rooms! This section allows you feature various rooms, channels, and spaces where different conversations are being held. The default forum table is split into three columns. The first column lists a link to the room, channel, or space where the conversation is being held. The second column lists a link to the conversation itself within the room, channel, or space. The third column lists a link to the protocol client or platform used to access the conversation. Remember to follow Asveora's guidelines when participating in the community.
+			</span>
+		</div>
+      
+		<table>
+			<tr>
+				<th>Room</th>
+				<th>Topic</th>
+				<th>Protocol</th>
+			</tr>
+			<tr>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">Sample Room</span></a></td>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">This is a room with a conversation!</span></a></td>
+				<td><a href="https://stoat.chat/"><span class="cmmty-forum-link">Stoat</span></a></td>
+			</tr>
+			<tr>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">Sample Room</span></a></td>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">This is a room with a conversation!</span></a></td>
+				<td><a href="https://matrix.org/ecosystem/clients/"><span class="cmmty-forum-link">Matrix</span></a></td>
+			</tr>
+			<tr>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">Sample Room</span></a></td>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">This is a room with a conversation!</span></a></td>
+				<td><a href="https://xmpp.org/software/?category=clients"><span class="cmmty-forum-link">XMPP</span></a></td>
+			</tr>
+			<tr>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">Sample Room</span></a></td>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">This is a room with a conversation!</span></a></td>
+				<td><a href="https://echoed.gg/"><span class="cmmty-forum-link">Echoed</span></a></td>
+			</tr>
+			<tr>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">Sample Room</span></a></td>
+				<td><a href="https://framework.asveora.social/p/under-construction.html"><span class="cmmty-forum-link">This is a room with a conversation!</span></a></td>
+				<td><a href="https://colibri.social/"><span class="cmmty-forum-link">Colibri</span></a></td>
+			</tr>
+		</table>
+      
+	</div>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This is the return button of the page.-->
+
+	<a href="https://framework.asveora.social/p/spaces-navmiro-style.html">
+		<div class="cmmty-return-button">
+			<span class="cmmty-lb-text-02"><b>Return to Index</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-COMMENTS-SECTION-->
+	<!--This is the comment section of the page where viewers can leave comments.-->
+
+	<div class="cmmty-comments-area">
+
+		<div class="cmmty-comments-txt-title">
+			<span class="cmmty-content-title-text"><b>Comments</b></span>
+		</div>
+		<div class="cmmty-content-body">
+			<span class="cmmty-content-body-text">Remember to follow Asveora's guidelines when participating in the comments section. Press upvote if you found this community helpful, downvote if you found the community unhelpful, reshared if you shared the community, smile if the community made you happy, frown if the community made you sad, or thinking if the community made you think! The comments section of this community is powered by <a href="https://zoomment.com/"><span class="cmmty-link-text">Zoomment!</span></a></span>
+		</div>
+      
+		<!--COMMENTS-FEED-->
+
+		<div
+			id="zoomment"
+			data-theme="light"
+			data-language="en"
+			data-gravatar="identicon"
+			data-emotions="⬆️,⬇️,🔁,🙂,🙁,🤔"
+			data-visitors="true"
+		></div>
+		<script src="https://cdn.zoomment.com/zoomment.min.js"></script>
+
+	</div>
+
+<!--HTML-END-->

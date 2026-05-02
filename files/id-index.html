@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<!--Replace 'EntityName' with either your username or the name of the landhub, system, federation, etc. Replace 'PageName' with the name of the page.-->
+	<title>EntityName: ID Index</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="This Asveora v4.0.0 file was last updated on 2026-05-02 at 09:11:44.581 by AmzroSevca." />
+	<link rel="stylesheet" type="text/css" href="styles/main-style.css" />
+	<link rel="icon" href="favicons/ASV_Network_GE_Favicon_M4X.png">
+	<meta content='PlaceYourZoomentEmbeddingIDHere' name='zoomment'/>
+</head>
+<body>
+
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--HTML-START-->
+
+	<!--SCTN-NAVIGATION-BAR-->
+	<!--This is the navigation bar component of the page that allows others to browse the network of Asveora. You can also set a custom logomark by replacing the first link with an image that is 4000 x 850 in size. Do not change the words or hyperlinks of any of the other links unless you are building your own version of Asveora.-->
+	
+	<!--SCTN-TITLE-BANNER-->
+	<!--Page banner that sits at the top before all other content on the page.-->
+
+	<div class="idfc-indx-title-banner">
+		<span class="idfc-indx-lb-text-01"><b>ID Index</b></span>
+	</div>
+
+	<!--SCTN-INTRODUCTION-->
+	<!--This is the primary div with introductory information detailing the functions of the page.-->
+
+	<div class="idfc-indx-content-area">	
+		<div class="idfc-indx-content-body-first">
+			<span class="idfc-indx-content-body-text">This is an id index that can be implemented as a front-facing searchable database. Simply add another list item to add another searchable entry. Media such as images that do not exist as text strings must be assigned a text string via a hidden name which the search function can look for. ID tags are recommended for each list item as well if you want to be able to link users to a specific entry within the list.
+			</span>
+		</div>
+	</div>
+
+	<!--SCTN-SEARCH-FIELD-->
+	<!--Search field where users can search for a certain piece of content by its tagged hidden name. Change the placeholder text based on what kind of index page you are building.-->
+	<!--For example since this page is for storing an index of spaces it has the placeholder text of 'Search for Blog Posts...' as the default string in the field.-->
+
+	<div class="idfc-indx-search-box-area">
+		<input type="text" id="searchWideInput" onkeyup="searchFunction()" placeholder="Search for Sellers... (Serving 50 Most Recent Results Per Page)" title="Type a Seller's Username">
+	</div>
+
+	<!--SCTN-DATABASE-ITEMS-->
+	<!--This index contains entries for database items. To add more items simply duplicate a list item which is denoted by its li tags.-->
+	<!--Remember to add comments and blank lines in the HTML code to keep spaces organized and easy to manage as you add more!-->
+
+	<ul id="searchWideUL">
+      
+	<!--ENTRY-000000002-->
+   
+	<li id="example-seller">
+		<a>
+			<div id="example-seller" class="idfc-indx-card-area">	
+				<div class="idfc-indx-card-content">
+					<span class="idfc-indx-content-body-text">example-seller</span>
+				</div>
+				<div class="idfc-indx-star-ratings-box">
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Filled_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Filled_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Filled_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Empty_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Empty_Star.png"/>            
+				</div>
+			</div>
+		</a>
+	</li>
+      
+	<!--ENTRY-000000001-->
+   
+	<li id="example-seller">
+		<a>
+			<div id="example-seller" class="idfc-indx-card-area">	
+				<div class="idfc-indx-card-content">
+					<span class="idfc-indx-content-body-text">example-seller</span>
+				</div>
+				<div class="idfc-indx-star-ratings-box">
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Filled_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Filled_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Filled_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Empty_Star.png"/>
+					<img alt="This is a star rating." class="idfc-indx-star-rating" src="/media/Content/Wikis/marketplace/Image-Select/Empty_Star.png"/>            
+				</div>
+			</div>
+		</a>
+	</li>
+      
+	<!--SCTN-PAGINATION-BAR-->
+	<!--Pagination navigation that allows visitors to search through divided pages of content.-->
+
+	<div id="pagination"></div>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This is the return button of the page.-->
+
+	<a href="library.html">
+		<div class="idfc-indx-return-button">
+			<span class="idfc-indx-lb-text-02"><b>Return to Library</b></span>
+		</div>
+	</a>
+	
+	<!--INSERT HTML CODE HERE-->
+	
+	<!--SCTN-FOOTER-->
+	<!--This is the footer of the webpage where you can place copyright information, links to various resources, contact information, etc.-->
+
+	<div id="footer"></div>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+
+	<script type="text/javascript" src="scripts/fetch-elements.js"></script>
+	<script type="text/javascript" src="scripts/search-wide.js"></script>
+	<script type="text/javascript" src="scripts/pagination-wide.js"></script>
+
+<!--JS-END-->
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+  
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.e404-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-ERROR-MESSAGE-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the error message.*/
+  
+	.e404-error-message{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 160px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+	}
+  
+	.e404-message-title{
+		text-align: left;
+	}
+  
+	.e404-message-body{
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	.e404-message-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.e404-link-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-ERROR-LINK-TEXT-CLASS*/
+	/*Controls the styling of the error message href hyperlink specifically.*/
+  
+	.e404-error-link-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+		text-decoration: underline;
+	}
+  
+	/*SCTN-FOOTER-AREA*/
+	/*Only activate this code when correcting the footer size for Blogger's custom 404 code.*/
+
+	.footer-area{
+		width: 871px !important;
+	}
+  
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-ERROR-MESSAGE-->
+	<!--This is the primary div containing the error message and a link back to the website's root domain.-->	
+
+	<div class="e404-error-message">
+		<div class="e404-message-title">
+			<span class="e404-lb-text-02"><b>Whoops! Wrong turn!</b></span>
+        </div>
+		<div class="e404-message-body">
+          <span class="e404-message-text">Let's try to get you back to<a href="https://framework.asveora.social/"><span class="e404-error-link-text">familiar territory</span></a> since it seems you came across a broken link or content that does not exist. Good luck with your explorations! :)</span>
+        </div>
+	</div>
+
+<!--HTML-END-->

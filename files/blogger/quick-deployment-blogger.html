@@ -1,0 +1,283 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+  
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+
+  	body{
+      	background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.qkdeploy-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-AVATAR-AREA-CLASSES*/
+	/*Controls the spacing, cropping, and padding of your profile picture.*/
+  
+	.qkdeploy-avatar-area{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 150px;
+    }
+  
+	.qkdeploy-avatar-dec{
+		width: 400px;
+		height: 400px;
+		border-radius: 50%;
+		border: 20px solid var(--primary-color);
+	}
+  
+	/*SCTN-NAMEPLATE-CLASSES*/
+	/*Controls the spacing, cropping, and padding of your nameplate.*/
+  
+	.qkdeploy-nameplate-area{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 10px;
+    }
+  
+	.qkdeploy-nameplate-dec{
+		width: 800px;
+		height: 120px;
+	}
+  
+	/*SCTN-PROFILE-ID-CLASSES*/
+	/*Controls the styling, spacing, color, and properties of your profile ID.*/
+
+	.qkdeploy-profile-id{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.qkdeploy-id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PROFILE-BIO-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.qkdeploy-profile-bio-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+
+	.qkdeploy-content-title-left{
+		margin-top: 0px;
+		text-align: left;
+	}
+  
+	.qkdeploy-content-title-center{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.qkdeploy-content-title-right{
+		margin-top: 0px;
+		text-align: right;
+	}
+
+  	.qkdeploy-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+  	.qkdeploy-content-subtitle-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);		
+	}
+  
+	.qkdeploy-content-body-left{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.qkdeploy-content-body-center{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.qkdeploy-content-body-right{
+		margin-top: 40px;
+		text-align: right;
+	}
+  
+  	.qkdeploy-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.qkdeploy-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.qkdeploy-content-img{
+		border-radius: 10px;
+      	width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.qkdeploy-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.qkdeploy-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+ 		display: flex;
+		align-items: center;
+		transition: 0.3s;
+	}
+
+	.qkdeploy-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.qkdeploy-rb-image{
+		float: left;
+		margin-left: 140px;
+		margin-right: 20px;
+
+	}
+  
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-AVATAR-AREA-->
+	<!--This section is where your profile picture goes.-->
+
+	<div class="qkdeploy-avatar-area">
+		<img alt="Type a description of your profile picture here." class="qkdeploy-avatar-dec" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>
+	</div>
+
+	<!--SCTN-NAMEPLATE-AREA-->
+	<!--This section is where your nameplate goes. Its resolution should be either 4000x600, 2000x300, or another canvas size matching that ratio. Use the graphic design app of your choice to make yourself a nice looking nameplate.-->
+
+	<div class="qkdeploy-nameplate-area">
+		<img alt="Type your username here." class="qkdeploy-nameplate-dec" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0003.png"/>
+	</div>
+
+	<!--SCTN-PROFILE-ID-->
+	<!--Contains your Asveora Profile Code (APC). Replace the default string with your string.-->
+	
+	<div class="qkdeploy-profile-id">
+		<span class="qkdeploy-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+	</div>
+
+	<!--SCTN-PROFILE-BIO-->
+	<!--This is the div containing your profile's biography.-->
+
+	<div class="qkdeploy-profile-bio-area">
+          
+		<!--BIO-CONTENT-->         
+          
+		<div class="qkdeploy-content-title-center">
+          <span class="qkdeploy-content-title-text"><b>My Biography</b></span>
+		</div>
+      
+		<div class="qkdeploy-content-body-left">
+			<span class="qkdeploy-content-body-text">This is a sample biography. Replace thet text here with what you would like your profile bio to say. If you want to add more paragraphs just add two br tags like so<br><br>in order to create another body of text. Alternatively you can duplicate the content-body div</span>
+		</div>
+      
+		<div class="qkdeploy-content-body-left">
+			<span class="qkdeploy-content-body-text">like this which achieves the same effect and is useful if you want to insert images in your biography with text above and below it. For example...</span>
+		</div>
+      
+		<a href="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif">
+			<div class="qkdeploy-content-img-slot">
+				<img alt="Grey Asveora icon rotating against a black background." class="qkdeploy-content-img" data-original-height="1280" data-original-width="720" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+			</div>
+		</a>
+      
+		<div class="qkdeploy-content-body-left">
+			<span class="qkdeploy-content-body-text">Now here is some text below the image! Feel free to replace the "My Biography" default text with your own biography title.</span>
+		</div>
+      
+	</div>
+
+	<!--SCTN-RETURN-TO-WHEELCORE-->
+	<!--This button allows viewers to return to the wheelcore that you belong to.-->
+
+	<a href="https://framework.asveora.social/p/profile-home.html">
+		<div class="qkdeploy-return-button">
+			<img class="qkdeploy-rb-image" alt="Asveora logo." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/wheelcore_0001.png" width="100" height="100"/>
+			<span class="qkdeploy-lb-text-02"><b>Visit Wheelcore</b></span>
+		</div>
+	</a>
+
+<!--HTML-END-->

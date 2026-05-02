@@ -1,0 +1,320 @@
+	
+	
+	/*COMMON-CSS*/
+	
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #2d282b;
+		--secondary-color: #ffffff;
+		--hover-color: #100d0e;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+	
+	body{
+		background-color: var(--primary-color);
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 1.4;
+	}
+	
+	/*SCTN-DEFAULT-LINK-CLASS*/
+	/*Removes underlines from all links present on a page by default. They can be re-added with classes such as link-text.*/
+	
+	a{
+		text-decoration: none;
+	}
+	
+	/*SCTN-HIDE-SCROLLBAR-CLASSES*/
+	/*Hides the scrollbar from the webpage to offer a more modern look.*/
+	
+	::-webkit-scrollbar {
+		display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
+		height: 12px;
+		width: 12px;
+		background: #000000;
+	}
+				
+	::-webkit-scrollbar-thumb{
+		background: linear-gradient(#d4d4ff, #3b3bff);
+		-webkit-border-radius: 1ex;
+		-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+	}
+				
+	::-webkit-scrollbar-corner{
+		background: #000;
+	}
+				
+	.scrollable {
+		max-width: 200px;
+		max-height: 100%;
+		height: 450px;
+		/* change ` overflow: scroll ` to ` overflow: auto ` if you only want vertical scroll */
+		overflow: scroll;
+	}
+	
+	/*SCTN-NAVIGATION-BAR*/
+	/*Controls the background, color, shape, size, spacing, and orientation of the navigation bar.*/
+	
+	#navbar nav{
+		position: relative; z-index: 1000;
+		display:  flex;
+		background: rgba(0, 0, 0, 0.7);
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		width: auto;
+		margin: 0 auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		align-items: center;
+		justify-content: space-between;
+	}
+				
+	#navbar nav ul{
+		justify-content: space-evenly;
+		display: flex;
+		list-style: none;
+		padding: 0;
+		width: 500px;
+	}
+				
+	#navbar nav ul li{
+		display: flex;
+		width: 500px;
+	}
+				
+	@media (max-width:  auto){
+		#navbar nav{
+			width: auto;
+		}
+	}
+	
+	/*SCTN-NAVIGATION-BAR-LOGO*/
+	/*Controls the spacing around the navigation bar's logo.*/
+
+	.website-logo{
+		padding-top: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 19px;
+	}
+	
+	/*SCTN-NAVIGATION-BAR-LINKS*/
+	/*Controls the styling of navigation bar link text.*/
+
+	.navbar-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 30px;
+	}
+
+	a.nlink:link{
+		color:#ffffff;
+	}
+
+	a.nlink:visited{
+		color:#ffffff;
+	}
+
+	a.nlink:hover{
+		color:#ffffff;
+	}
+	
+	/*SCTN-FOOTER-AREA*/
+	/*Controls the styling and layout of the footer bar.*/
+	
+	#chmrFooter{
+		background: #1f1a1b;
+		border-radius: 50px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		margin-bottom: 150px;
+		padding-top: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 30px;
+		text-align: center;	
+	}
+	
+	.footer-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+
+	.footer-link-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
+
+	.footer-bottom-margin{
+		background: transparent;
+		height: 100px;
+	}
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.chtmirror-link-text{
+		color: #b0b0b0;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.chtmirror-content-area{
+		background: var(--hover-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+
+	.chtmirror-content-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+
+  	.chtmirror-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.chtmirror-content-subtitle{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+  	.chtmirror-content-subtitle-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 25px;
+		color: #6e6e6e;		
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.chtmirror-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-COMMENTS-CLASSES*/
+	/*Controls the spacing, padding, color, styling, layout, and behavior of comments along with the elements they contain.*/
+  
+	.chtmirror-comment-slot{
+		margin-top: 40px;
+		transition: 0.3s;
+		border-radius: 20px;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 40px;
+		background: transparent;
+    }
+  
+	.chtmirror-comment-slot:hover{
+		background-color: var(--primary-color);
+    }
+
+	.chtmirror-avatar-area{
+		float: left;
+		margin-right: 20px;
+		display: table-cell;
+	}
+
+	.chtmirror-user-avatar{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	.chtmirror-comment-area{
+		width: 700px;
+		display: table-cell;
+	}
+
+	.chtmirror-comment-head{
+		margin-top: 0px;
+	}
+
+	.chtmirror-comment-name{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #DCDCDC;
+		margin-right: 10px;
+	}
+  
+	.chtmirror-comment-time{
+		font-family: Inter, arial, sans-serif;
+		font-size: 24px;
+		color: #958F90;
+	}
+  
+	.chtmirror-comment-content{
+		margin-top: 0px;
+	}
+  
+	.chtmirror-comment-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.chtmirror-comment-link-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #b8b8ff;
+		text-decoration: underline;
+	}
+  
+	.chtmirror-comment-img-slot{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.chtmirror-comment-img{
+		border-radius: 10px;
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.chtmirror-return-button{
+		background: #1f1a1b;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.chtmirror-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	

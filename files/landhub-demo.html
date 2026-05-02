@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<!--Replace 'EntityName' with either your username or the name of the landhub, system, federation, etc. Replace 'PageName' with the name of the page.-->
+	<title>EntityName: LandHub Demo</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="This Asveora v4.0.0 file was last updated on 2026-05-02 at 09:11:44.581 by AmzroSevca." />
+	<link rel="stylesheet" type="text/css" href="styles/main-style.css" />
+	<link rel="icon" href="favicons/ASV_Network_GE_Favicon_M4X.png">
+	<meta content='PlaceYourZoomentEmbeddingIDHere' name='zoomment'/>
+</head>
+<body>
+
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--HTML-START-->
+
+	<!--SCTN-NAVIGATION-BAR-->
+	<!--This is the navigation bar component of the page that allows others to browse the network of Asveora. You can also set a custom logomark by replacing the first link with an image that is 4000 x 850 in size. Do not change the words or hyperlinks of any of the other links unless you are building your own version of Asveora.-->
+	
+	<div id="navbar"></div>
+	
+	<!--SCTN-NETWORK-MEMBER-COUNT-->
+	<!--Displays the current number of users online within the given network and which platforms those user counts are coming from.-->
+
+	<div class="lhub-dash-members-online-bar">
+		<div class="lhub-dash-mbo-area-01">
+			<div class="lhub-dash-mbo-sub-area-01">
+				<div class="lhub-dash-pulse"></div>
+			</div>
+			<div class="lhub-dash-mbo-sub-area-02">
+				<span class="lhub-dash-members-online-text">
+					<strong>Network Members: <span id="totalCount"></span></strong>
+				</span>
+			</div>
+		</div>
+		<div class="lhub-dash-mbo-area-02">
+			<a href="https://stoat.chat/">
+				<img class="lhub-dash-platform-icon" src="/media/PageBin/landhub-demo/Image-Select/Platform-Icons/Stoat/Stoat_Chat_WSS_Icon_0001_M4X.png"/>
+			</a>
+			<a href="https://matrix.org/ecosystem/clients/">
+				<img class="lhub-dash-platform-icon" src="/media/PageBin/landhub-demo/Image-Select/Platform-Icons/Matrix/Matrix_Protocols_Icon_0001_M4X.png"/>
+			</a>
+		</div>
+	</div>
+
+	<!--SCTN-DASHBOARD-->
+	<!--The dashboard contains the primary selection of navigation panels that allow users to sort through different categories and indexes of content and entities within the Asveora network.-->
+	<!--Since panels are organized into rows, to add more panels you will need to duplicate an existing row and then change the contents. Six is the recommended number but you can have nine or more!-->
+
+	<!--PANELS-ROW-01-->
+
+	<ul id="lhubDashPanels">
+      
+		<!--PANEL-OBJECT-01-->
+      
+		<li id="static">
+			<a href="static-feed.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="/media/PageBin/landhub-demo/Image-Select/updates.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Static</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-02-->
+      
+		<li id="featured">
+			<a href="featured-feed.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="/media/PageBin/landhub-demo/Image-Select/featured.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Featured</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-03-->
+      
+		<li id="events">
+			<a href="static-feed.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="/media/PageBin/landhub-demo/Image-Select/events.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Events</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-04-->
+      
+		<li id="constitution">
+			<a href="constitution.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="/media/PageBin/landhub-demo/Image-Select/scroll.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Constitution</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-05-->
+      
+		<li id="spaces">
+			<a href="spaces-navmiro-style.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="/media/PageBin/landhub-demo/Image-Select/spaces.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Spaces</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-06-->
+      
+		<li id="wheelcores">
+			<a href="wheelcores.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="/media/PageBin/landhub-demo/Image-Select/wheelcore_0002.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Wheelcores</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+	</ul>
+
+	<!--SCTN-SERVICES-BANNER-->
+	<!--Allows users to access the services marketplace from the landhub's main dashboard if your network has one.-->
+
+	<a href="marketplace.html">
+		<div class="lhub-dash-services-button">
+			<span class="lhub-dash-services-text"><b>Looking for help? Check out the services marketplace! 🛒</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-EVENT-BANNERS-->
+	<!--Cycles through banners of featured events within your network.-->
+
+	<div class="lhub-dash-event-banners-area">
+		<ul class="lhub-dash-fading-slideshow">
+          
+			<!--EVENT-BANNER-0001-->
+          
+			<a href="blog-post-v1.html">
+				<li>
+					<img class="lhub-dash-event-banner" src="/media/CardTile/Event-Banner/0000/Event_Banner_Sample_01_M4X.png" alt="Event banner sample 1. Click here to read about the event.">
+				</li>
+			</a>
+          
+			<!--EVENT-BANNER-0002-->
+          
+			<a href="blog-post-v1.html">
+				<li>
+					<img class="lhub-dash-event-banner" src="/media/CardTile/Event-Banner/0000/Event_Banner_Sample_02_M4X.png" alt="Event banner sample 2. Click here to read about the event.">
+				</li>
+			</a>
+          
+		</ul>
+	</div>
+
+	<!--SCTN-SEASON-ART-->
+	<!--Season art is a large panel placed below the navigation dashboard that is displayed for aesthetic purposes with some sort of community message on it.-->
+	<!--It also doubles as a button to view live rooms or community gathering spaces within Asveora. It can also link to other kinds of pages or resources.-->
+
+	<a href="chat-mirror.html">
+		<div class="lhub-dash-season-art-panel">
+			<video autoplay muted loop>
+				<source src="/media/PageBin/landhub-demo/Image-Select/Season-Art/2026/Summer/Peggy_Anke_Beach_1080_30_FPS.mp4" type="video/mp4" />
+			</video>
+			<div class="lhub-dash-video-overlay">     
+				<span class="lhub-dash-season-art-text-top"><strong>Welcome Back to</strong></span>
+				<br>
+				<img class="lhub-dash-blog-post-img" data-original-height="720" data-original-width="1280" width="600" height="127" src="/media/Buttons/Logo-Marks\Default\Logomark-0002\ASV_Commons_NavLogo_M4X.png"/>
+				<br>
+				<span class="lhub-dash-season-art-text-bottom"><strong>Click here to see Asveora's plaza spot!</strong></span>
+			</div>
+		</div>
+	</a>
+
+	<!--SCTN-FEATURED-SPACES-->
+	<!--This is a navmiro style featured spaces grid that is organized by rows. You can feature different communities within these panels.-->
+	<!--To add more, simply duplicate a row and change the contents. The recommended number is six but you can also have nine or more.-->
+
+
+	<div class="lhub-dash-spaces-title">
+		<span class="lhub-dash-spaces-title-text"><strong>Featured Spaces</strong></span>
+	</div>
+
+	<!--FEATURED-SPACES-ROW-0001-->
+
+	<ul id="lhubDashFSpaces">
+      
+		<!--FEATURED-SPACE-0001-->
+
+		<li id="space-name">
+			<a href="community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0001">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0002-->
+
+		<li id="space-name">
+			<a href="community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0002">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0003-->
+      
+		<li id="space-name">
+			<a href="community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0003">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0004-->
+		    
+		<li id="space-name">
+			<a href="community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0004">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0005-->
+      
+		<li id="space-name">
+			<a href="community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0005">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0006-->
+      
+		<li id="space-name">
+			<a href="community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0006">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+
+	</ul>
+	
+	<!--SCTN-FOOTER-->
+	<!--This is the footer of the webpage where you can place copyright information, links to various resources, contact information, etc.-->
+
+	<div id="footer"></div>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+
+	<script type="text/javascript" src="scripts/fetch-elements.js"></script>
+	<script type="text/javascript" src="scripts/event-banners.js"></script>
+	<script type="text/javascript" src="scripts/member-count.js"></script>
+
+<!--JS-END-->
+
+</body>
+</html>

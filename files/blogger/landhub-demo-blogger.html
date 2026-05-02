@@ -1,0 +1,881 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.lhub-dash-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-DASHBOARD-PANEL-CLASSES*/
+	/*Controls the row layout and panel styling of the dashboard area.*/
+  
+	#lhubDashPanels {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 34px; /*Change the gap to 34px if using Blogger. Change the gap to 50px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#lhubDashPanels li a {
+		text-decoration: none;
+
+	}
+
+	#lhubDashPanels li a:hover:not(.header) {
+	}
+
+	.lhub-dash-panel-object{
+		background: var(--primary-color);
+		border-radius: 50px;
+		width: 300px;
+		height: 300px;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-panel-object:hover{
+		background: var(--hover-color);
+	}
+  
+	.lhub-dash-panel-icon{
+		margin-left: 75px;
+		margin-right: 75px;  
+		padding-top: 45px;
+	}
+
+	.lhub-dash-panel-image{
+		width: 150px;
+		height: 150px;     
+	}
+
+	.lhub-dash-panel-label{
+		margin-top: 10px;
+		text-align: center;    
+	}
+
+	.lhub-dash-panel-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-SERVICES-BUTTON-CLASSES*/
+	/*Dictates the spacing, shape, styling, and layout of the services button.*/
+
+	.lhub-dash-services-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-services-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.lhub-dash-services-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-EVENT-BANNERS-AREA*/
+	/*Dictates the spacing, shape, styling, and layout of the event banners area.*/
+  
+	.lhub-dash-event-banners-area{
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.widget .post-body ul{
+		padding: 0;
+		margin: 0;
+	}
+  
+	@keyframes fader {
+		from { opacity: 1.0; }
+		to   { opacity: 0.0; }
+	}
+
+	.lhub-dash-fading-slideshow {
+		position: relative;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right: 100px;
+		width: 968px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 242px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+		padding: 0;
+		list-style-type: none;
+
+	}
+
+	.lhub-dash-fading-slideshow > a {
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 968px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 242px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+	}
+  
+	.lhub-dash-event-banner{
+		border-radius: 50px;
+		width: 968px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 242px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+	}
+
+	/*Current slide being displayed.*/
+
+	.lhub-dash-fading-slideshow > a:first-of-type {
+		animation-name: fader;
+		animation-delay: 2s;
+		animation-duration: 1s;
+		z-index: -1;
+	}
+
+	/*The next slide that is queued to display.*/
+
+	.lhub-dash-fading-slideshow > li:nth-of-type(2) {
+		z-index: -2;
+	}
+
+	/*Controls all other slides.*/
+
+	.lhub-dash-fading-slideshow > li:nth-of-type(n+3) {
+		display: none;
+	}
+  
+	/*SCTN-SEASON-ART-CLASSES*/
+	/*Dictates the spacing, shape, styling, and Z-order of the season art div and its elements.*/
+  
+	.lhub-dash-season-art-text-top{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 72px;
+		color: var(--secondary-color);
+	}
+  
+	.lhub-dash-season-art-text-bottom{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 33px;
+		color: var(--secondary-color);
+	}
+  
+	.lhub-dash-season-art-panel{
+		background: var(--primary-color);
+		margin-top: 40px;
+		width: 968px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 544px; /*Change the height to 544px if using Blogger. Change the width to 561px if using anything else.*/
+		position: relative;
+		border-radius: 50px;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-season-art-panel:hover{
+ 		background: var(--hover-color);
+	}
+
+	.lhub-dash-season-art-panel video {
+		width: 907.5px; /*Change the width to 907.5px if using Blogger. Change the width to 940px if using anything else.*/
+		height: 484px; /*Change the height to 484px if using Blogger. Change the width to 501px if using anything else.*/
+		margin-top: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+		position: absolute;
+		object-fit: cover;
+		z-index: 0;
+		border-radius: 25px;
+		opacity: 0.4;
+	}
+
+	.lhub-dash-video-overlay {
+		z-index: 1;
+		position: relative;
+		text-align: center;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+		padding-top: 120px;
+	}
+  
+	/*SCTN-FEATURED-SPACES*/
+	/*Dictates the size and layout of the featured spaces region along with the individual panels within.*/
+ 	/*Every panel has its own background which displays the cover art of the community.*/
+  
+	.lhub-dash-spaces-title{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.lhub-dash-spaces-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	.lhub-dash-featured-space{
+		margin-top: 0px;
+		padding: 16px;
+		border-radius: 50px;
+		height: 450px;
+		width: 268px;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-featured-space:hover{
+		transform: scale(1.05);
+	}
+  
+	#lhubDashFSpaces {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 34px; /*Change the gap to 34px if using Blogger. Change the gap to 50px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	#lhubDashFSpaces li {
+		margin-bottom: 5px;
+	}
+
+	#lhubDashFSpaces li a {
+		text-decoration: none;
+
+	}
+
+	#lhubDashFSpaces li a:hover:not(.header) {
+	}
+  
+	.widget .post-body li{
+		list-style-type: none;
+		padding: 0em;
+		margin: 0em 0;
+		line-height: 1.4;
+	}
+  
+	.lhub-dash-space-0001{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0002{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0003{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0004{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0005{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0006{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-fspace-title{
+		margin-top: 320px;
+		text-align: center;
+	}
+  
+	.lhub-dash-fspace-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	/*SCTN-NETWORK-MEMBER-COUNT-CLASSES*/
+	/*Controls the spacing, padding, colors, and layout of the network members counter bar*/
+  
+	.lhub-dash-members-online-bar{
+		background: rgba(255, 255, 255, 0.2);
+		box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(7px);
+		-webkit-box-shadow: inset 0 0 30px #ffffff;
+		-moz-box-shadow: inset 0 0 30px #ffffff;
+		border: 1px solid rgba(255, 255, 255, 0.6);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-left: auto;
+		padding-top: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 18px;
+		display: flex;
+		justify-content: space-between;
+	}
+  
+	.lhub-dash-mbo-area-01{
+		background: transparent;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.lhub-dash-mbo-sub-area-01{
+		background: transparent;
+	}
+  
+  
+	.lhub-dash-mbo-sub-area-02{
+		background: transparent;
+		margin-left: 25px;
+	}
+  
+	.lhub-dash-mbo-area-02{
+		background: transparent;
+		display: flex;
+		gap: 20px;
+	}
+
+	.lhub-dash-members-online-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.lhub-dash-platform-icon{
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.lhub-dash-pulse{
+    	background: rgb(207, 255, 207);
+    	border-radius: 50%;
+   		height: 40px;
+    	width: 40px;
+		box-shadow: 0 0 0 0 rgba(207, 255, 207, 1);
+		transform: scale(1);
+		animation: pulse 2s infinite;
+	}
+
+	@keyframes pulse{
+    	0%{
+        	transform: scale(0.95);
+        	box-shadow: 0 0 0 0 rgba(207, 255, 207, 0.7);
+    	}
+
+    	70%{
+        	transform: scale(1);
+        	box-shadow: 0 0 0 15px rgba(207, 255, 207, 0);
+    	}
+
+    	100%{
+        	transform: scale(0.95);
+        	box-shadow: 0 0 0 0 rgba(207, 255, 207, 0);
+    	}
+	}
+  
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-NETWORK-MEMBER-COUNT-->
+	<!--Displays the current number of users online within the given network and which platforms those user counts are coming from.-->
+
+	<div class="lhub-dash-members-online-bar">
+		<div class="lhub-dash-mbo-area-01">
+			<div class="lhub-dash-mbo-sub-area-01">
+				<div class="lhub-dash-pulse"></div>
+			</div>
+			<div class="lhub-dash-mbo-sub-area-02">
+				<span class="lhub-dash-members-online-text">
+					<strong>Network Members: <span id="totalCount"></span></strong>
+				</span>
+			</div>
+		</div>
+		<div class="lhub-dash-mbo-area-02">
+			<a href="https://stoat.chat/">
+				<img class="lhub-dash-platform-icon" src="https://cdn.asveora.social/PageBin/app/Image-Select/Platform-Icons/Stoat/Stoat_Chat_WSS_Icon_0001_M4X.png"/>
+			</a>
+			<a href="https://matrix.org/ecosystem/clients/">
+				<img class="lhub-dash-platform-icon" src="https://cdn.asveora.social/PageBin/app/Image-Select/Platform-Icons/Matrix/Matrix_Protocols_Icon_0001_M4X.png"/>
+			</a>
+		</div>
+	</div>
+
+	<!--SCTN-DASHBOARD-->
+	<!--The dashboard contains the primary selection of navigation panels that allow users to sort through different categories and indexes of content and entities within the Asveora network.-->
+	<!--Since panels are organized into rows, to add more panels you will need to duplicate an existing row and then change the contents. Six is the recommended number but you can have nine or more!-->
+
+	<!--PANELS-ROW-01-->
+
+	<ul id="lhubDashPanels">
+      
+		<!--PANEL-OBJECT-01-->
+      
+		<li id="static">
+			<a href="https://framework.asveora.social/p/static-feed.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="https://cdn.asveora.social/PageBin/app/Image-Select/updates.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Static</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-02-->
+      
+		<li id="featured">
+			<a href="https://framework.asveora.social/p/featured-feed.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="https://cdn.asveora.social/PageBin/app/Image-Select/featured.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Featured</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-03-->
+      
+		<li id="events">
+			<a href="https://framework.asveora.social/p/static-feed.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="https://cdn.asveora.social/PageBin/app/Image-Select/events.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Events</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-04-->
+      
+		<li id="constitution">
+			<a href="https://framework.asveora.social/p/constitution.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="https://cdn.asveora.social/PageBin/app/Image-Select/scroll.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Constitution</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-05-->
+      
+		<li id="spaces">
+			<a href="https://framework.asveora.social/p/spaces-navmiro-style.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="https://cdn.asveora.social/PageBin/app/Image-Select/spaces.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Spaces</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--PANEL-OBJECT-06-->
+      
+		<li id="wheelcores">
+			<a href="https://framework.asveora.social/p/wheelcores.html">
+				<div class="lhub-dash-panel-object">
+					<div class="lhub-dash-panel-items">
+						<div class="lhub-dash-panel-icon">
+							<img alt="" class="lhub-dash-panel-image" data-orginal-width="512" data-orginal-height="512" src="https://cdn.asveora.social/PageBin/app/Image-Select/wheelcore_0002.png"/>
+						</div>
+						<div class="lhub-dash-panel-label">
+							<span class="lhub-dash-panel-text"><strong>Wheelcores</strong></span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+	</ul>
+
+	<!--SCTN-SERVICES-BANNER-->
+	<!--Allows users to access the services marketplace from the landhub's main dashboard if your network has one.-->
+
+	<a href="https://framework.asveora.social/p/marketplace.html">
+		<div class="lhub-dash-services-button">
+			<span class="lhub-dash-services-text"><b>Looking for help? Check out the services marketplace! 🛒</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-EVENT-BANNERS-->
+	<!--Cycles through banners of featured events within your network.-->
+
+	<div class="lhub-dash-event-banners-area">
+		<ul class="lhub-dash-fading-slideshow">
+          
+			<!--EVENT-BANNER-0001-->
+          
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<li>
+					<img class="lhub-dash-event-banner" src="https://cdn.asveora.social/CardTile/Event-Banner/0000/Event_Banner_Sample_01_M4X.png" alt="Event banner sample 1. Click here to read about the event.">
+				</li>
+			</a>
+          
+			<!--EVENT-BANNER-0002-->
+          
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<li>
+					<img class="lhub-dash-event-banner" src="https://cdn.asveora.social/CardTile/Event-Banner/0000/Event_Banner_Sample_02_M4X.png" alt="Event banner sample 2. Click here to read about the event.">
+				</li>
+			</a>
+          
+		</ul>
+	</div>
+
+	<!--SCTN-SEASON-ART-->
+	<!--Season art is a large panel placed below the navigation dashboard that is displayed for aesthetic purposes with some sort of community message on it.-->
+	<!--It also doubles as a button to view live rooms or community gathering spaces within Asveora. It can also link to other kinds of pages or resources.-->
+
+	<a href="https://framework.asveora.social/p/chat-mirror.html">
+		<div class="lhub-dash-season-art-panel">
+			<video autoplay muted loop>
+				<source src="https://cdn.asveora.social/PageBin/app/Image-Select/Season-Art/2026/Summer/Peggy_Anke_Beach_1080_30_FPS.mp4" type="video/mp4" />
+			</video>
+			<div class="lhub-dash-video-overlay">     
+				<span class="lhub-dash-season-art-text-top"><strong>Welcome Back to</strong></span>
+				<br>
+				<img class="lhub-dash-blog-post-img" data-original-height="720" data-original-width="1280" width="600" height="127" src="https://cdn.asveora.social/Buttons/Logo-Marks/ASV_Commons_NavLogo_M4X.png"/>
+				<br>
+				<span class="lhub-dash-season-art-text-bottom"><strong>Click here to see Asveora's plaza spot!</strong></span>
+			</div>
+		</div>
+	</a>
+
+	<!--SCTN-FEATURED-SPACES-->
+	<!--This is a navmiro style featured spaces grid that is organized by rows. You can feature different communities within these panels.-->
+	<!--To add more, simply duplicate a row and change the contents. The recommended number is six but you can also have nine or more.-->
+
+
+	<div class="lhub-dash-spaces-title">
+		<span class="lhub-dash-spaces-title-text"><strong>Featured Spaces</strong></span>
+	</div>
+
+	<!--FEATURED-SPACES-ROW-0001-->
+
+	<ul id="lhubDashFSpaces">
+      
+		<!--FEATURED-SPACE-0001-->
+
+		<li id="space-name">
+			<a href="https://framework.asveora.social/p/community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0001">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0002-->
+
+		<li id="space-name">
+			<a href="https://framework.asveora.social/p/community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0002">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0003-->
+      
+		<li id="space-name">
+			<a href="https://framework.asveora.social/p/community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0003">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0004-->
+		    
+		<li id="space-name">
+			<a href="https://framework.asveora.social/p/community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0004">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0005-->
+      
+		<li id="space-name">
+			<a href="https://framework.asveora.social/p/community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0005">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--FEATURED-SPACE-0006-->
+      
+		<li id="space-name">
+			<a href="https://framework.asveora.social/p/community.html">
+				<div class="lhub-dash-featured-space lhub-dash-space-0006">
+					<div class="lhub-dash-fspace-title">
+						<span class="lhub-dash-fspace-title-text"><strong>Coming<br>Soon</strong></span>
+					</div>
+				</div>
+			</a>
+		</li>
+
+	</ul>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+
+<script>
+  
+	// SCTN-EVENT-BANNERS-AREA
+	// Cycles through the list of event banners.
+	// Base code written by www.chirpinternet.eu and modified by AmzroSevca!
+
+	window.addEventListener("DOMContentLoaded", (e) => {
+		document.querySelectorAll(".fading-slideshow > a").forEach((current) => {
+			current.addEventListener("animationend", (e) => {
+				e.target.parentNode.appendChild(e.target);
+			});
+		});
+
+	});
+  
+	// SCTN-NETWORK-MEMBER-COUNTS
+	// Fetches the data from both the Stoat and Matrix APIs.
+  
+	Promise.all([
+		fetch("https://api.stoat.chat/invites/5wB2Zzb0").then(r => {
+			if (!r.ok) throw new Error("Stoat fetch failed");
+			return r.json();
+		}),
+		fetch("https://matrix-member-count.asveora-social.workers.dev").then(r => {
+			if (!r.ok) throw new Error("Matrix fetch failed");
+			return r.json();
+		})
+	])
+  
+	// Combines the fetched numbers from Stoat and Matrix.
+  
+	.then(([stoatData, matrixData]) => {
+		const stoatCount = Number(stoatData.member_count) || 0;
+		const matrixCount = Number(matrixData.count) || 0;
+
+		const total = stoatCount + matrixCount;
+
+		document.getElementById("totalCount").textContent = total;
+	})
+  
+	// Helps with debugging any possible conflicts or problems with pulling in API data.
+  
+	.catch(error => {
+		console.error(error);
+		document.getElementById("totalCount").textContent = "Error";
+	});
+
+</script>
+
+<!--JS-END-->

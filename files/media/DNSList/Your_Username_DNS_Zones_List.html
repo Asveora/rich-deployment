@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<!--Replace '[EntityName]' with the name of the user or organization whom the DNS records belong to.'-->
+	<!--Replace '[Service]' with the name of the domain name registrar service where the DNS records were exported from.'-->
+	<title>[EntityName]: DNS Records</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="DNS Records for [EntityName] exported from [Service]." />
+	<style>
+	
+		body{
+			margin: 50px;
+		}
+		
+		p{
+			font-family: arial, sans-serif;
+		}
+		
+		h1{
+			font-family: arial, sans-serif;
+		}
+		
+		table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+			table-layout: fixed;
+		}
+		
+		th{
+			background: #454545;
+			color: #ffffff;
+		}
+
+		td, th {
+			border: 3px solid #b5b5b5;
+			text-align: left;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<!--Please do not remove this acknowledgement since it provides people with the source code and original authorship.-->
+
+	<p>This template was written by <a href="https://www.amzrosevca.com/">AmzroSevca</a> and can be found hosted at <a href="https://github.com/AmzroSevca/dns-zone-exporter-template">https://github.com/AmzroSevca/dns-zone-exporter-template</a> on GitHub.</p>
+
+	<!--Replace '[number of domains] with the number of domains that you have DNS records stored for in this document.-->
+	<!--Replace '[domainregistrar.com]' with a link to the domain registrar from here the DNS records were exported and update the href="linkgoeshere" with that same link.-->
+	<!--Replace '[username]' with the name of the individual or organization that exported the records.-->
+	<!--Replace 'YYYY-MM-DD @ 00:00:00 (UTC+0)' with the current date and UTC+0 time.-->
+
+	<p>The DNS Record(s) for <strong>[number of domains]</strong> domain(s) were exported on <strong>YYYY-MM-DD @ 00:00:00 (UTC+0)</strong> from <a href="linkgoeshere">[domainregistrar.com]</a> by <strong>[username]</strong> for safekeeping.</p>
+
+	<!--Replace 'DOMAIN-NAME' and 'Domain Name' in the HTML comment and code with the name of the domain that you are storing DNS records for.-->
+	<!--Replace the code underneath the domain name comment with the HTML table code of the DNS records that you have copied with your web browser's devtools.-->
+	<!--Use the XML Tools plugin of Notepad++ or a similar tool in another IDE to clean up the copied HTML table code since it will appear visually messy when initially pasted.-->
+	<!--Add as many domains as you would like to this page by typing three br tags for vertical line spacing between DNS tables and then another domain name comment.-->
+	
+	<!--WARNING ABOUT PROTECTING SENSITIVE RECORDS-->
+	<!--It is recommended that you replace the host and answer data of any sensitive DNS records with text reading '[SECRET]' instead of displaying the data.-->
+	<!--Sensitive DNS records such as authorization DNS records are used to determine the owner of a domain. You do not want unauthorized individuals knowing that information.-->
+	
+	<!--DOMAIN-NAME-->
+	
+	<h1>Domain Name</h1>
+	
+	<table class="dnd-table">
+		<thead>
+			<tr>
+				<th scope="col" class="dnd-col-type">Type</th>
+				<th scope="col" class="dnd-col-host">Host</th>
+				<th scope="col" class="dnd-col-answer">Answer / Value</th>
+				<th scope="col" class="dnd-col-ttl">TTL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr data-record-id="000000000">
+				<td class="dnd-col-type">
+					<span class="dnd-badge dnd-badge-A">A</span>
+				</td>
+				<td class="dnd-col-host">domain.com</td>
+				<td class="dnd-col-answer">000.000.0.00</td>
+				<td class="dnd-col-ttl">600</td>
+			</tr>
+			<tr data-record-id="000000000">
+				<td class="dnd-col-type">
+					<span class="dnd-badge dnd-badge-A">A</span>
+				</td>
+				<td class="dnd-col-host">domain.com</td>
+				<td class="dnd-col-answer">000.000.0.00</td>
+				<td class="dnd-col-ttl">600</td>
+			</tr>
+			<tr data-record-id="000000000">
+				<td class="dnd-col-type">
+					<span class="dnd-badge dnd-badge-A">A</span>
+				</td>
+				<td class="dnd-col-host">domain.com</td>
+				<td class="dnd-col-answer">000.000.0.00</td>
+				<td class="dnd-col-ttl">600</td>
+			</tr>
+						<tr data-record-id="000000000">
+				<td class="dnd-col-type">
+					<span class="dnd-badge dnd-badge-A">A</span>
+				</td>
+				<td class="dnd-col-host">domain.com</td>
+				<td class="dnd-col-answer">000.000.0.00</td>
+				<td class="dnd-col-ttl">600</td>
+			</tr>
+			<tr data-record-id="000000000">
+				<td class="dnd-col-type">
+					<span class="dnd-badge dnd-badge-A">CNAME</span>
+				</td>
+				<td class="dnd-col-host">subdomain-name</td>
+				<td class="dnd-col-answer">domain.com</td>
+				<td class="dnd-col-ttl">600</td>
+			</tr>
+			<tr data-record-id="000000000">
+				<td class="dnd-col-type">
+					<span class="dnd-badge dnd-badge-A">CNAME</span>
+				</td>
+				<td class="dnd-col-host">[SECRET]</td>
+				<td class="dnd-col-answer">[SECRET]</td>
+				<td class="dnd-col-ttl">600</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<br><br><br>
+
+</body>
+</html>

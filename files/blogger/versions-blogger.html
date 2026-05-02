@@ -1,0 +1,541 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+  
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.asvfrw-ver-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.asvfrw-ver-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.asvfrw-ver-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.asvfrw-ver-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.asvfrw-ver-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.asvfrw-ver-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #a3a3a3;		
+	}
+
+	.asvfrw-ver-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.asvfrw-ver-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.asvfrw-ver-content-body{
+		margin-top: 40px;
+	}
+  
+	.asvfrw-ver-centered-body{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.asvfrw-ver-category-button{
+		background: #8a8a8a;
+		margin-top: 40px;
+		padding: 20px;
+		border-radius: 10px;
+		text-align: left;
+		transition: 0.3s;
+	}
+  
+	.asvfrw-ver-category-button:hover{
+		background: #363636;
+	}
+  
+  	.asvfrw-ver-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+  	.asvfrw-ver-lead-quote-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+  
+  	.asvfrw-ver-section-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);		
+	}
+  
+	.asvfrw-ver-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.asvfrw-ver-content-img{
+		border-radius: 10px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+  
+	.asvfrw-ver-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-SHARE-POST-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the share post div.*/
+  
+	.asvfrw-ver-share-post-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.asvfrw-ver-share-txt-title{
+		text-align: center;
+	}
+
+	.asvfrw-ver-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.asvfrw-ver-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+  
+	.asvfrw-ver-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.asvfrw-ver-return-button:hover{
+		background: var(--hover-color);
+	}
+
+	/*SCTN-COMMENT-SECTION-CLASSES*/
+
+	.asvfrw-ver-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.asvfrw-ver-comments-txt-title{
+		text-align: center;
+	}
+  
+	#zoomment{
+		margin-top: 60px;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.gKnrUR{
+		display: none;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.beCpri{
+		display: none;
+	}
+
+	/*Font styling for the number counter in the comment section.*/
+  
+	.gsmuov{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+  
+	/*Font styling for the word "View" in the comment section.*/
+  
+  	.jmmNHI{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+
+	/*Font styling for the word "Post" and its background in the comment section.*/
+  
+  	.jpJyCg{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 16px;
+		color: var(--secondary-color);
+		background: var(--hover-color);
+	}
+  
+  	.jpJyCg:hover{
+		background: #454545;
+	}
+
+	/*Font styling for user entered text in main comment section field.*/
+  
+  	.lmOcFQ{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+
+	/*Font styling for user entered text in user id comment section field.*/
+  
+  	.vPMAp{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+  
+	/*Font styling for comment counter under comment section field.*/
+  
+	.cAzkdF{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for border between comment counter and comments list.*/
+  
+	.lbBTjp{
+		border-bottom: 5px solid #ffffff;
+		margin-bottom: 5px;
+	}
+
+	/*Styling for comment sorting buttons.*/
+  
+	.gsniG{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+  
+	.bOCNnA{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+
+	/*Styling for comment avatars.*/
+  
+	.dHFrgi{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	/*Font styling for commenter names.*/
+  
+	.dHhnUu{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Font styling for comment date stamps.*/
+  
+	.fAeiix{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #9c9c9c;
+	}
+  
+	/*Font styling for comment body.*/
+
+	.jTeMWm{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for reply button.*/
+  
+	.cgQJCP{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #a1a1ff;
+	}
+
+	/*Font styling for "Show X reply" prompt.*/
+  
+	.jSDwIc{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9c9c9c;
+		transitioin 0.3s;
+	}
+
+	.jSDwIC:hover{
+		color: #a1a1ff;
+	}
+  
+	/*Styling for comment voting counter.*/
+  
+	.gSVtBc{
+		display: none;
+    }
+  
+	/*Styling for the 'Be the first to comment' message that displays when no comments have been posted.*/
+  
+	.gKnrUR{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px !important;
+		color: var(--hover-color) !important;
+	}
+
+	/*Font styling for the placeholder text in the comment section fields*/
+
+	#zoomment::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9e9e9e;		
+	}
+  
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-CONTENT-BODY-->
+	<!--This is the primary div containing the body of your blog post.-->
+
+	<div class="asvfrw-ver-content-area">
+
+		<!--AUTHOR-TAG-->
+      
+		<a href="https://framework.asveora.social/">
+			<div class="asvfrw-ver-author-tag">
+				<div class="asvfrw-ver-avatar-area">
+					<img alt="Black and white rings surrounding an user icon." class="asvfrw-ver-avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="60" width="60"/>
+				</div>
+				<div class="asvfrw-ver-nameplate-area">
+					<img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0004.png" width="200" height="30"/>
+				</div>
+			</div>
+		</a>
+       
+		<!--PUBLISHING-DATE-->
+		<!--Change the "Posted" text to "Last Updated" with the time and date of the update if the page has been updated.-->
+      
+		<div class="asvfrw-ver-publishing-date">
+			<span class="asvfrw-ver-publishing-date-text"><b>Last Updated on 2026-05-01<br>11:15 PM (EDT/UTC-4)</b></span>
+		</div>
+		
+          
+		<!--PAGE-CONTENT-->         
+          
+		<div class="asvfrw-ver-content-title">
+			<span class="asvfrw-ver-content-title-text"><strong>Framework Versions</strong></span>
+		</div>
+      
+		<!--INTRODUCTION-->
+      
+		<div class="asvfrw-ver-content-body">
+			<span class="asvfrw-ver-content-body-text">This is a complete directory of the Asveora framework's various versions. While some quality of life features may be added into older versions of Asveora to match operational standards, they will largely remain the same as when they were originally published. This is to ensure that Asveorans and anyone else using the Asveora framework have the freedom to choose which version of Asveora they prefer to deploy. Please keep in mind that some versions of Asveora might have shared features depending on the introduction of certain components and only the distinct elements of each version are separated for deployment. For example, v3 and v4 have completely different profile space layouts but otherwise share all of the same features with v4 having more features than v3. To find the latest releases, please visit <a href="https://github.com/asveora"><span class="asvfrw-ver-link-text">Asveora's GitHub page</span></a> where all repositories related to Asveora are maintained and archived.
+			</span>
+		</div>
+
+		<!--VERSIONS-->
+
+		<a href="https://framework.asveora.social/p/profile-v4.html">
+			<div class="asvfrw-ver-category-button">
+				<span class="asvfrw-ver-section-title"><strong>ASVFRW v4.0.0</strong></span>
+			</div>
+		</a>
+      
+		<a href="https://framework.asveora.social/p/profile-v3.html">
+			<div class="asvfrw-ver-category-button">
+				<span class="asvfrw-ver-section-title"><strong>ASVFRW v3.0.0</strong></span>
+			</div>
+		</a>
+
+	</div>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This is the return button of the page.-->
+
+	<a href="https://framework.asveora.social/p/library.html">
+		<div class="asvfrw-ver-return-button">
+			<span class="asvfrw-ver-lb-text-02"><strong>Return to Library</strong></span>
+		</div>
+	</a>
+
+
+	<!--SCTN-SHARE-POST-->
+	<!--This div contains the code block for the blog's preview HTML code which is displayed in static feeds.-->
+	<!--To use it in a searchable index feeds such as the museum index you will need to copy the contents such as links and titles out from the code into the other format.-->
+	<!--The code within the block is not supposed to be executed by the browser so it is wrapped in &lt; which represents a left carrot and &gt; which represents a right carrot.-->
+	<!--This is known as 'escaping' characters in programming. It allows the rendering of symbols that otherwise would be interpreted as code syntax.-->
+
+	<div class="asvfrw-ver-share-post-area">
+
+		<div class="asvfrw-ver-share-txt-title">
+			<span class="asvfrw-ver-content-title-text"><b>Share this Wiki!</b></span>
+		</div>
+		<div class="asvfrw-ver-content-body">
+			<span class="asvfrw-ver-content-body-text">Copy the following code and insert it on your own LandHub's content feeds to share it with the world!</span>
+		</div>
+      
+		<!--CODE-PREVIEW-->
+      
+		<div class="asvfrw-ver-code-block">
+ 			<pre>
+				<code class="asvfrw-ver-code-block-text">              
+&lt;a href="https://framework.asveora.social/p/versions.html"&gt;
+	&lt;div class="asvfrw-ver-blog-post-preview"&gt;
+		&lt;div class="asvfrw-ver-blog-post-img-area"&gt;
+			&lt;img class="asvfrw-ver-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/PageBin/services/Image-Select/Services_Market_Cover_M4X.png"/&gt;
+		&lt;/div>
+				
+		&lt;div class="asvfrw-ver-blog-post-lead"&gt;
+			&lt;div class="asvfrw-ver-content-indicator"&gt;
+				&lt;img class="asvfrw-ver-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/&gt;
+			&lt;/div&gt;
+			&lt;div class="asvfrw-ver-blog-post-title"&gt;
+				&lt;span class="asvfrw-ver-blog-post-title-text"&gt;&lt;b&gt;Versions&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class="asvfrw-ver-blog-post-info"&gt;
+			&lt;span class="asvfrw-ver-blog-post-info-text"&gt;&lt;b&gt;Asveora Social • 2026-05-01&lt;/b&gt;&lt;/span&gt;
+		&lt;/div>		
+
+		&lt;div class="asvfrw-ver-blog-post-body"&gt;
+			&lt;span class="asvfrw-ver-blog-post-body-text"&gt;This is a complete directory of the Asveora framework's various versions. While some quality of...&lt;/span&gt;				
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/a&gt;
+				</code>
+			</pre>
+		</div>
+
+	</div>
+
+	<!--SCTN-COMMENTS-SECTION-->
+	<!--This is the comment section of the page where viewers can leave comments.-->
+
+	<div class="asvfrw-ver-comments-area">
+
+		<div class="asvfrw-ver-comments-txt-title">
+			<span class="asvfrw-ver-content-title-text"><b>Comments</b></span>
+		</div>
+		<div class="asvfrw-ver-content-body">
+			<span class="asvfrw-ver-content-body-text">Remember to follow Asveora's guidelines when participating in the comments section. Press upvote if you found the wiki helpful, downvote if you found the wiki unhelpful, reshared if you shared the wiki, smile if the wiki made you happy, frown if the post made you sad, or thinking if the post made you think! The comments section is powered by <a href="https://zoomment.com/"><span class="asvfrw-ver-link-text">Zoomment!</span></a></span>
+		</div>
+      
+		<!--COMMENTS-FEED-->
+
+		<div
+			id="zoomment"
+			data-theme="light"
+			data-language="en"
+			data-gravatar="identicon"
+			data-emotions="⬆️,⬇️,🔁,🙂,🙁,🤔"
+			data-visitors="true"
+		></div>
+		<script src="https://cdn.zoomment.com/zoomment.min.js"></script>
+
+	</div>
+
+<!--HTML-END-->

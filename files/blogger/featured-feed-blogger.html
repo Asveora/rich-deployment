@@ -1,0 +1,424 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.ftfeed-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.ftfeed-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SPOTLIGHT-POST-CLASSES*/
+	/*Controls the spacing, shadows, sizing, cover image, and styling of the spotlight post.*/
+
+	.ftfeed-spotlight-preview{
+		margin-top: 50px;
+		padding: 16px;
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		border-radius: 50px;
+		height: 562px;
+		transition: 0.3s;
+	}
+  
+	.ftfeed-spotlight-preview:hover{
+		transform: scale(1.05);
+	}
+  
+	.ftfeed-spotlight-title{
+		margin-top: 380px;
+		margin-left: 20px;
+		text-align: left;
+	}
+  
+	.ftfeed-spotlight-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+
+	.ftfeed-spotlight-info{
+		margin-left: 20px;
+		text-align: left;
+	}
+
+	.ftfeed-spotlight-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.ftfeed-spotlight-body{
+		text-align: left;
+		margin-bottom: 30px;
+
+	}
+
+	.ftfeed-spotlight-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-BLOG-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the blog posts displayed within the index.*/
+
+	#postsUL {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 44px; /*Change the gap to 44px if using Blogger. Change the gap to 76px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#postsUL li a {
+		text-decoration: none;
+	}
+
+	#postsUL li a:hover:not(.header) {
+	}
+  
+	.ftfeed-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+		width: 430px;
+	}
+  
+	.ftfeed-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.ftfeed-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.ftfeed-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.ftfeed-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.ftfeed-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.ftfeed-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.ftfeed-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.ftfeed-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.ftfeed-blog-post-info{
+		text-align: left;
+	}
+
+	.ftfeed-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.ftfeed-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.ftfeed-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.ftfeed-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.ftfeed-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.ftfeed-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.ftfeed-return-button:hover{
+		background: var(--hover-color);
+	}
+
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+          
+	<!--SCTN-TITLE-BANNER-->
+	<!--Page banner that sits at the top before all other content on the page.-->
+
+	<div class="ftfeed-title-banner">
+		<span class="ftfeed-lb-text-01"><b>Featured Feed</b></span>
+	</div>
+
+	<!--SCTN-SPOTLIGHT-POST-->
+	<!--The latest post shown at the very top of the feature feed that is larger than the rest to give it visual importance.-->
+	<!--Its title is built for two lines. If you have a single line title, simply place a br tag before the title to push it down a line.-->
+
+	<a href="https://framework.asveora.social/p/blog-post-v1.html">
+		<div class="ftfeed-spotlight-preview">
+			<div class="ftfeed-spotlight-title">
+				<span class="ftfeed-spotlight-title-text"><b><br>Another Blog Post? 📝</b></span>
+			</div>	
+
+			<div class="ftfeed-spotlight-info">
+				<span class="ftfeed-spotlight-info-text"><b>Asveora Social • 2021-08-01</b></span>
+			</div>		
+		</div>
+	</a>
+
+	<!--SCTN-FEATURED-POSTS-GRID-->
+	<!--This grid contains previews of the latest posts that you have featured within a featured feed. You can change the number of featured posts displayed by duplicating a list item-->
+	<!--To change blog previews simply replace the information within the post slots such as blog post link, title, author, date, and the preview text.-->
+	<!--Keep the preview text to three lines and truncate with ellipses.-->
+      
+	<ul id="postsUL">
+      
+		<!--POST-SLOT-000000004-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/under-construction.html">
+				<div class="ftfeed-blog-post-preview">
+					<div class="ftfeed-blog-post-img-area">
+						<img class="ftfeed-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="ftfeed-blog-post-lead">
+						<div class="ftfeed-content-indicator">
+							<img class="ftfeed-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="ftfeed-blog-post-title">
+							<span class="ftfeed-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="ftfeed-blog-post-info">
+						<span class="ftfeed-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="ftfeed-blog-post-body">
+						<span class="ftfeed-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--POST-SLOT-000000003-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/under-construction.html">
+				<div class="ftfeed-blog-post-preview">
+					<div class="ftfeed-blog-post-img-area">
+						<img class="ftfeed-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="ftfeed-blog-post-lead">
+						<div class="ftfeed-content-indicator">
+							<img class="ftfeed-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="ftfeed-blog-post-title">
+							<span class="ftfeed-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="ftfeed-blog-post-info">
+						<span class="ftfeed-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="ftfeed-blog-post-body">
+						<span class="ftfeed-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+		<!--POST-SLOT-000000002-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<div class="ftfeed-blog-post-preview">
+					<div class="ftfeed-blog-post-img-area">
+						<img class="ftfeed-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="ftfeed-blog-post-lead">
+						<div class="ftfeed-content-indicator">
+							<img class="ftfeed-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="ftfeed-blog-post-title">
+							<span class="ftfeed-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="ftfeed-blog-post-info">
+						<span class="ftfeed-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="ftfeed-blog-post-body">
+						<span class="ftfeed-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+
+		<!--POST-SLOT-000000001-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<div class="ftfeed-blog-post-preview">
+					<div class="ftfeed-blog-post-img-area">
+						<img class="ftfeed-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="ftfeed-blog-post-lead">
+						<div class="ftfeed-content-indicator">
+							<img class="ftfeed-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="ftfeed-blog-post-title">
+							<span class="ftfeed-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="ftfeed-blog-post-info">
+						<span class="ftfeed-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="ftfeed-blog-post-body">
+						<span class="ftfeed-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+	</ul>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This is the return button of the page.-->
+
+	<a href="https://framework.asveora.social/p/landhub-demo.html">
+		<div class="ftfeed-return-button">
+			<span class="ftfeed-lb-text-02"><b>Return to Hub</b></span>
+		</div>
+	</a>
+
+<!--HTML-END-->

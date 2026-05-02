@@ -1,0 +1,14 @@
+# About site-layout-blogger.xml
+
+All code within this repository was created by members of the Asveora organization except for an XML file under the "blogger" directory labeled "site-layout-blogger" which contains some code from Google. Keep in mind that the entire blogger directory is completely optional and not necessary for the deployment of Asveora. None of Asveora's functions rely on Blogger or Google's products. The blogger directory and "site-layout-blogger" file exist as a deployment OPTION that people can elect to use if they want to use Blogger as their content management system (CMS) for building out their Asveora experience.
+
+# Why does site-layout-blogger.xml contain code from Google?
+
+Because Blogger has its own templating system with the use of b:skin and b:template-skin where there are certain structural requirements for how Blogger handles XML files. Blogger themes are not inherently open source, as Blogger is a proprietary platform owned by Google. While site-layout-blogger.xml was built on the "Simple" theme for a decade, it is NOT open source and therefore requires its own license explanation. It is free to use, but Google partially owns the copyright and they have made no explicit mention of whether the theme can be used for commercial purposes or not.
+
+# What about all of the other code?
+
+Again every other single line of code outside of site-layout-blogger.xml and everything other single code file in this repository (and yes even the blogger directory) is OPEN SOURCE and fully developed by the Asveora organization. It is governed by GPLv3 and safe to use with no worries about legal problems. For site-layout-blogger.xml the situation is unique just because it contains some snippets of code written by Google to ensure that the blogger versions of Asveora's pages can be read. We will continue looking into the site-layout-blogger.xml file and see whether we can make it fully open source or not through code separation.
+
+**This file was written by and is owned by the Asveora organization.**<br>
+**© 2026 Asveora, LLC**

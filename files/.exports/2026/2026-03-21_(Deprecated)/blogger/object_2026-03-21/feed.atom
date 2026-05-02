@@ -1,0 +1,3925 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2018'>
+  <id>tag:blogger.com,1999:blog-8861700303039130370</id>
+  <title>Asveora Source</title>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-609484230150748248</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>workspace</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--CONTENT-BODY--&gt;
+
+	&lt;div class="content-area"&gt;
+		&lt;div class="content-title"&gt;
+          &lt;span class="content-title-text"&gt;&lt;b&gt;Nothing quite yet...&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;Sometimes content can take awhile to craft and it would seem that we are still hard at work behind the scenes. Check back soon for any newly added content and we thank you for your patience. We promise to make something wonderful!&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-img-slot"&gt;
+			&lt;img class="content-img" data-original-height="640" data-original-width="640" width="812" height="812" src="https://cdn.asveora.social/PageBin/under-construction/Image-Select/Active_Web_Development_GIF.gif"/&gt;
+		&lt;/div&gt;	
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.content-area{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+  	.content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;		
+	}
+  
+	.content-body{
+		margin-top: 40px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;		
+	}
+  
+	.content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.content-img{
+		border-radius: 10px;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-02-05T22:00:27.132Z</blogger:created>
+    <published>2023-02-05T22:01:00Z</published>
+    <updated>2026-03-21T00:41:34.754Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/workspace_5.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-1072695449462171909</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>board-01</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--CONTENT-BODY--&gt;
+
+	&lt;div class="content-area"&gt;
+		&lt;div class="content-title"&gt;
+          &lt;span class="content-title-text"&gt;&lt;b&gt;Nothing quite yet...&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;Sometimes content can take awhile to craft and it would seem that we are still hard at work behind the scenes. Check back soon for any newly added content and we thank you for your patience. We promise to make something wonderful!&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-img-slot"&gt;
+			&lt;img class="content-img" data-original-height="640" data-original-width="640" width="812" height="812" src="https://cdn.asveora.social/PageBin/under-construction/Image-Select/Active_Web_Development_GIF.gif"/&gt;
+		&lt;/div&gt;	
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.content-area{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+  	.content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;		
+	}
+  
+	.content-body{
+		margin-top: 40px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;		
+	}
+  
+	.content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.content-img{
+		border-radius: 10px;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2026-03-12T19:58:43.969Z</blogger:created>
+    <published>2026-03-12T19:58:43.969Z</published>
+    <updated>2026-03-21T00:42:10.281Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/board-01.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-1868358079212620119</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>about-me</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--CONTENT-BODY--&gt;
+
+	&lt;div class="content-area"&gt;
+		&lt;div class="content-title"&gt;
+          &lt;span class="content-title-text"&gt;&lt;b&gt;About Me&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;Welcome to your profile's biography! The recommended character limit is 150. Tell the world a bit about yourself! Click this paragraph to see the rest of your biography where you can share more details. This is a great way place to add links to your other online presences, talk about what you enjoy doing, and sing the praises of your greatest friends!&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-img-slot"&gt;
+			&lt;img class="content-img" data-original-height="1280" data-original-width="720" width="812" height="456" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMAFKBU0Bs-3vCt7sdBLW8pX95c_pE9zh0PrpLKdc5gTzUCQBb-SEmPhbjjYl5HoqNUm6Qdun980lZ2hr5jBs96VgC6whEslSf7hQXVZny2RGAhVLT5vx89u6LIooRDWyA0NOOrd9OWrl-IC5eqKqDYCUVapEqotAsd377EarDsW5wH21_5iazPFHyx1w/w1280-h720/Asveora_Animated_Blog_Cover.gif"/&gt;
+		&lt;/div&gt;	
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIeG5N5bzVjzK01eW4a_20JRBcIDfFHE7IJLZdZqweE_FMY77FWVO-OGyd8DAMpHHjp18ihm-rC7f1mNqqgXD-DzdUDX_0UIGOQezzoDzb7lZCbX12kgF5oDblQMuUKdfW8CHqZl-2EMknIlo2UhXzWhUFum1RKmDwnpMbheBIrfUmaRClzI4qQCqUVfs/w3840-h2160/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.content-area{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+  	.content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;		
+	}
+  
+	.content-body{
+		margin-top: 40px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;		
+	}
+  
+	.content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.content-img{
+		border-radius: 10px;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-01-08T22:24:10.322Z</blogger:created>
+    <published>2023-01-08T22:24:00.003Z</published>
+    <updated>2026-03-13T22:19:05.857Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/about-me.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-2487346736050585322</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>profile-v4</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--INTRO-CARD--&gt;
+
+	&lt;div class="intro-card"&gt;
+      
+		&lt;!--NAME-PLATE--&gt;
+      
+		&lt;div class="nameplate-area"&gt;
+			&lt;img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0003.png" width="800" height="120"/&gt;
+		&lt;/div&gt;
+      
+		&lt;!--AVATAR-BIO-AREA--&gt;
+      
+		&lt;div class="avatar-bio"&gt;
+          
+			&lt;!--PROFILE-AVATAR--&gt;
+          
+			&lt;div class="avatar-area"&gt;
+				&lt;img alt="Black and white rings surrounding an user icon." class="avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="300" width="300"/&gt;
+			&lt;/div&gt;
+
+			&lt;!--RIGHT-HAND-COLUMN--&gt;
+          
+			&lt;div class="right-stack"&gt;
+
+				&lt;!--TRUNCATED-BIOGRAPHY--&gt;
+              
+				&lt;a href="https://framework.asveora.social/p/about-me.html"&gt;
+					&lt;div class="truncated-bio"&gt;
+						&lt;span class="intro-tb-text"&gt;Welcome to your profile's biography! The recommended character limit is 150. Tell the world a bit about yourself! Click this paragraph to see the rest of...&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+              
+				&lt;!--CONNECTION-BUTTONS--&gt;
+
+          		&lt;div class="connection-area"&gt;
+                  
+					&lt;!--FRIENDS-BUTTON--&gt;
+                  
+					&lt;a href="https://framework.asveora.social/p/friends.html"&gt;
+						&lt;div class="contact-button"&gt;
+							&lt;div class="cb-items"&gt;
+								&lt;img class="cb-image" alt="Friends" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/friends.png" width="30" height="30"/&gt;
+								&lt;span class="cb-text"&gt;&lt;b&gt;Friends&lt;/b&gt;&lt;/span&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+                  
+					&lt;!--CONNECT-BUTTON--&gt;
+                  
+					&lt;a href="https://stoat.chat/"&gt;
+						&lt;div class="contact-button"&gt;
+							&lt;div class="cb-items"&gt;
+								&lt;img class="cb-image" alt="Connect" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/chat.png" width="30" height="30"/&gt;
+								&lt;span class="cb-text"&gt;&lt;b&gt;Connect&lt;/b&gt;&lt;/span&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!--PROFILE-ID--&gt;
+	
+	&lt;div class="profile-id"&gt;
+		&lt;span class="id-text"&gt;&lt;b&gt;xxxxxxxxxxxx-000000000-000000000-000000000&lt;/b&gt;&lt;/span&gt;
+	&lt;/div&gt;
+
+	
+	&lt;!--PROFILE-ID-PLUS-MUSIC--&gt;
+
+	&lt;div class="id-music-area"&gt;	
+      
+		&lt;!--MUSIC-BUTTON--&gt;
+      
+		&lt;button class="music-button-style"&gt;
+			&lt;div class="music-button"&gt;
+              
+				&lt;!--This is the image icon for the music button.--&gt;
+              
+				&lt;div class="music-img-area"&gt;
+					&lt;img class="music-img" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/music-player.png"/&gt;
+				&lt;/div&gt;       
+				
+				&lt;!--This is the music title scroll for the music button that states the title of the track that will play when the button is clicked. The title is duplicated to ensure smooth scrolling.--&gt;
+              
+				&lt;div class="music-scroll"&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;ul aria-hidden="true"&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+              
+			&lt;/div&gt;
+		&lt;/button&gt;
+      
+		&lt;!--PROFILE-ID-ALT--&gt;
+      
+		&lt;div class="profile-id-alt"&gt;
+			&lt;span class="id-text"&gt;&lt;b&gt;xxxxxxxxxxxx-000000000-000000000-000000000&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+      
+	&lt;/div&gt;
+
+	&lt;!--ARCHIVE-SPACES--&gt;
+
+	&lt;div class="content-portals"&gt;
+		&lt;a href="https://framework.asveora.social/p/museum.html"&gt;
+			&lt;div class="museum-button"&gt;
+				&lt;span class="lb-text-02"&gt;&lt;b&gt;Museum&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;a href="https://framework.asveora.social/p/spaces.html"&gt;		
+			&lt;div class="spaces-button"&gt;
+				&lt;span class="lb-text-01"&gt;&lt;b&gt;Spaces&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;!--LIBRARY--&gt;
+
+	&lt;a href="https://framework.asveora.social/p/library.html"&gt;
+		&lt;div class="library-card"&gt;
+			&lt;div class="library-title"&gt;
+				&lt;span class="lb-text-01"&gt;&lt;b&gt;Library&lt;/b&gt;&lt;/span&gt;
+        	&lt;/div&gt;
+          
+			&lt;div class="cards-container"&gt;
+              
+				&lt;!--WIKI-ENTRY--01--&gt;
+
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+				&lt;!--WIKI-ENTRY--02--&gt;
+
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+				&lt;!--WIKI-ENTRY--03--&gt;
+              
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+            
+				&lt;!--WIKI-ENTRY--04--&gt;
+              
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+				&lt;!--WIKI-ENTRY--05--&gt;
+              
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--BLOG-POSTS--&gt;
+
+	&lt;!--BLOG-POSTS-ROW-01--&gt;
+
+	&lt;div class="blog-rows"&gt;
+      
+		&lt;!--POST-SLOT-01--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Author • Date&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;This is a sample blog.&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-02--&gt;
+
+		&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Author • Date&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;This is a sample blog.&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--BLOG-POSTS-ROW-02--&gt;
+
+	&lt;div class="blog-rows"&gt;
+      
+		&lt;!--POST-SLOT-03--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/blog-post-v1.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Another Blog Post? 📝&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Asveora Social • 2021-08-01&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;Welcome to this blog post where we will be discussing things that you would discuss in a blog post!&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-04--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/blog-post-v1.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Another Blog Post? 📝&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Asveora Social • 2021-08-01&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;Welcome to this blog post where we will be discussing things that you would discuss in a blog post!&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--RETURN-TO-WHEELCORE--&gt;
+
+	&lt;a href="https://wheelcore.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;img class="rb-image" alt="Asveora logo." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/wheelcore_0001.png" width="100" height="100"/&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Visit Wheelcore&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--RETURN-TO-ASVEORA--&gt;
+
+	&lt;a href="https://www.asveora.social/p/app.html"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;img class="rb-image" alt="Asveora logo." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/asveora_icon.png" width="100" height="100"/&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Asveora&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.intro-card{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 60px;
+	}
+  
+	.nameplate-area{
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+  
+	.avatar-bio{
+		display: flex;
+		justify-content: flex-start;
+	}
+  
+	.avatar-area{
+		padding-right: 60px;
+	}
+  
+	.avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.truncated-bio{
+		padding-bottom: 40px;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+  
+	.intro-tb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+  
+	.connection-area{
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.contact-button{
+		background-color: #616161;
+		border-radius: 80px;
+		border: 7px solid rgb(255, 255, 255);
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-bottom: 5px;
+		width: 200px;
+	}
+
+	.cb-items{
+	}
+
+	.cb-image{
+		float: left;
+		padding-left: 40px;
+		padding-right: 10px;
+	}
+
+	.cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+
+	.profile-id{
+		background-color: #616161;
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+  
+	.id-music-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-id-alt{
+		background-color: #616161;
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		padding-top: 23px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		width: 660px;
+	}
+  
+	.music-button-style{
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.music-button{
+		display: flex;
+		justify-content: space-between;
+		background-color: #616161;
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.music-img-area{
+		margin-right: 10px;
+	}
+  
+	.music-img{
+		padding-top: 5px;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.music-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+
+	}
+
+	.music-scroll{
+		--gap: 5px;
+		display: flex;
+		overflow: hidden;
+		user-select: none;
+		width: 125px;
+		gap: var(--gap);
+		height: 40px;
+		margin-bottom: 10px;
+	}
+  
+	.music-scroll ul{
+		list-style: none;
+		flex-shrink: 0;
+		min-width: 100%;
+		gap: 1rem;
+		display: flex;
+		justify-content: space-between;
+		animation: scroll 40s linear infinite;
+	}
+
+	@keyframes scroll {
+		to {
+			transform: translateX(calc(-100% - var(--gap)));;
+		}
+	}
+
+	.content-portals{
+		display: flex;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.museum-button{
+		background: #616161;
+		padding: 25px;
+		border-radius: 50px 0px 0px 50px;
+		width: 434px;
+		text-align: center;
+	}
+  
+	.spaces-button{
+		background: #ffffff;
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 10px solid #616161;
+		width: 434px;
+		text-align: center;
+	}
+  
+	.lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.library-card{
+		background: #ffffff;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+	}
+  
+	.library-title{
+		text-align: left;
+	}
+  
+	.cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.card-entry{
+		background: #616161;
+		border-radius: 24px;
+		padding: 12px;
+		text-align: center;
+	}
+  
+	.card-img-area {
+		width: 130px;
+		height: 130px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.card-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.card-image{
+		border-radius: 14px 14px 0px 0px;
+	}
+  
+	.card-text-area{
+		margin-top: 8px;
+	}
+  
+	.card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+  
+	.blog-rows{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+	}
+  
+	.blog-post-preview{
+		padding: 16px;
+		background: #616161;
+		border-radius: 50px;
+	}
+  
+	.blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.blog-post-title-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+
+	.blog-post-info{
+		text-align: left;
+	}
+
+	.blog-post-info-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.blog-post-body-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+ 		display: flex;
+		align-items: center;
+	}
+  
+	.rb-image{
+		float: left;
+		margin-left: 125px;
+		margin-right: 20px;
+
+	}
+  
+&lt;/style&gt;
+
+&lt;!--JS-START--&gt;
+
+&lt;script&gt;
+ 
+	// MUSIC-BUTTON-FUNCTION
+
+	const audio = new Audio("https://cdn.asveora.social/PageBin/profile-v4/Sound-Select/alphaproxy-chillhop-mix-136000.mp3");
+	const buttons = document.querySelectorAll("button");
+
+	buttons.forEach(button =&gt; {
+		button.addEventListener("click", () =&gt; {
+			audio.play();
+		});
+	});
+  
+&lt;/script&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2026-03-12T22:50:07.087Z</blogger:created>
+    <published>2026-03-12T22:50:07.087Z</published>
+    <updated>2026-03-20T23:56:44.272Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/profile-v4.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-2521847458698746763</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>under-construction</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--CONTENT-BODY--&gt;
+
+	&lt;div class="content-area"&gt;
+		&lt;div class="content-title"&gt;
+          &lt;span class="content-title-text"&gt;&lt;b&gt;Nothing quite yet...&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;Sometimes content can take awhile to craft and it would seem that we are still hard at work behind the scenes. Check back soon for any newly added content and we thank you for your patience. We promise to make something wonderful!&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-img-slot"&gt;
+			&lt;img class="content-img" data-original-height="640" data-original-width="640" width="812" height="812" src="https://cdn.asveora.social/PageBin/under-construction/Image-Select/Active_Web_Development_GIF.gif"/&gt;
+		&lt;/div&gt;	
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.content-area{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+  	.content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;		
+	}
+  
+	.content-body{
+		margin-top: 40px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;		
+	}
+  
+	.content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.content-img{
+		border-radius: 10px;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2026-03-12T00:18:32.027Z</blogger:created>
+    <published>2026-03-12T00:18:32.027Z</published>
+    <updated>2026-03-21T00:41:59.610Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/under-construction.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-2734941313342675272</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>library</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+          
+	&lt;!--MUSEUM--&gt;
+
+	&lt;div class="library-banner"&gt;
+		&lt;span class="lb-text-01"&gt;&lt;b&gt;Library&lt;/b&gt;&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;!--BLOG-POSTS--&gt;
+
+	&lt;!--BLOG-POSTS-ROW-01--&gt;
+
+	&lt;div class="wiki-rows"&gt;
+      
+		&lt;!--POST-SLOT-01--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html"&gt;
+			&lt;div class="wiki-post-preview"&gt;
+				&lt;div class="wiki-post-img-area"&gt;
+					&lt;img class="wiki-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="wiki-post-title"&gt;
+					&lt;span class="wiki-post-title-text"&gt;&lt;b&gt;Wiki Entry&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-02--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html"&gt;
+			&lt;div class="wiki-post-preview"&gt;
+				&lt;div class="wiki-post-img-area"&gt;
+					&lt;img class="wiki-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="wiki-post-title"&gt;
+					&lt;span class="wiki-post-title-text"&gt;&lt;b&gt;Wiki Entry&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--BLOG-POSTS-ROW-02--&gt;
+
+	&lt;div class="wiki-rows"&gt;
+      
+		&lt;!--POST-SLOT-03--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html"&gt;
+			&lt;div class="wiki-post-preview"&gt;
+				&lt;div class="wiki-post-img-area"&gt;
+					&lt;img class="wiki-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="wiki-post-title"&gt;
+					&lt;span class="wiki-post-title-text"&gt;&lt;b&gt;Wiki Entry&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-04--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html"&gt;
+			&lt;div class="wiki-post-preview"&gt;
+				&lt;div class="wiki-post-img-area"&gt;
+					&lt;img class="wiki-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="wiki-post-title"&gt;
+					&lt;span class="wiki-post-title-text"&gt;&lt;b&gt;Wiki Entry&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--BLOG-POSTS-ROW-03--&gt;
+
+	&lt;div class="wiki-rows"&gt;
+      
+		&lt;!--POST-SLOT-05--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html"&gt;
+			&lt;div class="wiki-post-preview"&gt;
+				&lt;div class="wiki-post-img-area"&gt;
+					&lt;img class="wiki-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="wiki-post-title"&gt;
+					&lt;span class="wiki-post-title-text"&gt;&lt;b&gt;Wiki Entry&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-06--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html"&gt;
+			&lt;div class="wiki-post-preview"&gt;
+				&lt;div class="wiki-post-img-area"&gt;
+					&lt;img class="wiki-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="wiki-post-title"&gt;
+					&lt;span class="wiki-post-title-text"&gt;&lt;b&gt;Wiki Entry&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.library-banner{
+		background: #ffffff;
+		border-radius: 50px;
+		padding:50px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+	.wiki-rows{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+	}
+  
+	.wiki-post-preview{
+		padding: 16px;
+		background: #616161;
+		border-radius: 50px;
+	}
+  
+	.wiki-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.wiki-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.wiki-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.wiki-post-title{
+		margin-top: 10px;
+		text-align: center;
+	}
+  
+	.wiki-post-title-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+
+	.wiki-post-info{
+		text-align: left;
+	}
+
+	.wiki-post-info-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.wiki-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.wiki-post-body-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+  
+&lt;/style&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-01-08T22:24:10.382Z</blogger:created>
+    <published>2023-01-08T22:24:00.005Z</published>
+    <updated>2026-03-21T00:10:26.067Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/library.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-3113006526574022708</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>wiki-page-v1</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--CONTENT-BODY--&gt;
+
+	&lt;div class="content-area"&gt;
+      
+		&lt;!--AUTHOR-TAG--&gt;
+      
+		&lt;a href="https://framework.asveora.social/"&gt;
+			&lt;div class="author-tag"&gt;
+				&lt;div class="avatar-area"&gt;
+					&lt;img alt="Black and white rings surrounding an user icon." class="avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="60" width="60"/&gt;
+				&lt;/div&gt;
+				&lt;div class="nameplate-area"&gt;
+					&lt;img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0004.png" width="200" height="30"/&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+       
+		&lt;!--PUBLISHING-DATE--&gt;
+      
+		&lt;div class="publishing-date"&gt;
+          &lt;span class="publishing-date-text"&gt;&lt;b&gt;Last Updated on August 1st, 2021&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;		
+          
+		&lt;!--WIKI-CONTENT--&gt;
+
+		&lt;!--WIKI-TITLE--&gt;
+      
+		&lt;div class="content-title"&gt;
+			&lt;span class="content-title-text"&gt;&lt;b&gt;Wiki Topic&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+      
+		&lt;hr&gt;
+      
+		&lt;!--WIKI-BODY--&gt;
+      
+  		&lt;table class="wiki-intro-outer"&gt;    
+			&lt;tr&gt;
+              
+				&lt;!--INTRO-PARAGRAPH--&gt;
+              
+				&lt;td class="wiki-intro-lines"&gt;
+					&lt;div class="table-intro-paragraph"&gt;
+						&lt;span class="content-body-text"&gt;This is a demonstrative wiki page written to show you what a wiki page can look like in Asveora v4! Write about your favorite topics in-depth and share your knowledge with the internet! Share details about the subject such as animal kingdom families, authors, composers, companies, publishers, DNA types, and whatever other information can be useful at a glance to those reading your wiki entry. This paragraph that you are reading now is the intro paragraph and can be as long or as short as you need it to be in order to match the height of the information column to the right.&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/td&gt;
+              
+				&lt;!--INFO-COLUMN--&gt;
+
+				&lt;td&gt;
+					&lt;table class="wiki-info-table"&gt;
+						&lt;tbody&gt;
+                          
+							&lt;!--INFO-COLUMN-TITLE--&gt;
+                          
+							&lt;tr&gt;
+								&lt;td class="wiki-info-title"&gt;
+									&lt;span class="content-body-text"&gt;&lt;b&gt;Wiki Topic&lt;/b&gt;&lt;/span&gt;
+								&lt;/td&gt;
+							&lt;/tr&gt;
+                          
+							&lt;!--INFO-COLUMN-IMAGE--&gt;
+                          
+							&lt;tr&gt;
+								&lt;td class="wiki-info-cell"&gt;
+									&lt;div class="wiki-info-img-area"&gt;
+										&lt;img class="wiki-info-img" data-original-height="1280" data-original-width="720" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+									&lt;/div&gt;
+								&lt;/td&gt;
+							&lt;/tr&gt;
+                          
+							&lt;!--INFO-DATA-CELLS--&gt;
+                          
+							&lt;table class="wiki-info-sub-table"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;&lt;b&gt;Author&lt;/b&gt;&lt;/span&gt;
+										&lt;/td&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;Asveora&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+							&lt;table class="wiki-info-sub-table"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;&lt;b&gt;Release Date&lt;/b&gt;&lt;/span&gt;
+										&lt;/td&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;August 1st, 2021&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+							&lt;table class="wiki-info-sub-table"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;&lt;b&gt;Marker&lt;/b&gt;&lt;/span&gt;
+										&lt;/td&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;Data&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+							&lt;table class="wiki-info-sub-table"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;&lt;b&gt;Marker&lt;/b&gt;&lt;/span&gt;
+										&lt;/td&gt;
+										&lt;td class="wiki-info-sub-cell"&gt;
+											&lt;span class="content-body-text"&gt;Data&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+                          
+							&lt;!--TABLE-OF-CONTENTS--&gt;
+
+							&lt;table class="wiki-info-sub-table"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td class="wiki-info-toc"&gt;
+											&lt;span class="content-body-text"&gt;&lt;b&gt;Table of Contents&lt;/b&gt;&lt;/span&gt;
+											&lt;br&gt;
+											&lt;span class="content-body-text"&gt;01. 
+												&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html#section-01"&gt;
+													&lt;span class="toc-link"&gt;Section 01&lt;/span&gt;
+												&lt;/a&gt;       
+											&lt;/span&gt;
+											&lt;br&gt;
+											&lt;span class="content-body-text"&gt;02. 
+												&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html#section-02"&gt;
+													&lt;span class="toc-link"&gt;Section 02&lt;/span&gt;
+												&lt;/a&gt;       
+											&lt;/span&gt;
+											&lt;br&gt;
+											&lt;span class="content-body-text"&gt;03. 
+												&lt;a href="https://framework.asveora.social/p/wiki-page-v1.html#section-03"&gt;
+													&lt;span class="toc-link"&gt;Section 03&lt;/span&gt;
+												&lt;/a&gt;       
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+
+						&lt;/tbody&gt;
+					&lt;/table&gt;
+                  
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/table&gt;
+ 
+		&lt;!--SECTION-01--&gt;
+      
+		&lt;div id="section-01" class="section-title"&gt;
+			&lt;span class="section-title-text"&gt;&lt;b&gt;Section 01&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+      
+		&lt;hr&gt;
+      
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;This is a section of the wiki page. Sections allow you to divide the contents of your wiki page up into distinct groups so that it makes it easier for readers to find specific information that they are looking for concerning the topic that you are covering. Create as many sections as you need in order to make organizing data easier. Talk about features, reception, relation, theories, genres, development, releases, historical events, and other designations you might have for your topic. Create internal page links to each section with the table of contents via the HTML id tag.&lt;/span&gt;
+		&lt;/div&gt;
+      
+		&lt;!--SECTION-02--&gt;
+      
+		&lt;div id="section-02" class="section-title"&gt;
+			&lt;span class="section-title-text"&gt;&lt;b&gt;Section 02&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+      
+		&lt;hr&gt;
+      
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;This is a section of the wiki page. Sections allow you to divide the contents of your wiki page up into distinct groups so that it makes it easier for readers to find specific information that they are looking for concerning the topic that you are covering. Create as many sections as you need in order to make organizing data easier. Talk about features, reception, relation, theories, genres, development, releases, historical events, and other designations you might have for your topic. Create internal page links to each section with the table of contents via the HTML id tag.&lt;/span&gt;
+		&lt;/div&gt;
+      
+		&lt;!--SECTION-03--&gt;
+      
+		&lt;div id="section-03" class="section-title"&gt;
+			&lt;span class="section-title-text"&gt;&lt;b&gt;Section 03&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+      
+		&lt;hr&gt;
+      
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;This is a section of the wiki page. Sections allow you to divide the contents of your wiki page up into distinct groups so that it makes it easier for readers to find specific information that they are looking for concerning the topic that you are covering. Create as many sections as you need in order to make organizing data easier. Talk about features, reception, relation, theories, genres, development, releases, historical events, and other designations you might have for your topic. Create internal page links to each section with the table of contents via the HTML id tag.&lt;/span&gt;
+		&lt;/div&gt;
+          
+		&lt;div class="content-img-slot"&gt;
+			&lt;img class="content-img" data-original-height="1280" data-original-width="720" width="812" height="456" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+		&lt;/div&gt;	
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+  
+	hr{
+		height: 5px;
+		background-color: #ffffff;
+		color: #ffffff;
+		border: none;
+	}
+
+	.content-area{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #a3a3a3;		
+	}
+
+	.content-title{
+		margin-top: 50px;
+		text-align: left;
+	}
+
+  	.content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;	
+	}
+  
+	.section-title{
+		margin-top: 50px;
+		text-align: left;
+	}
+
+  	.section-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 40px;
+		color: #ffffff;	
+	}
+  
+	.content-body{
+		margin-top: 50px;
+	}
+  
+	.table-intro-paragraph{
+		margin-top: 0px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;		
+	}
+  
+  	.toc-link{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #c2c2c2;
+ 		text-decoration: underline;
+	}
+  
+	.content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.content-img{
+		border-radius: 10px;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.wiki-info-table{
+		width: 300px;
+	}
+  
+	.wiki-info-sub-table{
+		border-top: none;
+		width: 310px;
+	}
+  
+	.wiki-info-sub-table td{
+		border-top: none;
+	}
+
+	.wiki-info-title{
+		border: 5px solid #ffffff;
+		text-align: center;
+		padding: 8px;
+	}
+  
+	.wiki-info-cell{
+		border: 5px solid #ffffff;
+		text-align: left;
+		padding: 10px;
+	}
+  
+	.wiki-info-sub-cell{
+		border-top: none;
+		border: 5px solid #ffffff;
+		text-align: left;
+		padding: 10px;
+		width: 155px;
+	}
+  
+	.wiki-info-toc{
+		border: 5px solid #ffffff;
+		text-align: left;
+		padding: 8px;
+	}
+  
+	.wiki-intro-lines{
+		width: 440px;
+		padding-right: 60px;
+	}
+  
+	.wiki-intro-outer{
+		margin-top: 50px;
+	}
+ 
+	.wiki-info-img-area {
+		width: 280px;
+		height: 168px;
+	}
+
+	.wiki-info-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.wiki-info-img{
+		border-radius: 0px;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2026-03-15T21:03:45.311Z</blogger:created>
+    <published>2026-03-15T21:03:45.311Z</published>
+    <updated>2026-03-21T00:56:49.011Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/wiki-page-v1.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-4697658725822653218</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>spaces</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--SPACES-BANNER--&gt;
+
+	&lt;div class="spaces-banner"&gt;
+		&lt;span class="lb-text-01"&gt;&lt;b&gt;Spaces&lt;/b&gt;&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;!--SPACE-0001--&gt;
+	
+	&lt;a href="https://stt.gg/xdYcz4Xe"&gt;
+		&lt;img class="space-entry" alt="Card with a logo saying 'Asveora Network Plaza' against an abstract gradient monochrome background." data-original-height="800" data-original-width="2560" width="968" height="302" src="https://cdn.asveora.social/CardTile/Index-Covers/Standard/AsveoraSC_Index_Card_0001_CMS.jpg"/&gt;
+	&lt;/a&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/p/profile-home.html"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+  
+	.spaces-banner{
+		background: #ffffff;
+		border-radius: 50px;
+		padding:50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+	.space-entry{
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-01-08T22:24:10.411Z</blogger:created>
+    <published>2023-01-08T22:24:00.006Z</published>
+    <updated>2026-03-21T00:31:25.327Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/spaces.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-4756790692879790140</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>blog-post-v1</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--CONTENT-BODY--&gt;
+
+	&lt;div class="content-area"&gt;
+      
+		&lt;!--AUTHOR-TAG--&gt;
+      
+		&lt;a href="https://framework.asveora.social/"&gt;
+			&lt;div class="author-tag"&gt;
+				&lt;div class="avatar-area"&gt;
+					&lt;img alt="Black and white rings surrounding an user icon." class="avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="60" width="60"/&gt;
+				&lt;/div&gt;
+				&lt;div class="nameplate-area"&gt;
+					&lt;img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0004.png" width="200" height="30"/&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+       
+		&lt;!--PUBLISHING-DATE--&gt;
+      
+		&lt;div class="publishing-date"&gt;
+          &lt;span class="publishing-date-text"&gt;&lt;b&gt;Posted on August 1st, 2021&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;		
+          
+		&lt;!--POST-CONTENT--&gt;         
+          
+		&lt;div class="content-title"&gt;
+          &lt;span class="content-title-text"&gt;&lt;b&gt;Another Blog Post? 📝&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-body"&gt;
+			&lt;span class="content-body-text"&gt;This is a demonstrative blog post written to show you what a blog post can look like in Asveora v4! Here you can write about the many things that interest you such as how stars are born, where owls go at night, what AA batteries taste like, and so much more! Write paragraphs of amazing literature and bless the internet with the best images you can find! Anyways, that's all for now!&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class="content-img-slot"&gt;
+			&lt;img class="content-img" data-original-height="1280" data-original-width="720" width="812" height="456" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+		&lt;/div&gt;	
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.content-area{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #a3a3a3;		
+	}
+
+	.content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;		
+	}
+  
+	.content-body{
+		margin-top: 40px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;		
+	}
+  
+	.content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.content-img{
+		border-radius: 10px;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2026-03-14T06:35:01.736Z</blogger:created>
+    <published>2026-03-14T06:35:01.736Z</published>
+    <updated>2026-03-21T00:50:46.300Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/blog-post-v1.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-4937923644004603036</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>museum</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+          
+	&lt;!--MUSEUM--&gt;
+
+	&lt;div class="museum-banner"&gt;
+		&lt;span class="lb-text-01"&gt;&lt;b&gt;Museum&lt;/b&gt;&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;!--BLOG-POSTS--&gt;
+
+	&lt;!--BLOG-POSTS-ROW-01--&gt;
+
+	&lt;div class="blog-rows"&gt;
+      
+		&lt;!--POST-SLOT-01--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Author • Date&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;This is a sample blog.&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-02--&gt;
+
+		&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Author • Date&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;This is a sample blog.&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--BLOG-POSTS-ROW-02--&gt;
+
+	&lt;div class="blog-rows"&gt;
+      
+		&lt;!--POST-SLOT-03--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/blog-post-v1.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Another Blog Post? 📝&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Asveora Social • 2021-08-01&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;Welcome to this blog post where we will be discussing things that you would discuss in a blog post!&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-04--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/blog-post-v1.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Another Blog Post? 📝&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Asveora Social • 2021-08-01&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;Welcome to this blog post where we will be discussing things that you would discuss in a blog post!&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.museum-banner{
+		background: #ffffff;
+		border-radius: 50px;
+		padding:50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+  
+	.blog-rows{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+	}
+  
+	.blog-post-preview{
+		padding: 16px;
+		background: #616161;
+		border-radius: 50px;
+	}
+  
+	.blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.blog-post-title-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+
+	.blog-post-info{
+		text-align: left;
+	}
+
+	.blog-post-info-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.blog-post-body-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+  
+&lt;/style&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-01-08T22:24:10.350Z</blogger:created>
+    <published>2023-01-08T22:24:00.004Z</published>
+    <updated>2026-03-21T00:09:13.327Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/museum.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-5193982604325904075</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>profile-v3</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--PROFILE-AVATAR--&gt;
+
+	&lt;div class="avatar-area"&gt;
+		&lt;img alt="Black and white rings surrounding an user icon." class="avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="500" width="500"/&gt;
+	&lt;/div&gt;
+
+	&lt;!--PROFILE-PLATE--&gt;
+
+	&lt;div class="name-plate"&gt;
+		&lt;img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0001.png" width="800" height="120"/&gt;
+	&lt;/div&gt;
+
+	&lt;!--PROFILE-ID--&gt;
+	
+	&lt;div class="profile-id"&gt;
+		&lt;span class="id-text"&gt;&lt;b&gt;xxxxxxxxxxxx-000000000-000000000-000000000&lt;/b&gt;&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;!--CONTACT-BUTTONS--&gt;
+
+	&lt;div class="contact-area"&gt;
+		&lt;a href="https://stoat.chat/"&gt;
+			&lt;div class="contact-button"&gt;
+				&lt;div class="cb-items"&gt;
+					&lt;img class="cb-image" alt="Add friend." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/add_user.png" width="60" height="60"/&gt;
+					&lt;span class="cb-text"&gt;&lt;b&gt;Add Friend&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;a href="https://stoat.chat/"&gt;
+			&lt;div class="contact-button"&gt;
+				&lt;div class="cb-items"&gt;
+					&lt;img class="cb-image" alt="Send Chat." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/chat.png" width="60" height="60"/&gt;
+					&lt;span class="cb-text"&gt;&lt;b&gt;Send Chat&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;!--BIO-PREVIEW--&gt;
+
+	&lt;a href="https://framework.asveora.social/p/about-me.html"&gt;
+		&lt;div class="bio-summary"&gt;
+			&lt;div class="bio-title"&gt;
+				&lt;span class="lb-text-02"&gt;&lt;b&gt;About Me&lt;/b&gt;&lt;/span&gt;
+        	&lt;/div&gt;
+			&lt;div class="truncated-bio"&gt;
+				&lt;span class="bio-text"&gt;&lt;b&gt;This is your profile biography. Tell the network a little bit about yourself, what you like to do, what your interests are, what your favorite color is, and whatever other details you might find exciting to share!&lt;/b&gt;&lt;/span&gt;
+        	&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--ARCHIVE-SPACES--&gt;
+
+	&lt;div class="content-portals"&gt;
+		&lt;a href="https://framework.asveora.social/p/museum.html"&gt;
+			&lt;div class="museum-button"&gt;
+				&lt;span class="lb-text-02"&gt;&lt;b&gt;MUSEUM&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;a href="https://framework.asveora.social/p/spaces.html"&gt;		
+			&lt;div class="spaces-button"&gt;
+				&lt;span class="lb-text-01"&gt;&lt;b&gt;SPACES&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;!--LIBRARY--&gt;
+
+	&lt;a href="https://framework.asveora.social/p/library.html"&gt;
+		&lt;div class="library-card"&gt;
+			&lt;div class="library-title"&gt;
+				&lt;span class="lb-text-01"&gt;&lt;b&gt;LIBRARY&lt;/b&gt;&lt;/span&gt;
+        	&lt;/div&gt;
+          
+			&lt;div class="cards-container"&gt;
+				&lt;div class="card-entry"&gt;
+					&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="200" height="200" src="https://cdn.asveora.social/Buttons/Theme-Parts/small_blank.png"/&gt;
+					&lt;br&gt;
+					&lt;span class="card-text"&gt;&lt;b&gt;WIKI ENTRY&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class="card-entry"&gt;
+					&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="200" height="200" src="https://cdn.asveora.social/Buttons/Theme-Parts/small_blank.png"/&gt;
+					&lt;br&gt;
+					&lt;span class="card-text"&gt;&lt;b&gt;WIKI ENTRY&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class="card-entry"&gt;
+					&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="200" height="200" src="https://cdn.asveora.social/Buttons/Theme-Parts/small_blank.png"/&gt;
+					&lt;br&gt;
+					&lt;span class="card-text"&gt;&lt;b&gt;WIKI ENTRY&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--BLOG-POST-0001--&gt;
+
+	&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt; &lt;!--Replace this link with a link to the page of your blog post. Feel free to delete this comment!--&gt;
+		&lt;div class="blog-post"&gt;
+			&lt;div class="post-summary"&gt;
+				&lt;div&gt;
+					&lt;span class="post-title"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div&gt;         
+					&lt;span class="post-body"&gt;This is a blog post preview...&lt;/span&gt;
+				&lt;/div&gt;
+          	&lt;/div&gt;
+			&lt;img class="post-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="848" height="720" src="https://cdn.asveora.social/Buttons/Theme-Parts/large_blank.png"/&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--BLOG-POST-0002--&gt;
+
+	&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt; &lt;!--Replace this link with a link to the page of your blog post. Feel free to delete this comment!--&gt;
+		&lt;div class="blog-post"&gt;
+			&lt;div class="post-summary"&gt;
+				&lt;div&gt;
+					&lt;span class="post-title"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div&gt;         
+					&lt;span class="post-body"&gt;This is a blog post preview...&lt;/span&gt;
+				&lt;/div&gt;
+          	&lt;/div&gt;
+			&lt;img class="post-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="848" height="720" src="https://cdn.asveora.social/Buttons/Theme-Parts/large_blank.png"/&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--RETURN-TO-ASVEORA--&gt;
+
+	&lt;a href="https://www.asveora.social/p/app.html"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;img class="rb-image" alt="Asveora logo." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/asveora_icon.png" width="128" height="128"/&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Asveora&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+  
+	.avatar-area{
+		margin-top: 160px;
+		text-align: center;
+	}
+  
+	.avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+  
+	.name-plate{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	.profile-id{
+		background-color: #616161;
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+      
+	.contact-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact-button{
+		background-color: #616161;
+		border-radius: 80px;
+		border: 10px solid rgb(255, 255, 255);
+		padding-top:20px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+		width: 415px;
+	}
+
+	.cb-items{
+		margin: 0 auto;
+	}
+
+	.cb-image{
+		float: left;
+		padding-left: 40px;
+		padding-right: 20px;
+	}
+
+	.cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 50px;
+		color: #ffffff;
+	}
+  
+	.members-button{
+		background: #ffffff;
+		border-radius: 50px;
+		padding:50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+		color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+		color: #ffffff;
+	}
+
+	.bio-summary{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+	}
+  
+	.bio-title{
+		text-align: left;
+	}
+  
+	.truncated-bio{
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	.bio-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+
+	.content-portals{
+		display: flex;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.museum-button{
+		background: #616161;
+		padding: 30px;
+		border-radius: 50px 0px 0px 50px;
+		width: 424px;
+		text-align: center;
+	}
+  
+	.spaces-button{
+		background: #ffffff;
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 15px solid #616161;
+		width: 424px;
+		text-align: center;
+	}
+  
+	.library-card{
+		background: #ffffff;
+		border-radius: 50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+	}
+  
+	.library-title{
+		text-align: left;
+	}
+  
+	.cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.card-entry{
+		background: #616161;
+		border-radius: 24px;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.card-image{
+		border-radius: 14px 14px 0px 0px;
+	}
+  
+	.card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 34px;
+		color: #ffffff;
+	}
+  
+	.blog-post{
+		background: #616161;
+		border-radius: 50px;
+		margin-top:60px;
+		padding: 40px 60px 60px 60px;
+	}
+  
+	.post-summary{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+  
+	.post-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 48px;
+		color: #ffffff;
+	}
+  
+	.post-body{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+  
+	.post-image{
+		border-radius: 10px;
+	}
+  
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		padding-top: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 60px;
+		margin-top: 60px;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+  
+	.rb-image{
+		float: left;
+		padding-left: 30px;
+		padding-right: 0px;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2026-03-12T22:49:36.696Z</blogger:created>
+    <published>2026-03-12T22:50:00Z</published>
+    <updated>2026-03-21T00:48:30.274Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/profile-v3.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-5874349557942607254</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>friends</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+          
+	&lt;!--FRIENDS-LIST--&gt;
+
+	&lt;div class="friends-banner"&gt;
+		&lt;span class="lb-text-01"&gt;&lt;b&gt;Friends List&lt;/b&gt;&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;div class="user-table"&gt;
+
+		&lt;!--USER-LIST-ROW-01--&gt;
+
+		&lt;div class="user-row"&gt;
+          
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+          
+		&lt;/div&gt;
+      
+		&lt;!--USER-LIST-ROW-02--&gt;
+
+		&lt;div class="user-row"&gt;
+          
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+          
+		&lt;/div&gt;
+      
+		&lt;!--USER-LIST-ROW-03--&gt;
+
+		&lt;div class="user-row"&gt;
+          
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+          
+		&lt;/div&gt;
+      
+		&lt;!--USER-LIST-ROW-04--&gt;
+
+		&lt;div class="user-row"&gt;
+          
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+      
+			&lt;div class="user-entry"&gt;
+				&lt;a href="https://framework.asveora.social/"&gt;
+					&lt;img class="avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+					&lt;br&gt;
+					&lt;span class="user-text"&gt;&lt;b&gt;Asveora&lt;br&gt;Social&lt;/b&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+	 
+		&lt;/div&gt;    
+	&lt;/div&gt;
+
+	&lt;!--RETURN-BANNER--&gt;
+
+	&lt;a href="https://framework.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Profile&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+  
+	.avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+  
+	.user-table{
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		background: rgba(0, 0, 0, 0.5);
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		border-radius: 50px;
+		padding: 30px;
+	}
+  
+	.user-row{
+		display: flex;
+		margin: 0 auto;
+		justify-content: space-between;
+		padding: 40px;
+	}
+
+	.user-entry{
+		text-align: center;
+	}
+  
+	.user-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: #ffffff;
+	}
+
+	.friends-banner{
+		background: #ffffff;
+		border-radius: 50px;
+		padding:50px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+	.lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+  
+&lt;/style&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2026-03-13T18:34:44.926Z</blogger:created>
+    <published>2026-03-13T18:34:44.926Z</published>
+    <updated>2026-03-21T00:49:17.755Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/friends.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-8081090590286438276</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>error-404</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--ERROR-MESSAGE--&gt;
+
+	&lt;div class="error-message"&gt;
+		&lt;div class="message-title"&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Whoops! Wrong turn!&lt;/b&gt;&lt;/span&gt;
+        &lt;/div&gt;
+		&lt;div class="message-body"&gt;
+          &lt;span class="message-text"&gt;Let's try to get you back to &lt;a href="https://framework.asveora.social/"&gt;&lt;span class="link-text"&gt;familiar territory&lt;/span&gt;&lt;/a&gt; since it seems you came across a broken link or content that does not exist. Good luck with your explorations! :)&lt;/span&gt;
+        &lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.error-message{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 160px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+	}
+  
+	.message-title{
+		text-align: left;
+	}
+  
+	.message-body{
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	.message-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+  
+	.link-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #292929;
+		text-decoration: underline;
+	}
+  
+&lt;/style&gt;
+
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-01-08T22:24:10.186Z</blogger:created>
+    <published>2023-01-08T22:24:00Z</published>
+    <updated>2026-03-20T23:59:09.825Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/error-404.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8861700303039130370.post-8310179421395568486</id>
+    <blogger:type>PAGE</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Asveora</name>
+      <uri></uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>profile-home</title>
+    <content type='html'>&lt;!--HTML START--&gt;
+
+	&lt;!--INTRO-CARD--&gt;
+
+	&lt;div class="intro-card"&gt;
+      
+		&lt;!--NAME-PLATE--&gt;
+      
+		&lt;div class="nameplate-area"&gt;
+			&lt;img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0003.png" width="800" height="120"/&gt;
+		&lt;/div&gt;
+      
+		&lt;!--AVATAR-BIO-AREA--&gt;
+      
+		&lt;div class="avatar-bio"&gt;
+          
+			&lt;!--PROFILE-AVATAR--&gt;
+          
+			&lt;div class="avatar-area"&gt;
+				&lt;img alt="Black and white rings surrounding an user icon." class="avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="300" width="300"/&gt;
+			&lt;/div&gt;
+
+			&lt;!--RIGHT-HAND-COLUMN--&gt;
+          
+			&lt;div class="right-stack"&gt;
+
+				&lt;!--TRUNCATED-BIOGRAPHY--&gt;
+              
+				&lt;a href="https://framework.asveora.social/p/about-me.html"&gt;
+					&lt;div class="truncated-bio"&gt;
+						&lt;span class="intro-tb-text"&gt;Welcome to your profile's biography! The recommended character limit is 150. Tell the world a bit about yourself! Click this paragraph to see the rest of...&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/a&gt;
+              
+				&lt;!--CONNECTION-BUTTONS--&gt;
+
+          		&lt;div class="connection-area"&gt;
+                  
+					&lt;!--FRIENDS-BUTTON--&gt;
+                  
+					&lt;a href="https://framework.asveora.social/p/friends.html"&gt;
+						&lt;div class="contact-button"&gt;
+							&lt;div class="cb-items"&gt;
+								&lt;img class="cb-image" alt="Friends" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/friends.png" width="30" height="30"/&gt;
+								&lt;span class="cb-text"&gt;&lt;b&gt;Friends&lt;/b&gt;&lt;/span&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+                  
+					&lt;!--CONNECT-BUTTON--&gt;
+                  
+					&lt;a href="https://stoat.chat/"&gt;
+						&lt;div class="contact-button"&gt;
+							&lt;div class="cb-items"&gt;
+								&lt;img class="cb-image" alt="Connect" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/chat.png" width="30" height="30"/&gt;
+								&lt;span class="cb-text"&gt;&lt;b&gt;Connect&lt;/b&gt;&lt;/span&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!--PROFILE-ID--&gt;
+	
+	&lt;div class="profile-id"&gt;
+		&lt;span class="id-text"&gt;&lt;b&gt;xxxxxxxxxxxx-000000000-000000000-000000000&lt;/b&gt;&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;!--This code block is currently disabled. To enable it, remove the comment wrapper from the top and bottom. Any lines with "xx" are HTML comments that should be wrapped when the block is enabled.
+	PROFILE-ID-PLUS-MUSIC
+
+	&lt;div class="id-music-area"&gt;	
+      
+		xxMUSIC-BUTTONxx
+      
+		&lt;button class="music-button-style"&gt;
+			&lt;div class="music-button"&gt;
+              
+				xxThis is the image icon for the music button.xx
+              
+				&lt;div class="music-img-area"&gt;
+					&lt;img class="music-img" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/music-player.png"/&gt;
+				&lt;/div&gt;       
+				
+				xxThis is the music title scroll for the music button that states the title of the track that will play when the button is clicked. The title is duplicated to ensure smooth scrolling.xx
+              
+				&lt;div class="music-scroll"&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;ul aria-hidden="true"&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+							&lt;span class="music-text"&gt;&lt;b&gt;Chillhop Mix by AlphaProxy – &lt;/b&gt;&lt;/span&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+              
+			&lt;/div&gt;
+		&lt;/button&gt;
+      
+		xxPROFILE-ID-ALTxx
+      
+		&lt;div class="profile-id-alt"&gt;
+			&lt;span class="id-text"&gt;&lt;b&gt;xxxxxxxxxxxx-000000000-000000000-000000000&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+      
+	&lt;/div&gt;
+	This code block is currently disabled. To enable it, remove the comment wrapper from the top and bottom. Any lines with "xx" are HTML comments that should be wrapped when the block is enabled.--&gt;
+
+
+	&lt;!--ARCHIVE-SPACES--&gt;
+
+	&lt;div class="content-portals"&gt;
+		&lt;a href="https://framework.asveora.social/p/museum.html"&gt;
+			&lt;div class="museum-button"&gt;
+				&lt;span class="lb-text-02"&gt;&lt;b&gt;Museum&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+		&lt;a href="https://framework.asveora.social/p/spaces.html"&gt;		
+			&lt;div class="spaces-button"&gt;
+				&lt;span class="lb-text-01"&gt;&lt;b&gt;Spaces&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;!--LIBRARY--&gt;
+
+	&lt;a href="https://framework.asveora.social/p/library.html"&gt;
+		&lt;div class="library-card"&gt;
+			&lt;div class="library-title"&gt;
+				&lt;span class="lb-text-01"&gt;&lt;b&gt;Library&lt;/b&gt;&lt;/span&gt;
+        	&lt;/div&gt;
+          
+			&lt;div class="cards-container"&gt;
+              
+				&lt;!--WIKI-ENTRY--01--&gt;
+
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+				&lt;!--WIKI-ENTRY--02--&gt;
+
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+				&lt;!--WIKI-ENTRY--03--&gt;
+              
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+            
+				&lt;!--WIKI-ENTRY--04--&gt;
+              
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+				&lt;!--WIKI-ENTRY--05--&gt;
+              
+				&lt;div class="card-entry"&gt;
+					&lt;div class="card-img-area"&gt;
+						&lt;img class="card-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/&gt;
+					&lt;/div&gt;
+					&lt;div class="card-text-area"&gt;
+						&lt;span class="card-text"&gt;&lt;b&gt;Wiki&lt;br&gt;Entry&lt;/b&gt;&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+              
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--BLOG-POSTS--&gt;
+
+	&lt;!--BLOG-POSTS-ROW-01--&gt;
+
+	&lt;div class="blog-rows"&gt;
+      
+		&lt;!--POST-SLOT-01--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Author • Date&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;This is a sample blog.&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-02--&gt;
+
+		&lt;a href="https://framework.asveora.social/p/under-construction.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Post Title&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Author • Date&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;This is a sample blog.&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--BLOG-POSTS-ROW-02--&gt;
+
+	&lt;div class="blog-rows"&gt;
+      
+		&lt;!--POST-SLOT-03--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/blog-post-v1.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Another Blog Post? 📝&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Asveora Social • 2021-08-01&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;Welcome to this blog post where we will be discussing things that you would discuss in a blog post!&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+      
+		&lt;!--POST-SLOT-04--&gt;
+      
+		&lt;a href="https://framework.asveora.social/p/blog-post-v1.html"&gt;
+			&lt;div class="blog-post-preview"&gt;
+				&lt;div class="blog-post-img-area"&gt;
+					&lt;img class="blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/&gt;
+				&lt;/div&gt;
+
+				&lt;div class="blog-post-title"&gt;
+					&lt;span class="blog-post-title-text"&gt;&lt;b&gt;Another Blog Post? 📝&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;	
+
+				&lt;div class="blog-post-info"&gt;
+					&lt;span class="blog-post-info-text"&gt;&lt;b&gt;Asveora Social • 2021-08-01&lt;/b&gt;&lt;/span&gt;
+				&lt;/div&gt;		
+
+				&lt;div class="blog-post-body"&gt;
+					&lt;span class="blog-post-body-text"&gt;Welcome to this blog post where we will be discussing things that you would discuss in a blog post!&lt;/span&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;   
+	&lt;/div&gt;
+
+	&lt;!--RETURN-TO-WHEELCORE--&gt;
+
+	&lt;a href="https://wheelcore.asveora.social/"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;img class="rb-image" alt="Asveora logo." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/wheelcore_0001.png" width="100" height="100"/&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Visit Wheelcore&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+	&lt;!--RETURN-TO-ASVEORA--&gt;
+
+	&lt;a href="https://www.asveora.social/p/app.html"&gt;
+		&lt;div class="return-button"&gt;
+			&lt;img class="rb-image" alt="Asveora logo." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/asveora_icon.png" width="100" height="100"/&gt;
+			&lt;span class="lb-text-02"&gt;&lt;b&gt;Return to Asveora&lt;/b&gt;&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+
+&lt;!--CSS-START--&gt;
+
+&lt;style&gt;
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: #616161;
+	}
+
+	.intro-card{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 60px;
+	}
+  
+	.nameplate-area{
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+  
+	.avatar-bio{
+		display: flex;
+		justify-content: flex-start;
+	}
+  
+	.avatar-area{
+		padding-right: 60px;
+	}
+  
+	.avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.truncated-bio{
+		padding-bottom: 40px;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+  
+	.intro-tb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+  
+	.connection-area{
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.contact-button{
+		background-color: #616161;
+		border-radius: 80px;
+		border: 7px solid rgb(255, 255, 255);
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-bottom: 5px;
+		width: 200px;
+	}
+
+	.cb-items{
+	}
+
+	.cb-image{
+		float: left;
+		padding-left: 40px;
+		padding-right: 10px;
+	}
+
+	.cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+
+	.profile-id{
+		background-color: #616161;
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+  
+	.id-music-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-id-alt{
+		background-color: #616161;
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		padding-top: 23px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		width: 660px;
+	}
+  
+	.music-button-style{
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.music-button{
+		display: flex;
+		justify-content: space-between;
+		background-color: #616161;
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.music-img-area{
+		margin-right: 10px;
+	}
+  
+	.music-img{
+		padding-top: 5px;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.music-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+
+	}
+
+	.music-scroll{
+		--gap: 5px;
+		display: flex;
+		overflow: hidden;
+		user-select: none;
+		width: 125px;
+		gap: var(--gap);
+		height: 40px;
+		margin-bottom: 10px;
+	}
+  
+	.music-scroll ul{
+		list-style: none;
+		flex-shrink: 0;
+		min-width: 100%;
+		gap: 1rem;
+		display: flex;
+		justify-content: space-between;
+		animation: scroll 40s linear infinite;
+	}
+
+	@keyframes scroll {
+		to {
+			transform: translateX(calc(-100% - var(--gap)));;
+		}
+	}
+
+	.content-portals{
+		display: flex;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.museum-button{
+		background: #616161;
+		padding: 25px;
+		border-radius: 50px 0px 0px 50px;
+		width: 434px;
+		text-align: center;
+	}
+  
+	.spaces-button{
+		background: #ffffff;
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 10px solid #616161;
+		width: 434px;
+		text-align: center;
+	}
+  
+	.lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #616161;
+	}
+  
+	.lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: #ffffff;
+	}
+  
+	.library-card{
+		background: #ffffff;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+	}
+  
+	.library-title{
+		text-align: left;
+	}
+  
+	.cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.card-entry{
+		background: #616161;
+		border-radius: 24px;
+		padding: 12px;
+		text-align: center;
+	}
+  
+	.card-img-area {
+		width: 130px;
+		height: 130px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.card-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.card-image{
+		border-radius: 14px 14px 0px 0px;
+	}
+  
+	.card-text-area{
+		margin-top: 8px;
+	}
+  
+	.card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+	}
+  
+	.blog-rows{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+	}
+  
+	.blog-post-preview{
+		padding: 16px;
+		background: #616161;
+		border-radius: 50px;
+	}
+  
+	.blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.blog-post-title-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+
+	.blog-post-info{
+		text-align: left;
+	}
+
+	.blog-post-info-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.blog-post-body-text{
+		color: #ffffff;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+ 		display: flex;
+		align-items: center;
+	}
+  
+	.rb-image{
+		float: left;
+		margin-left: 125px;
+		margin-right: 20px;
+
+	}
+  
+&lt;/style&gt;
+
+&lt;!--JS-START--&gt;
+
+&lt;script&gt;
+ 
+	// MUSIC-BUTTON-FUNCTION
+
+	const audio = new Audio("https://cdn.asveora.social/PageBin/profile-v4/Sound-Select/alphaproxy-chillhop-mix-136000.mp3");
+	const buttons = document.querySelectorAll("button");
+
+	buttons.forEach(button =&gt; {
+		button.addEventListener("click", () =&gt; {
+			audio.play();
+		});
+	});
+  
+&lt;/script&gt;
+</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-01-08T22:24:10.261Z</blogger:created>
+    <published>2023-01-08T22:24:00.001Z</published>
+    <updated>2026-03-20T23:55:29.366Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/p/profile-home.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+</feed>

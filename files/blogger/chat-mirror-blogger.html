@@ -1,0 +1,297 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+  
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #2d282b;
+		--secondary-color: #ffffff;
+		--hover-color: #100d0e;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+  
+  	body{
+		background: var(--primary-color); 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+	}
+  
+	/*SCTN-FOOTER-AREA*/
+	/*Updates the footer's background color to the proper palette for this page specifically.*/
+  
+	.footer-area{
+		background: #1f1a1b;
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.chtmirror-link-text{
+		color: #b0b0b0;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.chtmirror-content-area{
+		background: var(--hover-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+
+	.chtmirror-content-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+
+  	.chtmirror-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.chtmirror-content-subtitle{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+  	.chtmirror-content-subtitle-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 25px;
+		color: #6e6e6e;		
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.chtmirror-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-COMMENTS-CLASSES*/
+	/*Controls the spacing, padding, color, styling, layout, and behavior of comments along with the elements they contain.*/
+  
+	.chtmirror-comment-slot{
+		margin-top: 40px;
+		transition: 0.3s;
+		border-radius: 20px;
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 40px;
+		background: transparent;
+    }
+  
+	.chtmirror-comment-slot:hover{
+		background-color: var(--primary-color);
+    }
+
+	.chtmirror-avatar-area{
+		float: left;
+		margin-right: 20px;
+		display: table-cell;
+	}
+
+	.chtmirror-user-avatar{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	.chtmirror-comment-area{
+		width: 700px;
+		display: table-cell;
+	}
+
+	.chtmirror-comment-head{
+		margin-top: 0px;
+	}
+
+	.chtmirror-comment-name{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #DCDCDC;
+		margin-right: 10px;
+	}
+  
+	.chtmirror-comment-time{
+		font-family: Inter, arial, sans-serif;
+		font-size: 24px;
+		color: #958F90;
+	}
+  
+	.chtmirror-comment-content{
+		margin-top: 0px;
+	}
+  
+	.chtmirror-comment-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.chtmirror-comment-link-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #b8b8ff;
+		text-decoration: underline;
+	}
+  
+	.chtmirror-comment-img-slot{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.chtmirror-comment-img{
+		border-radius: 10px;
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.chtmirror-return-button{
+		background: #1f1a1b;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.chtmirror-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-PLAZA-SPOT-->
+	<!--The plaza spot is a container for messages ported in from chat protocols and platforms such as Matrix, XMPP, IRC, Stoat, etc.-->
+	<!--You can feature the best comments from whatever public-facing channel or board you have for your landhub.-->
+	<!--This process may be automated for mirroring messages from various platforms at some point down the road but the option for manual curation will always remain.-->
+	<!--To add a new comment simply duplicate one of the existing comment slots. The recommended maximum number of comments to be displayed is 20 but you can have as many as you like.-->
+	<!--All comments have their timestamps translated into UTC timestamps for easy universal reading. This can be done with a UTC time conversion tool.-->
+
+	<div class="chtmirror-content-area">	
+          
+		<!--PLAZA-TITLE-->         
+          
+		<div class="chtmirror-content-title">
+			<span class="chtmirror-content-title-text"><strong>Chat Mirror</strong></span>
+		</div>
+		<div class="chtmirror-content-subtitle">
+			<span class="chtmirror-content-subtitle-text">Hosted at <a href="https://stoat.chat/"><span class="chtmirror-link-text">K01NX1KGPY3D17GAPVBCRFM901</span></a><br>on <a href="https://stoat.chat/"><span class="chtmirror-link-text">stoat.chat</span></a> as a public guest access viewer.</span>
+		</div>
+
+		<!--COMMENT-SLOT-0003-->
+      
+		<a href="https://stoat.chat/">
+			<div class="chtmirror-comment-slot">
+				<div class="chtmirror-avatar-area">
+					<img class="chtmirror-user-avatar" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>
+				</div>
+				<div class="chtmirror-comment-area">
+					<div class="chtmirror-comment-head">
+						<span class="chtmirror-comment-name"><strong>Default User</strong></span>
+						<span class="chtmirror-comment-time">2000-01-01 @ 00:00:00 AM UTC</span>
+					</div>
+					<div class="chtmirror-comment-content">
+						<span class="chtmirror-comment-text">This is another message mirrored from a messaging protocol.</span>
+					</div>
+				</div>
+			</div>
+		</a>
+      
+		<!--COMMENT-SLOT-0002-->
+
+		<a href="https://stoat.chat/">
+			<div class="chtmirror-comment-slot">
+				<div class="chtmirror-avatar-area">
+					<img class="chtmirror-user-avatar" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>
+				</div>
+				<div class="chtmirror-comment-area">
+					<div class="chtmirror-comment-head">
+						<span class="chtmirror-comment-name"><strong>Default User</strong></span>
+						<span class="chtmirror-comment-time">2000-01-01 @ 00:00:00 AM UTC</span>
+					</div>
+					<div class="chtmirror-comment-content">
+						<span class="chtmirror-comment-text">This is a message mirrored from a messaging protocol with an image.<br><span class="chtmirror-comment-link-text">https://c.tenor.com/hOIV57wVspUAAAAd/tenor.gif</span></span>
+					</div>
+					<div class="chtmirror-comment-img-slot">
+						<img alt="Garfield breakdancing in front of John." class="chtmirror-comment-img" width="320" height="320" src="https://c.tenor.com/hOIV57wVspUAAAAd/tenor.gif"/>
+					</div>	
+				</div>
+			</div>
+		</a>
+      
+		<!--COMMENT-SLOT-0001-->
+
+		<a href="https://stoat.chat/">
+			<div class="chtmirror-comment-slot">
+				<div class="chtmirror-avatar-area">
+					<img class="chtmirror-user-avatar" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>
+				</div>
+				<div class="chtmirror-comment-area">
+					<div class="chtmirror-comment-head">
+						<span class="chtmirror-comment-name"><strong>Default User</strong></span>
+						<span class="chtmirror-comment-time">2000-01-01 @ 00:00:00 AM UTC</span>
+					</div>
+					<div class="chtmirror-comment-content">
+						<span class="chtmirror-comment-text">This is a message mirrored from a messaging protocol.</span>
+					</div>
+				</div>
+			</div>
+		</a>
+
+	</div>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This is the return button of the page.-->
+
+	<a href="https://framework.asveora.social/p/landhub-demo.html">
+		<div class="chtmirror-return-button">
+			<span class="chtmirror-lb-text-02"><b>Return to Hub</b></span>
+		</div>
+	</a>
+
+<!--HTML-END-->

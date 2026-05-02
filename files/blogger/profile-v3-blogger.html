@@ -1,0 +1,539 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+  
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+
+	.profile-v3-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-AVATAR-AREA-CLASSES*/
+  	/*Controls the position and styling of the profile avatar.*/
+  
+	.profile-v3-avatar-area{
+		margin-top: 160px;
+		text-align: center;
+	}
+  
+	.profile-v3-avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+  
+	/*SCTN-NAME-PLATE-CLASS*/
+  	/*Controls the position and styling of the name plate.*/
+  
+	.profile-v3-name-plate{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	/*SCTN-PROFILE-ID-CLASSES*/
+  	/*Controls the position and styling of the profile id bar along with its text.*/
+  
+	.profile-v3-profile-id{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-v3-id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+
+	/*SCTN-CONTACT-AREA-CLASSES*/
+  	/*Controls the position and styling of the contact buttons and the container that holds them.*/
+
+	.profile-v3-contact-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.profile-v3-contact-button{
+		background-color: var(--primary-color);
+		border-radius: 80px;
+		border: 10px solid rgb(255, 255, 255);
+		padding-top:20px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+		width: 415px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-contact-button:hover{
+		background: var(--hover-color);
+	}
+
+	.profile-v3-cb-items{
+		margin: 0 auto;
+	}
+
+	.profile-v3-cb-image{
+		float: left;
+		padding-left: 40px;
+		padding-right: 20px;
+	}
+
+	.profile-v3-cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 50px;
+		color: #ffffff;
+	}
+  
+	.profile-v3-members-button{
+		background: #ffffff;
+		border-radius: 50px;
+		padding:50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.profile-v3-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+		color: var(--primary-color);
+	}
+  
+	.profile-v3-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+		color: #ffffff;
+	}
+  
+	/*BIO-SUMMARY-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the biography summary card.*/
+
+	.profile-v3-bio-summary{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-bio-summary:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v3-bio-title{
+		text-align: left;
+	}
+  
+	.profile-v3-truncated-bio{
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	.profile-v3-bio-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+  
+	/*SCTN-ARCHIVE-SPACES-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the museum and spaces buttons.*/
+
+	.profile-v3-content-portals{
+		display: flex;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.profile-v3-museum-button{
+		background: var(--primary-color);
+		padding: 30px;
+		border-radius: 50px 0px 0px 50px;
+		width: 424px; /*If you are using Blogger, the width should be 424px. If you are using anything then it should be 440px.*/
+		text-align: center;
+		transition: 0.3s;
+	}
+
+	.profile-v3-museum-button:hover{
+		background: var(--hover-color);
+	}
+
+	.profile-v3-spaces-button{
+		background: #ffffff;
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 15px solid var(--primary-color);
+		width: 424px; /*If you are using Blogger, the width should be 424px. If you are using anything then it should be 440px.*/
+		text-align: center;
+		transition: 0.3s;
+		color: var(--primary-color);
+	}
+
+	.profile-v3-spaces-button:hover{
+		background: var(--hover-color);
+		border: 15px solid var(--hover-color);
+		color: #ffffff;
+	}
+  
+	.profile-v3-spaces-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+	}
+
+	/*SCTN-WIKI-LIBRARY-BUTTON-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the library card and the wiki entries displayed on it.*/  
+
+	.profile-v3-library-card{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-library-card:hover{
+		transform: scale(1.05);
+	}	
+  
+	.profile-v3-library-title{
+		text-align: left;
+	}
+  
+	.profile-v3-cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-v3-card-entry{
+		background: var(--primary-color);
+		border-radius: 10px;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-v3-card-img-area {
+		width: 210px;
+		height: 210px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-v3-card-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.profile-v3-card-image{
+		border-radius: 5px 5px 0px 0px;
+	}
+  
+	.profile-v3-card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 34px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LATEST-BLOG-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the most recent blog posts displayed on the main profile page.*/
+  
+	.profile-v3-blog-post{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top:60px;
+		padding: 40px 60px 60px 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-blog-post:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v3-post-summary{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+  
+	.profile-v3-post-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 48px;
+		color: #ffffff;
+	}
+  
+	.profile-v3-post-body{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+  
+	.profile-v3-post-image-area {
+		width: 100%;
+		height: 720px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-v3-post-image-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.profile-v3-post-image{
+		border-radius: 10px;
+	}
+
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.profile-v3-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		padding-top: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 60px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v3-rb-image{
+		float: left;
+		padding-left: 30px;
+		padding-right: 0px;
+	}
+ 
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-PROFILE-AVATAR-->
+	<!--Profile picture of the profile displayed at the top before all other elements on the page.-->
+
+	<div class="profile-v3-avatar-area">
+		<img alt="Black and white rings surrounding an user icon." class="profile-v3-avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="500" width="500"/>
+	</div>
+
+	<!--SCTN-PROFILE-PLATE-->
+	<!--Name plate of the profile page displaying your username as a custom wordmark image.-->
+
+	<div class="profile-v3-name-plate">
+		<img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0001.png" width="800" height="120"/>
+	</div>
+
+	<!--SCTN-PROFILE-ID-->
+	<!--Contains your Asveora Profile Code (APC). Replace the default string with your string.-->
+	
+	<div class="profile-v3-profile-id">
+		<span class="profile-v3-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+	</div>
+
+	<!--SCTN-CONTACT-BUTTONS-->
+	<!--Contact buttons that allow people to view your chat protocol presence and reach out to you.-->
+
+	<div class="profile-v3-contact-area">
+		<a href="https://stoat.chat/">
+			<div class="profile-v3-contact-button">
+				<div class="profile-v3-cb-items">
+					<img class="profile-v3-cb-image" alt="Add friend." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/add_user.png" width="60" height="60"/>
+					<span class="profile-v3-cb-text"><b>Add Friend</b></span>
+				</div>
+			</div>
+		</a>
+		<a href="https://stoat.chat/">
+			<div class="profile-v3-contact-button">
+				<div class="profile-v3-cb-items">
+					<img class="profile-v3-cb-image" alt="Send Chat." data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/chat.png" width="60" height="60"/>
+					<span class="profile-v3-cb-text"><b>Send Chat</b></span>
+				</div>
+			</div>
+		</a>
+	</div>
+
+	<!--SCTN-BIO-PREVIEW-->
+	<!--This button contains a preview of your full profile biography that when clicked goes to your full biography page.-->
+
+	<a href="https://framework.asveora.social/p/about-me.html">
+		<div class="profile-v3-bio-summary">
+			<div class="profile-v3-bio-title">
+				<span class="profile-v3-lb-text-02"><b>About Me</b></span>
+        	</div>
+			<div class="profile-v3-truncated-bio">
+				<span class="profile-v3-bio-text">This is your profile biography. Tell the network a little bit about yourself, what you like to do, what your interests are, what your favorite color is, what your biggest dreams are, and whatever other details you might find exciting to share!</span>
+        	</div>
+		</div>
+	</a>
+
+	<!--SCTN-ARCHIVE-SPACES-->
+	<!--Contains the two primary buttons that allow viewers to see all of your blogs and spaces.-->
+
+	<div class="profile-v3-content-portals">
+		<a href="https://framework.asveora.social/p/museum.html">
+			<div class="profile-v3-museum-button">
+				<span class="profile-v3-lb-text-02"><b>Museum</b></span>
+			</div>
+		</a>
+		<a href="https://framework.asveora.social/p/spaces.html">		
+			<div class="profile-v3-spaces-button">
+				<span class="profile-v3-spaces-text"><b>Spaces</b></span>
+			</div>
+		</a>
+	</div>
+
+	<!--SCTN-LIBRARY-->
+	<!--Button that leads to your library of wikis. Your latest three wiki entries can be displayed within this button by replacing the images and titles.--> 
+
+	<a href="https://framework.asveora.social/p/library.html">
+		<div class="profile-v3-library-card">
+			<div class="profile-v3-library-title">
+				<span class="profile-v3-lb-text-01"><b>Library</b></span>
+        	</div>
+          
+			<div class="profile-v3-cards-container">
+				<div class="profile-v3-card-entry">
+					<div class="profile-v3-card-img-area">
+						<img class="profile-v3-card-image" alt="Wiki Entry" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/>
+					</div>
+					<br>
+					<span class="profile-v3-card-text"><b>Wiki<br>Entry</b></span>
+				</div>
+				<div class="profile-v3-card-entry">
+					<div class="profile-v3-card-img-area">
+						<img class="profile-v3-card-image" alt="Quick Deployment" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/quick-deployment/Image-Select/Quick_Deployment_Cover_M4X.png"/>
+					</div>
+					<br>
+					<span class="profile-v3-card-text"><b>Quick<br>Deployment</b></span>
+				</div>
+				<div class="profile-v3-card-entry">
+					<div class="profile-v3-card-img-area">
+						<img class="profile-v3-card-image" alt="Versions" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/versions/Image-Select/Frame_Versions_Cover_M4X.png"/>
+					</div>
+					<br>
+					<span class="profile-v3-card-text"><b>Versions</b></span>
+				</div>
+			</div>
+		</div>
+	</a>
+
+	<!--SCTN-BLOG-POST-0001-->
+	<!--The first blog post slot where you can show one of your latest blogs. Replace the link with a link to your blog post.-->
+	<!--Replace contents within it to show display information about your blog post. Duplicate this section to add more blog post slots.-->
+
+	<a href="https://framework.asveora.social/p/blog-post-v1.html"> <!--Replace this link with a link to the page of your blog post. Feel free to delete this comment!-->
+		<div class="profile-v3-blog-post">
+			<div class="profile-v3-post-summary">
+				<div>
+					<span class="profile-v3-post-title"><b>Post Title</b></span>
+				</div>
+				<div>         
+					<span class="profile-v3-post-body">This is a blog post preview...</span>
+				</div>
+          	</div>
+          	<div class="profile-v3-post-image-area">
+				<img class="profile-v3-post-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+			</div>
+		</div>
+	</a>
+
+	<!--SCTN-BLOG-POST-0002-->
+	<!--The second blog post slot where you can show one of your latest blogs. Replace the link with a link to your blog post.-->
+	<!--Replace contents within it to show display information about your blog post. Duplicate this section to add more blog post slots.-->
+
+	<a href="https://framework.asveora.social/p/blog-post-v1.html"> <!--Replace this link with a link to the page of your blog post. Feel free to delete this comment!-->
+		<div class="profile-v3-blog-post">
+			<div class="profile-v3-post-summary">
+				<div>
+					<span class="profile-v3-post-title"><b>Post Title</b></span>
+				</div>
+				<div>         
+					<span class="profile-v3-post-body">This is a blog post preview...</span>
+				</div>
+          	</div>
+          	<div class="profile-v3-post-image-area">
+				<img class="profile-v3-post-image" alt="Blank white image." data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+			</div>
+		</div>
+	</a>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This button allows viewers to return to the wheelcore that you belong to.-->
+
+	<a href="https://framework.asveora.social/p/versions.html">
+		<div class="profile-v3-return-button">
+			<span class="profile-v3-lb-text-02"><b>Return to Versions</b></span>
+		</div>
+	</a>
+
+<!--HTML-END-->

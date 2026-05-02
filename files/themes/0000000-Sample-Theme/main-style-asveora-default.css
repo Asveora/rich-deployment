@@ -1,0 +1,6716 @@
+	
+	
+	/*COMMON-CSS*/
+	
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+
+  	body{
+		background: url('/media/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 1.4;
+	}
+
+	/*SCTN-DEFAULT-LINK-CLASS*/
+	/*Removes underlines from all links present on a page by default. They can be re-added with classes such as link-text.*/
+	
+	a{
+		text-decoration: none;
+	}
+	
+	/*SCTN-HIDE-SCROLLBAR-CLASSES*/
+	/*Hides the scrollbar from the webpage to offer a more modern look.*/
+	
+	::-webkit-scrollbar {
+		display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
+		height: 12px;
+		width: 12px;
+		background: #000000;
+	}
+				
+	::-webkit-scrollbar-thumb{
+		background: linear-gradient(#d4d4ff, #3b3bff);
+		-webkit-border-radius: 1ex;
+		-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+	}
+				
+	::-webkit-scrollbar-corner{
+		background: #000;
+	}
+				
+	.scrollable {
+		max-width: 200px;
+		max-height: 100%;
+		height: 450px;
+		/* change ` overflow: scroll ` to ` overflow: auto ` if you only want vertical scroll */
+		overflow: scroll;
+	}
+	
+	/*SCTN-NAVIGATION-BAR*/
+	/*Controls the background, color, shape, size, spacing, and orientation of the navigation bar.*/
+	
+	#navbar nav{
+		position: relative; z-index: 1000;
+		display:  flex;
+		background: rgba(0, 0, 0, 0.7);
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		width: auto;
+		margin: 0 auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		align-items: center;
+		justify-content: space-between;
+	}
+				
+	#navbar nav ul{
+		justify-content: space-evenly;
+		display: flex;
+		list-style: none;
+		padding: 0;
+		width: 500px;
+	}
+				
+	#navbar nav ul li{
+		display: flex;
+		width: 500px;
+	}
+				
+	@media (max-width:  auto){
+		#navbar nav{
+			width: auto;
+		}
+	}
+	
+	/*SCTN-NAVIGATION-BAR-LOGO*/
+	/*Controls the spacing around the navigation bar's logo.*/
+
+	.website-logo{
+		padding-top: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 19px;
+	}
+	
+	/*SCTN-NAVIGATION-BAR-LINKS*/
+	/*Controls the styling of navigation bar link text.*/
+
+	.navbar-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 30px;
+	}
+
+	a.nlink:link{
+		color:#ffffff;
+	}
+
+	a.nlink:visited{
+		color:#ffffff;
+	}
+
+	a.nlink:hover{
+		color:#ffffff;
+	}
+	
+	/*SCTN-FOOTER*/
+	/*Controls the styling and layout of the footer bar.*/
+	
+	#footer{
+		background: var(--primary-color);
+		border-radius: 50px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		margin-bottom: 150px;
+		padding-top: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 30px;
+		text-align: center;	
+	}
+  
+	.footer-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+
+	.footer-link-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
+
+	.footer-bottom-margin{
+		background: transparent;
+		height: 100px;
+	}
+	
+	/*COMMENTS-SECTION*/
+	
+	#zoomment{
+		margin-top: 60px;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.gKnrUR{
+		display: none;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.beCpri{
+		display: none;
+	}
+
+	/*Font styling for the number counter in the comment section.*/
+  
+	.gsmuov{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+  
+	/*Font styling for the word "View" in the comment section.*/
+  
+  	.jmmNHI{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+
+	/*Font styling for the word "Post" and its background in the comment section.*/
+  
+  	.jpJyCg{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 16px;
+		color: var(--secondary-color);
+		background: var(--hover-color);
+	}
+  
+  	.jpJyCg:hover{
+		background: #454545;
+	}
+
+	/*Font styling for user entered text in main comment section field.*/
+  
+  	.lmOcFQ{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+
+	/*Font styling for user entered text in user id comment section field.*/
+  
+  	.vPMAp{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+  
+	/*Font styling for comment counter under comment section field.*/
+  
+	.cAzkdF{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for border between comment counter and comments list.*/
+  
+	.lbBTjp{
+		border-bottom: 5px solid #ffffff;
+		margin-bottom: 5px;
+	}
+
+	/*Styling for comment sorting buttons.*/
+  
+	.gsniG{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+  
+	.bOCNnA{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+
+	/*Styling for comment avatars.*/
+  
+	.dHFrgi{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	/*Font styling for commenter names.*/
+  
+	.dHhnUu{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Font styling for comment date stamps.*/
+  
+	.fAeiix{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #9c9c9c;
+	}
+  
+	/*Font styling for comment body.*/
+
+	.jTeMWm{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for reply button.*/
+  
+	.cgQJCP{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #a1a1ff;
+	}
+
+	/*Font styling for "Show X reply" prompt.*/
+  
+	.jSDwIc{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9c9c9c;
+		transitioin 0.3s;
+	}
+
+	.jSDwIC:hover{
+		color: #a1a1ff;
+	}
+  
+	/*Styling for comment voting counter.*/
+  
+	.gSVtBc{
+		display: none;
+    }
+	
+	/*Styling for the 'Be the first to comment' message that displays when no comments have been posted.*/
+  
+	.gKnrUR{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px !important;
+		color: var(--hover-color) !important;
+	}
+
+	/*Font styling for the placeholder text in the comment section fields*/
+
+	#zoomment::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9e9e9e;		
+	}
+	
+	/*BLOG-POST-GRID*/
+	
+	#postsUL {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 76px; /*Change the gap to 44px if using Blogger. Change the gap to 76px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#postsUL li a {
+		text-decoration: none;
+	}
+
+	#postsUL li a:hover:not(.header) {
+	}
+	
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+
+	.search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+
+	#searchInput {
+		background-color: var(--hover-color);
+		background-position: 10px 12px;
+		background-repeat: no-repeat;
+		width: 890px; /*Change the width to 850px if using Blogger. Change the width to 890px if using anything else.*/
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		padding: 15px;
+		border: none;
+		border-radius: 15px;
+	}
+  
+	#searchUL {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 0px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 76px; /*Change the gap to 44px if using Blogger. Change the gap to 76px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#searchUL li a {
+		text-decoration: none;
+	}
+
+	#searchUL li a:hover:not(.header) {
+	}
+
+	#searchInput::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #b3b3b3;
+	}
+	
+		#searchWideInput {
+		background-color: var(--hover-color);
+		background-position: 10px 12px;
+		background-repeat: no-repeat;
+		width: 890px; /*Change the width to 850px if using Blogger. Change the width to 890px if using anything else.*/
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		padding: 15px;
+		border: none;
+		border-radius: 15px;
+	}
+  
+	#searchWideUL {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#searchWideUL li a {
+		text-decoration: none;
+	}
+
+	#searchWideUL li a:hover:not(.header) {
+	}
+
+	#searchWideInput::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #b3b3b3;
+	}
+
+	#searchWideUL li{
+		transition: 0.3s;
+	}
+
+	#searchWideUL li:hover{
+		transform: scale(1.05);
+	}
+  
+	input {
+		border: 1px solid transparent;
+		outline: none;
+		box-shadow: none;
+	}
+
+	input:focus {
+		border-color: transparent;
+		outline: none;
+		box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+	}
+
+	/*SCTN-PAGINATION-BAR*/
+  
+	#pagination {
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		gap: 19.4px;
+		list-style: none; 
+		padding: 0px;
+	}
+
+	#pagination button{
+		display: block; 
+		padding-top: 24px;
+		padding-bottom: 24px;         
+		text-decoration: none;
+		background-color: var(--primary-color);
+		flex-grow: 1;
+		border: none;
+		border-radius: 50px; 
+		font-family: helvetica, arial, sans-serif;
+		font-size: 26px;
+		font-weight: 700;
+		color: var(--secondary-color);
+	}
+  
+	#pagination button.active {
+		background-color: var(--secondary-color);
+		color: var(--primary-color);
+	}
+  
+	#pagination button.disabled {
+		color: #757575;
+		cursor: not-allowed;
+		pointer-events: none;
+	}
+  
+	.widget .post-body ul {
+		padding: 0em;
+		margin: 0em 0;
+		line-height: 1.4;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*ERROR-404-PAGE*/
+	
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.e404-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-ERROR-MESSAGE-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the error message.*/
+  
+	.e404-error-message{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 160px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+	}
+  
+	.e404-message-title{
+		text-align: left;
+	}
+  
+	.e404-message-body{
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	.e404-message-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.e404-link-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-ERROR-LINK-TEXT-CLASS*/
+	/*Controls the styling of the error message href hyperlink specifically.*/
+  
+	.e404-error-link-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+		text-decoration: underline;
+	}
+  
+	/*SCTN-FOOTER-AREA*/
+	/*Only activate this code when correcting the footer size for Blogger's custom 404 code.*/
+
+	/*
+	.footer-area{
+		width: 871px !important;
+	}
+	*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*PROFILE-HOME-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.profile-home-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-INTRO-CARD-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the intro card and its elements.*/
+
+	.profile-home-intro-card{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 40px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 60px;
+	}
+  
+	.profile-home-rss-feed-icon{
+		width: 40px;
+		height: 40px;
+		border-radius: 8px;
+		z-index: 2;
+		position: absolute;
+		margin-left: 824px;
+	}
+  
+	.profile-home-nameplate-area{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+  
+	.profile-home-avatar-bio{
+		display: flex;
+		justify-content: flex-start;
+	}
+  
+	.profile-home-avatar-area{
+		padding-right: 60px;
+	}
+  
+	.profile-home-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.profile-home-truncated-bio{
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+		text-align: left;
+		background: transparent;
+		border-radius: 25px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-truncated-bio:hover{
+		background: var(--hover-color);
+	} 
+  
+	.profile-home-intro-tb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-home-connection-area{
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-contact-button{
+		background-color: var(--primary-color);
+		border-radius: 80px;
+		border: 7px solid rgb(255, 255, 255);
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		width: 215px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-contact-button:hover{
+		background: var(--hover-color);
+	}
+
+	.profile-home-cb-items{
+		align-items: center;
+	}
+
+	.profile-home-friends-icon{
+		float: left;
+		padding-left: 40px;
+		padding-right: 10px;
+	}
+
+	.profile-home-connect-icon{
+		float: left;
+		padding-left: 35px;
+		padding-right: 10px;
+	}
+
+	.profile-home-cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PROFILE-ID-CLASSES*/
+	/*Controls the styling, spacing, color, and properties of the profile ID, alternate profile ID layout, and music button.*/
+
+	.profile-home-profile-id{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-home-id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-home-id-music-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-profile-id-alt{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		padding-top: 23px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		width: 660px;
+	}
+  
+	.profile-home-music-button-style{
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.profile-home-music-button{
+		display: flex;
+		justify-content: space-between;
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-home-music-img-area{
+		margin-right: 10px;
+	}
+  
+	.profile-home-music-img{
+		padding-top: 5px;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.profile-home-music-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+
+	}
+
+	.profile-home-music-scroll{
+		--gap: 5px;
+		display: flex;
+		overflow: hidden;
+		user-select: none;
+		width: 125px;
+		gap: var(--gap);
+		height: 40px;
+		margin-bottom: 10px;
+	}
+  
+	.profile-home-music-scroll ul{
+		list-style: none;
+		flex-shrink: 0;
+		min-width: 100%;
+		gap: 1rem;
+		display: flex;
+		justify-content: space-between;
+		animation: scroll 40s linear infinite;
+	}
+
+	@keyframes scroll {
+		to {
+			transform: translateX(calc(-100% - var(--gap)));;
+		}
+	}
+  
+	/*SCTN-BADGES-BAR-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the badges bar, badge container, and the badge name bubbles that show up on hover.*/
+  
+	.profile-home-badges-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.profile-home-badge-container{
+		width: 500px;
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-badgetip {
+		position: relative;
+		display: inline-block;
+	}
+
+	.profile-home-badgetip .profile-home-badgetiptext {
+		visibility: hidden;
+		width: 150px;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: #a1ffd5;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+		position: absolute;
+		z-index: 1;
+		bottom: 125%;
+		left: 50%;
+		margin-left: -70px;
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+
+	.profile-home-badgetip .profile-home-badgetiptext::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -10px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+	}
+
+	.profile-home-badgetip:hover .profile-home-badgetiptext {
+		visibility: visible;
+		opacity: 1;
+	}
+  
+	.profile-home-badge-token{
+		width: 50px;
+		height: 50px;
+	}
+  
+	/*SCTN-ARCHIVE-SPACES-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the museum and spaces buttons.*/
+
+	.profile-home-content-portals{
+		display: flex;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.profile-home-museum-button{
+		background: var(--primary-color);
+		padding: 25px;
+		border-radius: 50px 0px 0px 50px;
+		width: 450px; /*If you are using Blogger, the width should be 434px. If you are using anything then it should be 450px.*/
+		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-home-museum-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-home-spaces-button{
+		background: var(--secondary-color);
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 10px solid var(--primary-color);
+		width: 450px; /*If you are using Blogger, the width should be 434px. If you are using anything then it should be 450px.*/
+		text-align: center;
+		transition: 0.3s;
+		color: var(--primary-color);
+	}
+  
+	.profile-home-spaces-button:hover{
+		background: var(--hover-color);
+		border: 10px solid var(--hover-color);
+		color: #ffffff;
+	}
+  
+	.profile-home-spaces-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.profile-home-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.profile-home-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+
+	/*SCTN-WIKI-LIBRARY-BUTTON-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the library card and the wiki entries displayed on it.*/
+  
+	.profile-home-library-card{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-library-card:hover{
+		transform: scale(1.05);
+	}	
+  
+	.profile-home-library-title{
+		text-align: left;
+	}
+  
+	.profile-home-cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-card-entry{
+		background: var(--primary-color);
+		border-radius: 24px;
+		padding: 12px;
+		text-align: center;
+	}
+  
+	.profile-home-card-img-area {
+		width: 130px;
+		height: 130px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-home-card-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.profile-home-card-image{
+		border-radius: 14px 14px 0px 0px;
+	}
+  
+	.profile-home-card-text-area{
+		margin-top: 8px;
+	}
+  
+	.profile-home-card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LATEST-BLOG-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the most recent blog posts displayed on the main profile page.*/
+
+	.profile-home-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-home-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-home-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.profile-home-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.profile-home-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.profile-home-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.profile-home-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.profile-home-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.profile-home-blog-post-info{
+		text-align: left;
+	}
+
+	.profile-home-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.profile-home-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.profile-home-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.profile-home-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+ 		display: flex;
+		align-items: center;
+		transition: 0.3s;
+	}
+
+	.profile-home-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-home-rb-image{
+		float: left;
+		margin-left: 125px;
+		margin-right: 20px;
+
+	}
+  
+	/*SCTN-PROFILE-WALL*/
+	/*Determines the color, spacing, font styling, field styling, and presentation of the comment section div, its fields, and the published comments.*/
+
+	.profile-home-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.profile-home-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.profile-home-content-body{
+		margin-top: 40px;
+	}
+  
+  	.profile-home-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+
+	.profile-home-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.profile-home-comments-txt-title{
+		text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*ABOUT-ME-PAGE*/
+	
+		/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+
+	.prf-bgrphy-link-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
+  
+	/*CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.prf-bgrphy-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+  	.prf-bgrphy-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.prf-bgrphy-content-body{
+		margin-top: 40px;
+	}
+  
+  	.prf-bgrphy-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.prf-bgrphy-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.prf-bgrphy-content-img{
+		border-radius: 10px;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.prf-bgrphy-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.prf-bgrphy-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.prf-bgrphy-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*MUSEUM-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.musm-index-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.musm-index-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-BLOG-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the blog posts displayed within the index.*/
+
+	.musm-index-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+		width: 430px;
+	}
+  
+	.musm-index-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.musm-index-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.musm-index-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.musm-index-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.musm-index-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.musm-index-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.musm-index-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.musm-index-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.musm-index-blog-post-info{
+		text-align: left;
+	}
+
+	.musm-index-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.musm-index-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.musm-index-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.musm-index-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.musm-index-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.musm-index-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.musm-index-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	.musm-index-hidden-name{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*LIBRARY-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.lbry-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.lbry-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-WIKI-ENTRY-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the wiki entries displayed within the index.*/
+  
+	.lbry-wiki-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+		width: 430px;
+	}
+  
+	.lbry-wiki-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.lbry-wiki-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.lbry-wiki-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.lbry-wiki-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.lbry-wiki-post-title{
+		margin-top: 10px;
+		text-align: center;
+	}
+  
+	.lbry-wiki-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+
+	.lbry-wiki-post-info{
+		text-align: left;
+	}
+
+	.lbry-wiki-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.lbry-wiki-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.lbry-wiki-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.lbry-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.lbry-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.lbry-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.lbry-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	.lbry-hidden-name{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*SPACES-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.spcs-index-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.spcs-index-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-SPACE-ENTRY-CLASS*/
+	/*Determines the styling of the space entries displayed within the index.*/
+  
+	.spcs-index-space-entry{
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 312px; /*Change the height to 302px if using Blogger. Change the width to 312px if using anything else.*/
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.spcs-index-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.spcs-index-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.spcs-index-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.spcs-index-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	.spcs-index-hidden-name{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*UNDER-CONSTRUCTION*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.und-con-und-con-link-text{
+		color: #bdbdbd;
+	}
+
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.und-con-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+  	.und-con-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.und-con-content-body{
+		margin-top: 40px;
+	}
+  
+  	.und-con-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.und-con-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.und-con-content-img{
+		border-radius: 10px;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.und-con-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.und-con-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.und-con-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*PROFILE-V3-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+
+	.profile-v3-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-AVATAR-AREA-CLASSES*/
+  	/*Controls the position and styling of the profile avatar.*/
+  
+	.profile-v3-avatar-area{
+		margin-top: 160px;
+		text-align: center;
+	}
+  
+	.profile-v3-avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+  
+	/*SCTN-NAME-PLATE-CLASS*/
+  	/*Controls the position and styling of the name plate.*/
+  
+	.profile-v3-name-plate{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	/*SCTN-PROFILE-ID-CLASSES*/
+  	/*Controls the position and styling of the profile id bar along with its text.*/
+  
+	.profile-v3-profile-id{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-v3-id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+
+	/*SCTN-CONTACT-AREA-CLASSES*/
+  	/*Controls the position and styling of the contact buttons and the container that holds them.*/
+
+	.profile-v3-contact-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.profile-v3-contact-button{
+		background-color: var(--primary-color);
+		border-radius: 80px;
+		border: 10px solid rgb(255, 255, 255);
+		padding-top:20px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+		width: 415px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-contact-button:hover{
+		background: var(--hover-color);
+	}
+
+	.profile-v3-cb-items{
+		margin: 0 auto;
+	}
+
+	.profile-v3-cb-image{
+		float: left;
+		padding-left: 40px;
+		padding-right: 20px;
+	}
+
+	.profile-v3-cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 50px;
+		color: #ffffff;
+	}
+  
+	.profile-v3-members-button{
+		background: #ffffff;
+		border-radius: 50px;
+		padding:50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.profile-v3-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+		color: var(--primary-color);
+	}
+  
+	.profile-v3-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+		color: #ffffff;
+	}
+  
+	/*BIO-SUMMARY-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the biography summary card.*/
+
+	.profile-v3-bio-summary{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-bio-summary:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v3-bio-title{
+		text-align: left;
+	}
+  
+	.profile-v3-truncated-bio{
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	.profile-v3-bio-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+  
+	/*SCTN-ARCHIVE-SPACES-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the museum and spaces buttons.*/
+
+	.profile-v3-content-portals{
+		display: flex;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.profile-v3-museum-button{
+		background: var(--primary-color);
+		padding: 30px;
+		border-radius: 50px 0px 0px 50px;
+		width: 440px; /*If you are using Blogger, the width should be 424px. If you are using anything then it should be 440px.*/
+		text-align: center;
+		transition: 0.3s;
+	}
+
+	.profile-v3-museum-button:hover{
+		background: var(--hover-color);
+	}
+
+	.profile-v3-spaces-button{
+		background: #ffffff;
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 15px solid var(--primary-color);
+		width: 440px; /*If you are using Blogger, the width should be 424px. If you are using anything then it should be 440px.*/
+		text-align: center;
+		transition: 0.3s;
+		color: var(--primary-color);
+	}
+
+	.profile-v3-spaces-button:hover{
+		background: var(--hover-color);
+		border: 15px solid var(--hover-color);
+		color: #ffffff;
+	}
+  
+	.profile-v3-spaces-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 80px;
+	}
+
+	/*SCTN-WIKI-LIBRARY-BUTTON-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the library card and the wiki entries displayed on it.*/  
+
+	.profile-v3-library-card{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-library-card:hover{
+		transform: scale(1.05);
+	}	
+  
+	.profile-v3-library-title{
+		text-align: left;
+	}
+  
+	.profile-v3-cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-v3-card-entry{
+		background: var(--primary-color);
+		border-radius: 10px;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-v3-card-img-area {
+		width: 210px;
+		height: 210px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-v3-card-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.profile-v3-card-image{
+		border-radius: 5px 5px 0px 0px;
+	}
+  
+	.profile-v3-card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 34px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LATEST-BLOG-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the most recent blog posts displayed on the main profile page.*/
+  
+	.profile-v3-blog-post{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top:60px;
+		padding: 40px 60px 60px 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-blog-post:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v3-post-summary{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+  
+	.profile-v3-post-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 48px;
+		color: #ffffff;
+	}
+  
+	.profile-v3-post-body{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 38px;
+		color: #ffffff;
+	}
+  
+	.profile-v3-post-image-area {
+		width: 100%;
+		height: 720px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-v3-post-image-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.profile-v3-post-image{
+		border-radius: 10px;
+	}
+
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.profile-v3-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		padding-top: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 60px;
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-v3-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v3-rb-image{
+		float: left;
+		padding-left: 30px;
+		padding-right: 0px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*PROFILE-V4-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.profile-v4-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-INTRO-CARD-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the intro card and its elements.*/
+
+	.profile-v4-intro-card{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 40px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 60px;
+	}
+  
+	.profile-v4-rss-feed-icon{
+		width: 40px;
+		height: 40px;
+		border-radius: 8px;
+		z-index: 2;
+		position: absolute;
+		margin-left: 824px;
+	}
+  
+	.profile-v4-nameplate-area{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+  
+	.profile-v4-avatar-bio{
+		display: flex;
+		justify-content: flex-start;
+	}
+  
+	.profile-v4-avatar-area{
+		padding-right: 60px;
+	}
+  
+	.profile-v4-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.profile-v4-truncated-bio{
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+		text-align: left;
+		background: transparent;
+		border-radius: 25px;
+		transition: 0.3s;
+	}
+  
+	.profile-v4-truncated-bio:hover{
+		background: var(--hover-color);
+	} 
+  
+	.profile-v4-intro-tb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-v4-connection-area{
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-v4-contact-button{
+		background-color: var(--primary-color);
+		border-radius: 80px;
+		border: 7px solid rgb(255, 255, 255);
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		width: 215px;
+		transition: 0.3s;
+	}
+  
+	.profile-v4-contact-button:hover{
+		background: var(--hover-color);
+	}
+
+	.profile-v4-cb-items{
+		align-items: center;
+	}
+
+	.profile-v4-friends-icon{
+		float: left;
+		padding-left: 40px;
+		padding-right: 10px;
+	}
+
+	.profile-v4-connect-icon{
+		float: left;
+		padding-left: 35px;
+		padding-right: 10px;
+	}
+
+	.profile-v4-cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PROFILE-ID-CLASSES*/
+	/*Controls the styling, spacing, color, and properties of the profile ID, alternate profile ID layout, and music button.*/
+
+	.profile-v4-profile-id{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-v4-id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-v4-id-music-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-v4-profile-id-alt{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		padding-top: 23px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		width: 660px;
+	}
+  
+	.profile-v4-music-button-style{
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.profile-v4-music-button{
+		display: flex;
+		justify-content: space-between;
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-v4-music-img-area{
+		margin-right: 10px;
+	}
+  
+	.profile-v4-music-img{
+		padding-top: 5px;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.profile-v4-music-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+
+	}
+
+	.profile-v4-music-scroll{
+		--gap: 5px;
+		display: flex;
+		overflow: hidden;
+		user-select: none;
+		width: 125px;
+		gap: var(--gap);
+		height: 40px;
+		margin-bottom: 10px;
+	}
+  
+	.profile-v4-music-scroll ul{
+		list-style: none;
+		flex-shrink: 0;
+		min-width: 100%;
+		gap: 1rem;
+		display: flex;
+		justify-content: space-between;
+		animation: scroll 40s linear infinite;
+	}
+
+	@keyframes scroll {
+		to {
+			transform: translateX(calc(-100% - var(--gap)));;
+		}
+	}
+  
+	/*SCTN-BADGES-BAR-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the badges bar, badge container, and the badge name bubbles that show up on hover.*/
+  
+	.profile-v4-badges-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.profile-v4-badge-container{
+		width: 500px;
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-v4-badgetip {
+		position: relative;
+		display: inline-block;
+	}
+
+	.profile-v4-badgetip .profile-v4-badgetiptext {
+		visibility: hidden;
+		width: 150px;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: #a1ffd5;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+		position: absolute;
+		z-index: 1;
+		bottom: 125%;
+		left: 50%;
+		margin-left: -70px;
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+
+	.profile-v4-badgetip .profile-v4-badgetiptext::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -10px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+	}
+
+	.profile-v4-badgetip:hover .profile-v4-badgetiptext {
+		visibility: visible;
+		opacity: 1;
+	}
+  
+	.profile-v4-badge-token{
+		width: 50px;
+		height: 50px;
+	}
+  
+	/*SCTN-ARCHIVE-SPACES-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the museum and spaces buttons.*/
+
+	.profile-v4-content-portals{
+		display: flex;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.profile-v4-museum-button{
+		background: var(--primary-color);
+		padding: 25px;
+		border-radius: 50px 0px 0px 50px;
+		width: 450px; /*If you are using Blogger, the width should be 434px. If you are using anything then it should be 450px.*/
+		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-v4-museum-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v4-spaces-button{
+		background: var(--secondary-color);
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 10px solid var(--primary-color);
+		width: 450px; /*If you are using Blogger, the width should be 434px. If you are using anything then it should be 450px.*/
+		text-align: center;
+		transition: 0.3s;
+		color: var(--primary-color);
+	}
+  
+	.profile-v4-spaces-button:hover{
+		background: var(--hover-color);
+		border: 10px solid var(--hover-color);
+		color: #ffffff;
+	}
+  
+	.profile-v4-spaces-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.profile-v4-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.profile-v4-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+
+	/*SCTN-WIKI-LIBRARY-BUTTON-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the library card and the wiki entries displayed on it.*/
+  
+	.profile-v4-library-card{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-v4-library-card:hover{
+		transform: scale(1.05);
+	}	
+  
+	.profile-v4-library-title{
+		text-align: left;
+	}
+  
+	.profile-v4-cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-v4-card-entry{
+		background: var(--primary-color);
+		border-radius: 24px;
+		padding: 12px;
+		text-align: center;
+	}
+  
+	.profile-v4-card-img-area {
+		width: 130px;
+		height: 130px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-v4-card-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.profile-v4-card-image{
+		border-radius: 14px 14px 0px 0px;
+	}
+  
+	.profile-v4-card-text-area{
+		margin-top: 8px;
+	}
+  
+	.profile-v4-card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LATEST-BLOG-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the most recent blog posts displayed on the main profile page.*/
+  
+	.profile-v4-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+	}
+  
+	.profile-v4-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v4-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-v4-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.profile-v4-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.profile-v4-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.profile-v4-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.profile-v4-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.profile-v4-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.profile-v4-blog-post-info{
+		text-align: left;
+	}
+
+	.profile-v4-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.profile-v4-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.profile-v4-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.profile-v4-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+ 		display: flex;
+		align-items: center;
+		transition: 0.3s;
+	}
+
+	.profile-v4-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-v4-rb-image{
+		float: left;
+		margin-left: 125px;
+		margin-right: 20px;
+
+	}
+  
+	/*SCTN-PROFILE-WALL*/
+	/*Determines the color, spacing, font styling, field styling, and presentation of the comment section div, its fields, and the published comments.*/
+
+	.profile-v4-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.profile-v4-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.profile-v4-content-body{
+		margin-top: 40px;
+	}
+  
+  	.profile-v4-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+
+	.profile-v4-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.profile-v4-comments-txt-title{
+		text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*FRIENDS-PAGE*/
+	
+		/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.frnds-index-link-text{
+		color: #bdbdbd;
+	}
+
+  	/*SCTN-USER-ENTRY-CLASSES*/
+	/*Controls the shape, size, and styling of user avatars and usernames listed in the index.*/
+  
+	.frnds-index-avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+
+	.frnds-index-user-entry{
+		text-align: center;
+	}
+  
+	.frnds-index-user-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.frnds-index-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+  
+	.frnds-index-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		padding: 80px;
+	}
+  
+	.frnds-index-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.frnds-index-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.frnds-index-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #6666ff;		
+	}
+
+	.frnds-index-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	.frnds-index-friends-txt-title{
+		text-align: center;
+	}
+
+  	.frnds-index-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.frnds-index-content-body{
+		margin-top: 40px;
+	}
+
+  	.frnds-index-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.frnds-index-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.frnds-index-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+	.frnds-index-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.frnds-index-content-img{
+		border-radius: 10px;
+	}
+  
+	.frnds-index-download-button{
+		background: var(--hover-color);
+		border-radius: 10px;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.frnds-index-download-button:hover{
+		background: #8a8a8a;
+	}
+  
+	.frnds-index-dl-button-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.frnds-index-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.frnds-index-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.frnds-index-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.frnds-index-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+  
+	.frnds-index-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.frnds-index-hidden-name{
+		display: none;
+	}
+	
+	#searchFriendsInput {
+		background-color: var(--hover-color);
+		background-position: 10px 12px;
+		background-repeat: no-repeat;
+		width: 890px; /*Change the width to 850px if using Blogger. Change the width to 890px if using anything else.*/
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		padding: 15px;
+		border: none;
+		border-radius: 15px;
+	}
+  
+	#searchFriendsUL {
+		list-style-type: none;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		background: rgba(0, 0, 0, 0.5);
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		border-radius: 50px;
+		padding-top: 85px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 85px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 50px;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#searchFriendsUL li a {
+		text-decoration: none;
+	}
+
+	#searchFriendsUL li a:hover:not(.header) {
+	}
+
+	#searchFriendsInput::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #b3b3b3;
+	}
+	
+	/*BLOG-POST-V1*/
+	
+		/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.blg-pst-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.blg-pst-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.blg-pst-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.blg-pst-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.blg-pst-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.blg-pst-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #a3a3a3;		
+	}
+
+	.blg-pst-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.blg-pst-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.blg-pst-content-body{
+		margin-top: 40px;
+	}
+  
+  	.blg-pst-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.blg-pst-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.blg-pst-content-img{
+		border-radius: 10px;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.blg-pst-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+
+	/*SCTN-SHARE-POST-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the share post div.*/
+  
+	.blg-pst-share-post-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.blg-pst-share-txt-title{
+		text-align: center;
+	}
+
+	.blg-pst-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.blg-pst-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+	
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.blg-pst-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.blg-pst-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-COMMENT-SECTION-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the comment section div and components.*/
+  
+	.blg-pst-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.blg-pst-comments-txt-title{
+		text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*WIKI-PAGE-V1*/
+	
+	/*SCTN-HR-TAG*/
+	/*Dictates the visual style of horizontal divider lines that separate page sections.*/
+  
+	#wk-inf-page hr{
+		height: 5px;
+		background-color: var(--secondary-color);
+		color: var(--secondary-color);
+		border: none;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.wk-inf-content-area{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.wk-inf-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.wk-inf-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.wk-inf-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.wk-inf-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #a3a3a3;		
+	}
+
+	.wk-inf-content-title{
+		margin-top: 50px;
+		text-align: left;
+	}
+
+  	.wk-inf-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);	
+	}
+  
+	.wk-inf-section-title{
+		margin-top: 50px;
+		text-align: left;
+	}
+
+  	.wk-inf-section-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 40px;
+		color: var(--secondary-color);	
+	}
+  
+	.wk-inf-content-body{
+		margin-top: 50px;
+	}
+  
+	.wk-inf-table-intro-paragraph{
+		margin-top: 0px;
+	}
+  
+  	.wk-inf-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.wk-inf-link-text{
+		color: #bdbdbd;
+	}
+  
+  	.wk-inf-toc-link{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #c2c2c2;
+ 		text-decoration: underline;
+	}
+  
+	.wk-inf-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.wk-inf-content-img{
+		border-radius: 10px;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.wk-inf-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*WIKI-INFO-TABLE-CLASSES*/
+	/*Dictates the cell style, column positioning, and layout of the wiki's information table seen at the start of the page.*/
+
+	:root{
+		--table-border-color: #4a4a4a;
+		--table-title-bg-color: #000000;
+		--table-info-bg-color: #2b2b2b;
+	}
+	
+	#wiki-table-card table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.wk-inf-table{
+		width: 310px;
+	}
+  
+	.wk-inf-sub-table{
+		border-top: none;
+		table-layout: fixed;
+	}
+  
+	.wk-inf-sub-table td{
+		border-top: none;
+	}
+
+	.wk-inf-title{
+		border: 5px solid var(--table-border-color);
+		text-align: center;
+		padding: 8px;
+		background: var(--table-title-bg-color);
+	}
+  
+	.wk-inf-cell{
+		border: 5px solid var(--table-border-color);
+		text-align: left;
+		padding: 10px;
+	}
+  
+	.wk-inf-sub-cell{
+		border-top: none;
+		border: 5px solid var(--table-border-color);
+		text-align: left;
+		padding: 10px;
+		min-width: 127px;
+		background: var(--table-info-bg-color);
+	}
+  
+	.wk-inf-toc{
+		border: 5px solid var(--table-border-color);
+		text-align: left;
+		padding: 8px;
+		background: var(--table-info-bg-color);
+	}
+  
+	.wk-inf-wiki-intro-lines{
+		width: 440px;
+		padding-right: 60px;
+	}
+  
+	.wk-inf-wiki-intro-outer{
+		margin-top: 50px;
+	}
+	
+	.wk-inf-cell{
+		border: 5px solid var(--table-border-color);
+		text-align: left;
+		padding: 0px;
+	}
+	
+	.wk-inf-cover-cell{
+		border: 5px solid var(--table-border-color);
+		text-align: center;
+		background: var(--table-border-color);		
+	}
+ 
+	.wk-inf-img-area {
+		display: block;
+	}
+
+	.wk-inf-cell-image{
+		width: 100%;
+		object-fit: cover;
+		vertical-align: bottom;
+	}
+  
+	/*SCTN-SHARE-POST-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the share post div.*/
+  
+	.wk-inf-share-post-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.wk-inf-share-txt-title{
+		text-align: center;
+	}
+
+	/*SCTN-COMMENT-SECTION-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the comment section div and components.*/
+
+	.wk-inf-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.wk-inf-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+	.wk-inf-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.wk-inf-comments-txt-title{
+		text-align: center;
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.wk-inf-return-button{
+		background: #616161;
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.wk-inf-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*LANDHUB-DASHBOARD*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.lhub-dash-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-DASHBOARD-PANEL-CLASSES*/
+	/*Controls the row layout and panel styling of the dashboard area.*/
+  
+	#lhubDashPanels {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 50px; /*Change the gap to 34px if using Blogger. Change the gap to 50px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#lhubDashPanels li a {
+		text-decoration: none;
+
+	}
+
+	#lhubDashPanels li a:hover:not(.header) {
+	}
+
+	.lhub-dash-panel-object{
+		background: var(--primary-color);
+		border-radius: 50px;
+		width: 300px;
+		height: 300px;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-panel-object:hover{
+		background: var(--hover-color);
+	}
+  
+	.lhub-dash-panel-icon{
+		margin-left: 75px;
+		margin-right: 75px;  
+		padding-top: 45px;
+	}
+
+	.lhub-dash-panel-image{
+		width: 150px;
+		height: 150px;     
+	}
+
+	.lhub-dash-panel-label{
+		margin-top: 10px;
+		text-align: center;    
+	}
+
+	.lhub-dash-panel-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-SERVICES-BUTTON-CLASSES*/
+	/*Dictates the spacing, shape, styling, and layout of the services button.*/
+
+	.lhub-dash-services-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-services-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.lhub-dash-services-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-EVENT-BANNERS-AREA*/
+	/*Dictates the spacing, shape, styling, and layout of the event banners area.*/
+  
+	.lhub-dash-event-banners-area{
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.widget .post-body ul{
+		padding: 0;
+		margin: 0;
+	}
+  
+	@keyframes fader {
+		from { opacity: 1.0; }
+		to   { opacity: 0.0; }
+	}
+
+	.lhub-dash-fading-slideshow {
+		position: relative;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right: 100px;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 250px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+		padding: 0;
+		list-style-type: none;
+
+	}
+
+	.lhub-dash-fading-slideshow > a {
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 250px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+	}
+  
+	.lhub-dash-event-banner{
+		border-radius: 50px;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 250px; /*Change the height to 242px if using Blogger. Change the width to 250px if using anything else.*/
+	}
+
+	/*Current slide being displayed.*/
+
+	.lhub-dash-fading-slideshow > a:first-of-type {
+		animation-name: fader;
+		animation-delay: 2s;
+		animation-duration: 1s;
+		z-index: -1;
+	}
+
+	/*The next slide that is queued to display.*/
+
+	.lhub-dash-fading-slideshow > li:nth-of-type(2) {
+		z-index: -2;
+	}
+
+	/*Controls all other slides.*/
+
+	.lhub-dash-fading-slideshow > li:nth-of-type(n+3) {
+		display: none;
+	}
+  
+	/*SCTN-SEASON-ART-CLASSES*/
+	/*Dictates the spacing, shape, styling, and Z-order of the season art div and its elements.*/
+  
+	.lhub-dash-season-art-text-top{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 72px;
+		color: var(--secondary-color);
+	}
+  
+	.lhub-dash-season-art-text-bottom{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 33px;
+		color: var(--secondary-color);
+	}
+  
+	.lhub-dash-season-art-panel{
+		background: var(--primary-color);
+		margin-top: 40px;
+		width: 1000px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 561px; /*Change the height to 544px if using Blogger. Change the width to 561px if using anything else.*/
+		position: relative;
+		border-radius: 50px;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-season-art-panel:hover{
+ 		background: var(--hover-color);
+	}
+
+	.lhub-dash-season-art-panel video {
+		width: 940px; /*Change the width to 907.5px if using Blogger. Change the width to 940px if using anything else.*/
+		height: 501px; /*Change the height to 484px if using Blogger. Change the width to 501px if using anything else.*/
+		margin-top: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+		position: absolute;
+		object-fit: cover;
+		z-index: 0;
+		border-radius: 25px;
+		opacity: 0.4;
+	}
+
+	.lhub-dash-video-overlay {
+		z-index: 1;
+		position: relative;
+		text-align: center;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+		padding-top: 120px;
+	}
+  
+	/*SCTN-FEATURED-SPACES*/
+	/*Dictates the size and layout of the featured spaces region along with the individual panels within.*/
+ 	/*Every panel has its own background which displays the cover art of the community.*/
+  
+	.lhub-dash-spaces-title{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.lhub-dash-spaces-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	.lhub-dash-featured-space{
+		margin-top: 0px;
+		padding: 16px;
+		border-radius: 50px;
+		height: 450px;
+		width: 268px;
+		transition: 0.3s;
+	}
+  
+	.lhub-dash-featured-space:hover{
+		transform: scale(1.05);
+	}
+  
+	#lhubDashFSpaces {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 50px; /*Change the gap to 34px if using Blogger. Change the gap to 50px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	#lhubDashFSpaces li {
+		margin-bottom: 5px;
+	}
+
+	#lhubDashFSpaces li a {
+		text-decoration: none;
+
+	}
+
+	#lhubDashFSpaces li a:hover:not(.header) {
+	}
+  
+	.widget .post-body li{
+		list-style-type: none;
+		padding: 0em;
+		margin: 0em 0;
+		line-height: 1.4;
+	}
+  
+	.lhub-dash-space-0001{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0002{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0003{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0004{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0005{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-space-0006{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.lhub-dash-fspace-title{
+		margin-top: 320px;
+		text-align: center;
+	}
+  
+	.lhub-dash-fspace-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	/*SCTN-NETWORK-MEMBER-COUNT-CLASSES*/
+	/*Controls the spacing, padding, colors, and layout of the network members counter bar*/
+  
+	.lhub-dash-members-online-bar{
+		background: rgba(255, 255, 255, 0.2);
+		box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(7px);
+		-webkit-box-shadow: inset 0 0 30px #ffffff;
+		-moz-box-shadow: inset 0 0 30px #ffffff;
+		border: 1px solid rgba(255, 255, 255, 0.6);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-left: auto;
+		padding-top: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 18px;
+		display: flex;
+		justify-content: space-between;
+	}
+  
+	.lhub-dash-mbo-area-01{
+		background: transparent;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.lhub-dash-mbo-sub-area-01{
+		background: transparent;
+	}
+  
+  
+	.lhub-dash-mbo-sub-area-02{
+		background: transparent;
+		margin-left: 25px;
+	}
+  
+	.lhub-dash-mbo-area-02{
+		background: transparent;
+		display: flex;
+		gap: 20px;
+	}
+
+	.lhub-dash-members-online-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.lhub-dash-platform-icon{
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.lhub-dash-pulse{
+    	background: rgb(207, 255, 207);
+    	border-radius: 50%;
+   		height: 40px;
+    	width: 40px;
+		box-shadow: 0 0 0 0 rgba(207, 255, 207, 1);
+		transform: scale(1);
+		animation: pulse 2s infinite;
+	}
+
+	@keyframes pulse{
+    	0%{
+        	transform: scale(0.95);
+        	box-shadow: 0 0 0 0 rgba(207, 255, 207, 0.7);
+    	}
+
+    	70%{
+        	transform: scale(1);
+        	box-shadow: 0 0 0 15px rgba(207, 255, 207, 0);
+    	}
+
+    	100%{
+        	transform: scale(0.95);
+        	box-shadow: 0 0 0 0 rgba(207, 255, 207, 0);
+    	}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*FEATURED-FEED-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.ftfeed-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.ftfeed-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SPOTLIGHT-POST-CLASSES*/
+	/*Controls the spacing, shadows, sizing, cover image, and styling of the spotlight post.*/
+
+	.ftfeed-spotlight-preview{
+		margin-top: 50px;
+		padding: 16px;
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		border-radius: 50px;
+		height: 562px;
+		transition: 0.3s;
+	}
+  
+	.ftfeed-spotlight-preview:hover{
+		transform: scale(1.05);
+	}
+  
+	.ftfeed-spotlight-title{
+		margin-top: 380px;
+		margin-left: 20px;
+		text-align: left;
+	}
+  
+	.ftfeed-spotlight-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+
+	.ftfeed-spotlight-info{
+		margin-left: 20px;
+		text-align: left;
+	}
+
+	.ftfeed-spotlight-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.ftfeed-spotlight-body{
+		text-align: left;
+		margin-bottom: 30px;
+
+	}
+
+	.ftfeed-spotlight-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	.ftfeed-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+		width: 430px;
+	}
+  
+	.ftfeed-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.ftfeed-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.ftfeed-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.ftfeed-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.ftfeed-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.ftfeed-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.ftfeed-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.ftfeed-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.ftfeed-blog-post-info{
+		text-align: left;
+	}
+
+	.ftfeed-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.ftfeed-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.ftfeed-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.ftfeed-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.ftfeed-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.ftfeed-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.ftfeed-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*STATIC-FEED-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.statfeed-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.statfeed-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.statfeed-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+		width: 430px;
+	}
+  
+	.statfeed-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.statfeed-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.statfeed-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.statfeed-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.statfeed-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.statfeed-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.statfeed-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.statfeed-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.statfeed-blog-post-info{
+		text-align: left;
+	}
+
+	.statfeed-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.statfeed-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.statfeed-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.statfeed-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.statfeed-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.statfeed-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.statfeed-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*SPACES-NAVMIRO-STYLE-PAGE*/
+	
+		/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.nvmr-spcs-link-text{
+		color: #bdbdbd;
+	}
+
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.nvmr-spcs-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-SPACE-ENTRY-CLASSES*/
+	/*Determines the styling of the space entries displayed within the index.*/
+	/*Every space has its own class in navmiro style indexes since community cover images are treated as div backgrounds.*/
+
+	#nvmrSpaces {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 0px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1050px; /*Change the width to 1002px if using Blogger. Change the width to 1050px if using anything else.*/
+	}
+
+	#nvmrSpaces li a {
+		text-decoration: none;
+	}
+
+	#nvmrSpaces li a:hover:not(.header) {
+	}
+	
+	.nvmr-spcs-spaces-title{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.nvmr-spcs-spaces-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	.nvmr-spcs-space-slot{
+		margin-top: 40px;
+		padding: 16px;
+		border-radius: 50px;
+		height: 450px;
+		width: 268px;
+		transition: 0.3s;
+	}
+  
+	.nvmr-spcs-space-slot:hover{
+		transform: scale(1.05);
+	}
+  
+	.nvmr-spcs-space-000000006{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.nvmr-spcs-space-000000005{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.nvmr-spcs-space-000000004{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.nvmr-spcs-space-000000003{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.nvmr-spcs-space-000000002{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.nvmr-spcs-space-000000001{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 1),
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('/media/CardTile/Communities/Common-Template-Bin/Navmiro_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.nvmr-spcs-fspace-title{
+		margin-top: 320px;
+		text-align: center;
+	}
+  
+	.nvmr-spcs-fspace-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.nvmr-spcs-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.nvmr-spcs-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+	
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.nvmr-spcs-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.nvmr-spcs-return-button:hover{
+ 		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.nvmr-spcs-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.nvmr-spcs-hidden-name{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*CONSTITUTION-PAGE*/
+	
+		.cnstttn-content-area{
+		background: url('https://cdn.asveora.social/Content/Wikis/constitution/Image-Select/Parchment_CMS.jpg') no-repeat center center fixed;
+		background-size: 100% 100%;
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.cnstttn-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.cnstttn-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.cnstttn-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.cnstttn-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #6666ff;		
+	}
+  
+	.cnstttn-constitution-header{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	.cnstttn-constitution-header-alt{
+		text-align: center;
+	}
+
+	.cnstttn-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.cnstttn-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.cnstttn-content-body{
+		margin-top: 40px;
+	}
+  
+  	.cnstttn-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.cnstttn-section-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #9e9e9e;
+	}
+  
+	.cnstttn-link-text{
+		color: #bdbdbd;
+	}
+  
+	.cnstttn-link-text:hover{
+		text-decoration: underline;
+		text-decoration-color: #bdbdbd;
+		text-decoration-thickness: 3px;
+	}
+  
+	.cnstttn-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.cnstttn-content-img{
+		border-radius: 10px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.cnstttn-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.cnstttn-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.cnstttn-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*COMMUNITY-PAGE*/
+	
+		/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.cmmty-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.cmmty-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.cmmty-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.cmmty-logomark-img-slot{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.cmmty-latest-news-img-slot{
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.cmmty-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.cmmty-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.cmmty-content-body{
+		margin-top: 40px;
+	}
+  
+  	.cmmty-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.cmmty-community-tags{
+		color: #ffac54;
+	}
+  
+	.cmmty-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.cmmty-content-img{
+		border-radius: 10px;
+	}
+  
+	.cmmty-join-button{
+		background: var(--hover-color);
+		border-radius: 10px;
+		margin-top: 60px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.cmmty-join-button:hover{
+		background: #8a8a8a;
+	}
+  
+	.cmmty-join-button-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.cmmty-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.cmmty-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	.cmmty-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+	}
+  
+	.cmmty-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.cmmty-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.cmmty-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.cmmty-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.cmmty-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.cmmty-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.cmmty-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.cmmty-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.cmmty-blog-post-info{
+		text-align: left;
+	}
+
+	.cmmty-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.cmmty-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.cmmty-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-FORUM-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+  
+	.cmmty-forum-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.cmmty-forum-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.cmmty-forum-link{
+		text-decoration: underline;
+		color: #ffffff;
+    }
+  
+	#cmmtyForums table{
+		margin-top: 40px;
+		border-collapse: collapse;
+		width: 100%;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		table-layout: fixed;
+	}
+
+	#cmmtyForums td, th{
+		border: 5px solid var(--secondary-color);
+		text-align: left;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+
+	#cmmtyForums th{
+		background: #242424;
+    }
+  
+	#cmmtyForums td{
+		background: #363636;
+    }
+
+	/*SCTN-SHARE-POST-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the share post div.*/
+  
+	.cmmty-share-post-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.cmmty-share-txt-title{
+		text-align: center;
+	}
+
+	.cmmty-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.cmmty-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.cmmty-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.cmmty-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-COMMENT-SECTION-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the comment section div and components.*/
+  
+	.cmmty-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.cmmty-comments-txt-title{
+		text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*BLACKLIST-PAGE*/
+	
+		/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.blklist-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.blklist-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.blklist-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.blklist-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.blklist-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.blklist-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+  
+	.blklist-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.blklist-hidden-name{
+		display: none;
+	}
+  
+	#searchInput {
+		background-color: var(--hover-color);
+		background-position: 10px 12px;
+		background-repeat: no-repeat;
+		width: 890px; /*Change the width to 850px if using Blogger. Change the width to 890px if using anything else.*/
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		padding: 15px;
+		border: none;
+		border-radius: 15px;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.blklist-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+
+	.blklist-content-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+
+  	.blklist-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.blklist-content-subtitle{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+  	.blklist-content-subtitle-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 25px;
+		color: #6e6e6e;		
+	}
+
+	.blklist-content-body-first{
+		margin-top: 0px;
+		text-align: left;
+	}
+
+	.blklist-content-body{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.blklist-centered-body{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+  	.blklist-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	/*SCTN-ENTRY-CLASSES*/
+	/*Dictates the styling, spacing, and layout of entry cards in the blacklist index.*/
+  
+	.blklist-card-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding-top: 10px;
+		padding-left: 40px;
+		padding-right: 40px;  
+		padding-bottom: 50px;
+	}
+
+	.blklist-comment-slot{
+		margin-top: 40px;
+		border-radius: 20px;
+		padding: 15px;
+		background: transparent;
+    }
+
+	.blklist-avatar-area{
+		float: left;
+		margin-right: 20px;
+		display: table-cell;
+	}
+
+	.blklist-user-avatar{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	.blklist-comment-area{
+		width: 700px;
+		display: table-cell;
+	}
+
+	.blklist-comment-head{
+		margin-top: 0px;
+	}
+
+	.blklist-comment-name{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #DCDCDC;
+		margin-right: 10px;
+	}
+  
+	.blklist-comment-time{
+		font-family: Inter, arial, sans-serif;
+		font-size: 24px;
+		color: #b0b0b0;
+	}
+  
+	.blklist-comment-content{
+		margin-top: 0px;
+	}
+  
+	.blklist-comment-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.blklist-comment-link-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #b8b8ff;
+		text-decoration: underline;
+	}
+  
+	.blklist-comment-img-slot{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.blklist-comment-img{
+		border-radius: 10px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*AGE-VERIFICATION-PAGE*/
+	
+		/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.age-verify-link-text{
+		color: #bdbdbd;
+	}
+
+  	/*SCTN-USER-ENTRY-CLASSES*/
+	/*Controls the shape, size, and styling of user avatars and usernames listed in the index.*/
+  
+	.age-verify-avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+
+	.age-verify-user-entry{
+		text-align: center;
+	}
+  
+	.age-verify-user-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.age-verify-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+  
+	.age-verify-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		padding: 80px;
+	}
+  
+	.age-verify-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.age-verify-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.age-verify-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #6666ff;		
+	}
+
+	.age-verify-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	.age-verify-friends-txt-title{
+		text-align: center;
+	}
+
+  	.age-verify-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.age-verify-content-body{
+		margin-top: 0px;
+	}
+
+  	.age-verify-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.age-verify-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.age-verify-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+	.age-verify-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.age-verify-content-img{
+		border-radius: 10px;
+	}
+  
+	.age-verify-response-button{
+		background: var(--hover-color);
+		border-radius: 10px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.age-verify-response-button:hover{
+		background: #8a8a8a;
+	}
+  
+	.age-verify-rs-button-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.age-verify-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.age-verify-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.age-verify-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.age-verify-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+  
+	.age-verify-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.age-verify-hidden-name{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*WHEELCORES-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.whlcrs-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.whlcrs-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-SPACE-ENTRY-CLASS*/
+	/*Determines the styling of the space entries displayed within the index.*/
+  
+	.whlcrs-space-entry{
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 968px; /*Change the width to 968px if using Blogger. Change the width to 1000px if using anything else.*/
+		height: 302px; /*Change the height to 302px if using Blogger. Change the width to 312px if using anything else.*/
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.whlcrs-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.whlcrs-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.whlcrs-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.whlcrs-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+  
+	.whlcrs-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.whlcrs-hidden-name{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*QUICK-DEPLOYMENT-PAGE*/
+
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.qkdeploy-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-AVATAR-AREA-CLASSES*/
+	/*Controls the spacing, cropping, and padding of your profile picture.*/
+  
+	.qkdeploy-avatar-area{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 150px;
+    }
+  
+	.qkdeploy-avatar-dec{
+		width: 400px;
+		height: 400px;
+		border-radius: 50%;
+		border: 20px solid var(--primary-color);
+	}
+  
+	/*SCTN-NAMEPLATE-CLASSES*/
+	/*Controls the spacing, cropping, and padding of your nameplate.*/
+  
+	.qkdeploy-nameplate-area{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 10px;
+    }
+  
+	.qkdeploy-nameplate-dec{
+		width: 800px;
+		height: 120px;
+	}
+  
+	/*SCTN-PROFILE-ID-CLASSES*/
+	/*Controls the styling, spacing, color, and properties of your profile ID.*/
+
+	.qkdeploy-profile-id{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.qkdeploy-id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PROFILE-BIO-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.qkdeploy-profile-bio-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+
+	.qkdeploy-content-title-left{
+		margin-top: 0px;
+		text-align: left;
+	}
+  
+	.qkdeploy-content-title-center{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.qkdeploy-content-title-right{
+		margin-top: 0px;
+		text-align: right;
+	}
+
+  	.qkdeploy-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+  	.qkdeploy-content-subtitle-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);		
+	}
+  
+	.qkdeploy-content-body-left{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.qkdeploy-content-body-center{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.qkdeploy-content-body-right{
+		margin-top: 40px;
+		text-align: right;
+	}
+  
+  	.qkdeploy-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.qkdeploy-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.qkdeploy-content-img{
+		border-radius: 10px;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.qkdeploy-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.qkdeploy-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+ 		display: flex;
+		align-items: center;
+		transition: 0.3s;
+	}
+
+	.qkdeploy-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.qkdeploy-rb-image{
+		float: left;
+		margin-left: 140px;
+		margin-right: 20px;
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*STOREFRONT-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.stfront-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.stfront-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.stfront-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.stfront-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.stfront-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.stfront-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #a3a3a3;		
+	}
+
+	.stfront-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.stfront-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.stfront-content-body{
+		margin-top: 40px;
+	}
+  
+  	.stfront-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.stfront-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.stfront-content-img{
+		border-radius: 10px;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+  
+	.stfront-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-SERVICE-OFFERINGS*/
+	/*Dictates the size and layout of the featured spaces region along with the individual panels within.*/
+ 	/*Every panel has its own background which displays the cover art of the community.*/
+  
+	.stfront-storefront-title{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.stfront-storefront-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	#stFrontListings {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 0px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+		width: 900px; /*If you are using Blogger, the width should be 852px. If you are using anything else, it should be 900px.*/
+	}
+
+	#stFrontListings li a {
+		text-decoration: none;
+	}
+
+	#stFrontListings li a:hover:not(.header) {
+	}
+  
+	.stfront-offering-tile{
+		margin-top: 40px;
+		padding: 16px;
+		border-radius: 10px;
+		height: 350px;
+		width: 208px;
+		transition: 0.3s;
+	}
+  
+	.stfront-offering-tile:hover{
+		transform: scale(1.05);
+	}
+  
+	.stfront-offering-0001{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.4),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/PageBin/storefront/Image-Select/Services_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.stfront-offering-0002{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.4),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/PageBin/storefront/Image-Select/Services_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.stfront-offering-0003{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.4),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/PageBin/storefront/Image-Select/Services_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.stfront-offering-0004{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.4),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/PageBin/storefront/Image-Select/Services_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.stfront-offering-0005{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.4),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/PageBin/storefront/Image-Select/Services_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.stfront-offering-0006{
+		background: 
+			linear-gradient(
+				0deg, 
+				rgba(0, 0, 0, 0.8),
+				rgba(0, 0, 0, 0.6),
+				rgba(0, 0, 0, 0.4),
+				rgba(0, 0, 0, 0.2),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0),
+				rgba(255, 255, 255, 0)
+			),
+			url('https://cdn.asveora.social/PageBin/storefront/Image-Select/Services_Covers_Template_M4X.png');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+  
+	.stfront-offering-price{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.stfront-offering-price-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 44px;
+	}
+  
+	.stfront-offering-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+	.stfront-offering-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 34px;
+	}
+  
+	.stfront-offering-details{
+		margin-top: 20px;
+		text-align: left;
+	}
+  
+  	.stfront-offering-details-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);		
+	}
+
+	/*SCTN-SHARE-POST-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the share post div.*/
+  
+	.stfront-share-post-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.stfront-share-txt-title{
+		text-align: center;
+	}
+
+	.stfront-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.stfront-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.stfront-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.stfront-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-COMMENT-SECTION-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the comment section div and components.*/
+  
+	.stfront-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.stfront-comments-txt-title{
+		text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*MARKETPLACE-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+
+	.mktplace-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.mktplace-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-BLOG-POST-CLASSES*/
+	/*Determines the styling and information layout of marketplace listings. This is based on the same code as blog post previews.*/
+
+	.mktplace-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+		width: 430px;
+	}
+  
+	.mktplace-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.mktplace-blog-post-img-area {
+		width: 430px; 
+		height: 240px; 
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.mktplace-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.mktplace-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.mktplace-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.mktplace-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		transition: 0.3s;
+	}
+  
+	.mktplace-blog-post-title-text:hover{
+		text-decoration: underline;
+	}
+  
+	.mktplace-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+
+	.mktplace-blog-post-info{
+		text-align: left;
+	}
+
+	.mktplace-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	.mktplace-star-ratings-box{
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+  
+	.mktplace-star-rating{
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+	}
+
+	.mktplace-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.mktplace-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	.mktplace-reviews-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		transition: 0.3s;
+	}
+  
+	.mktplace-reviews-text:hover{
+		text-decoration: underline;
+	}
+  
+	.mktplace-sales-strike{
+		color: #7a7a7a;
+		text-decoration: line-through;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.mktplace-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.mktplace-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.mktplace-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.mktplace-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+
+	.mktplace-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.mktplace-hidden-name{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*ID-INDEX-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.idfc-indx-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.idfc-indx-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.idfc-indx-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.idfc-indx-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.idfc-indx-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.idfc-indx-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+  
+	.idfc-indx-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.idfc-indx-hidden-name{
+		display: none;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.idfc-indx-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+
+	.idfc-indx-content-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+
+  	.idfc-indx-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.idfc-indx-content-subtitle{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+  	.idfc-indx-content-subtitle-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 25px;
+		color: #6e6e6e;		
+	}
+
+	.idfc-indx-content-body-first{
+		margin-top: 0px;
+		text-align: left;
+	}
+
+	.idfc-indx-content-body{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.idfc-indx-centered-body{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+  	.idfc-indx-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.idfc-indx-star-ratings-box{
+	}
+  
+	.idfc-indx-star-rating{
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+	}
+  
+	/*SCTN-ENTRY-CLASSES*/
+	/*Dictates the styling, spacing, and layout of entry cards in the database index.*/
+  
+	.idfc-indx-card-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 25px;
+		padding-top: 15px;
+		padding-left: 40px;
+		padding-right: 40px;  
+		padding-bottom: 15px;
+	}
+  
+	.idfc-indx-card-area:hover{ 
+		background: var(--hover-color);
+	}
+  
+	.idfc-indx-card-content{
+		margin-top: 0px;
+		text-align: left;
+	}
+
+	.idfc-indx-comment-slot{
+		margin-top: 40px;
+		border-radius: 20px;
+		padding: 15px;
+		background: transparent;
+    }
+
+	.idfc-indx-avatar-area{
+		float: left;
+		margin-right: 20px;
+		display: table-cell;
+	}
+
+	.idfc-indx-user-avatar{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	.idfc-indx-comment-area{
+		width: 700px;
+		display: table-cell;
+	}
+
+	.idfc-indx-comment-head{
+		margin-top: 0px;
+	}
+
+	.idfc-indx-comment-name{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #DCDCDC;
+		margin-right: 10px;
+	}
+  
+	.idfc-indx-comment-time{
+		font-family: Inter, arial, sans-serif;
+		font-size: 24px;
+		color: #958F90;
+	}
+  
+	.idfc-indx-comment-content{
+		margin-top: 0px;
+	}
+  
+	.idfc-indx-comment-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.idfc-indx-comment-link-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #b8b8ff;
+		text-decoration: underline;
+	}
+  
+	.idfc-indx-comment-img-slot{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.idfc-indx-comment-img{
+		border-radius: 10px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*REDIRECT-PAGE*/
+
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.redirect-link-text{
+		color: #bdbdbd;
+	}
+
+  	/*SCTN-USER-ENTRY-CLASSES*/
+	/*Controls the shape, size, and styling of user avatars and usernames listed in the index.*/
+  
+	.redirect-avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+
+	.redirect-user-entry{
+		text-align: center;
+	}
+  
+	.redirect-user-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.redirect-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+  
+	.redirect-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		padding: 80px;
+	}
+  
+	.redirect-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.redirect-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.redirect-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #6666ff;		
+	}
+
+	.redirect-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	.redirect-friends-txt-title{
+		text-align: center;
+	}
+
+  	.redirect-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.redirect-content-body{
+		margin-top: 0px;
+	}
+
+  	.redirect-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.redirect-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.redirect-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+	.redirect-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.redirect-content-img{
+		border-radius: 10px;
+	}
+  
+	.redirect-response-button{
+		background: var(--hover-color);
+		border-radius: 10px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.redirect-response-button:hover{
+		background: #8a8a8a;
+	}
+  
+	.redirect-rs-button-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.redirect-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.redirect-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.redirect-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.redirect-return-button:hover{
+		background: var(--hover-color);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*VERSIONS-PAGE*/
+	
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.asvfrw-ver-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.asvfrw-ver-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		padding: 80px;
+	}
+  
+	.asvfrw-ver-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.asvfrw-ver-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.asvfrw-ver-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.asvfrw-ver-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #a3a3a3;		
+	}
+
+	.asvfrw-ver-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.asvfrw-ver-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.asvfrw-ver-content-body{
+		margin-top: 40px;
+	}
+  
+	.asvfrw-ver-centered-body{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.asvfrw-ver-category-button{
+		background: #8a8a8a;
+		margin-top: 40px;
+		padding: 20px;
+		border-radius: 10px;
+		text-align: left;
+		transition: 0.3s;
+	}
+  
+	.asvfrw-ver-category-button:hover{
+		background: #363636;
+	}
+  
+  	.asvfrw-ver-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+  	.asvfrw-ver-lead-quote-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+  
+  	.asvfrw-ver-section-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);		
+	}
+  
+	.asvfrw-ver-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.asvfrw-ver-content-img{
+		border-radius: 10px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+  
+	.asvfrw-ver-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-SHARE-POST-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the share post div.*/
+  
+	.asvfrw-ver-share-post-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.asvfrw-ver-share-txt-title{
+		text-align: center;
+	}
+
+	.asvfrw-ver-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.asvfrw-ver-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+  
+	.asvfrw-ver-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.asvfrw-ver-return-button:hover{
+		background: var(--hover-color);
+	}
+
+	/*SCTN-COMMENT-SECTION-CLASSES*/
+
+	.asvfrw-ver-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.asvfrw-ver-comments-txt-title{
+		text-align: center;
+	}

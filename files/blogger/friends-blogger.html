@@ -1,0 +1,918 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.frnds-index-link-text{
+		color: #bdbdbd;
+	}
+
+  	/*SCTN-USER-ENTRY-CLASSES*/
+	/*Controls the shape, size, and styling of user avatars and usernames listed in the index.*/
+  
+	.frnds-index-avatar-dec{
+		border: 0;
+		border-radius: 100%;
+	}
+
+	.frnds-index-user-entry{
+		text-align: center;
+	}
+  
+	.frnds-index-user-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 32px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+
+	.frnds-index-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+  
+	.frnds-index-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 60px;
+		padding: 80px;
+	}
+  
+	.frnds-index-author-tag{
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+		align-items: center;
+	}
+  
+	.frnds-index-publishing-date{
+		margin-top: 10px;
+	}
+  
+  	.frnds-index-publishing-date-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #6666ff;		
+	}
+
+	.frnds-index-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+  
+	.frnds-index-friends-txt-title{
+		text-align: center;
+	}
+
+  	.frnds-index-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.frnds-index-content-body{
+		margin-top: 40px;
+	}
+
+  	.frnds-index-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	.frnds-index-code-block{
+		margin-top: 40px;
+		background: #1c1c1c;
+ 		border-left: 8px solid var(--secondary-color);
+		border-radius: 10px;
+		padding-left: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: clip;
+	}
+  
+	.frnds-index-code-block-text{
+		font-family: consolas, "Courier New", Courier, monospace;
+		font-size: 22px;
+		color: var(--secondary-color);
+	}
+  
+	.frnds-index-content-img-slot{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+	.frnds-index-content-img{
+		border-radius: 10px;
+	}
+  
+	.frnds-index-download-button{
+		background: var(--hover-color);
+		border-radius: 10px;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.frnds-index-download-button:hover{
+		background: #8a8a8a;
+	}
+  
+	.frnds-index-dl-button-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.frnds-index-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.frnds-index-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.frnds-index-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.frnds-index-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+  
+	.frnds-index-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.frnds-index-hidden-name{
+		display: none;
+	}
+
+	#searchFriendsInput {
+		background-color: var(--hover-color);
+		background-position: 10px 12px;
+		background-repeat: no-repeat;
+		width: 850px; /*Change the width to 850px if using Blogger. Change the width to 890px if using anything else.*/
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		padding: 15px;
+		border: none;
+		border-radius: 15px;
+	}
+  
+	#searchFriendsUL {
+		list-style-type: none;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		background: rgba(0, 0, 0, 0.5);
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		border-radius: 50px;
+		padding-top: 85px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 85px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 50px;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#searchFriendsUL li a {
+		text-decoration: none;
+	}
+
+	#searchFriendsUL li a:hover:not(.header) {
+	}
+
+	#searchFriendsInput::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #b3b3b3;
+	}
+  
+	input {
+		border: 1px solid transparent;
+		outline: none;
+		box-shadow: none;
+	}
+
+	input:focus {
+		border-color: transparent;
+		outline: none;
+		box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+	}
+
+	/*SCTN-PAGINATION-BAR*/
+  
+	#pagination {
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		gap: 19.4px;
+		list-style: none; 
+		padding: 0px;
+	}
+
+	#pagination button{
+		display: block; 
+		padding-top: 24px;
+		padding-bottom: 24px;         
+		text-decoration: none;
+		background-color: var(--primary-color);
+		flex-grow: 1;
+		border: none;
+		border-radius: 50px; 
+		font-family: helvetica, arial, sans-serif;
+		font-size: 26px;
+		font-weight: 700;
+		color: var(--secondary-color);
+	}
+  
+	#pagination button.active {
+		background-color: var(--secondary-color);
+		color: var(--primary-color);
+	}
+  
+	#pagination button.disabled {
+		color: #757575;
+		cursor: not-allowed;
+		pointer-events: none;
+	}
+  
+	.widget .post-body ul {
+		padding: 0em;
+		margin: 0em 0;
+		line-height: 1.4;
+	}
+
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+          
+	<!--SCTN-TITLE-BANNER-->
+	<!--Page banner that sits at the top before all other content on the page.-->
+
+	<div class="frnds-index-title-banner">
+		<span class="frnds-index-lb-text-01"><b>Friends List</b></span>
+	</div>
+
+	<!--SCTN-SEARCH-FIELD-->
+	<!--Search field where users can search for a certain piece of content by its tagged hidden name. Change the placeholder text based on what kind of index page you are building.-->
+	<!--For example since this page is for storing an index of friends it has the placeholder text of 'Search for Friends...' as the default string in the field.-->
+
+	<div class="frnds-index-search-box-area">
+		<input type="text" id="searchFriendsInput" onkeyup="searchFunction()" placeholder="Search for Friends... (Serving 9 Most Recent Results Per Page)" title="Type in an Username">
+	</div>
+      
+	<ul id="searchFriendsUL">
+
+		<!--USER-SLOT-000000018-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000017-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000016-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000015-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000014-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000013-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000012-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000011-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000010-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000009-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000008-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000007-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000006-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000005-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000004-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000003-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000002-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+      
+		<!--USER-SLOT-000000001-->
+    
+		<li id="asveora-framework">
+			<a href="https://framework.asveora.social/">
+				<div class="frnds-index-user-entry">
+					<span class="frnds-index-hidden-name">Asveora Framework</span>
+					<img class="frnds-index-avatar-dec" alt="Asveora Social" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>	
+					<br>
+					<span class="frnds-index-user-text"><b>Asveora<br>Framework</b></span>
+				</div>
+			</a>
+		</li>
+
+	</ul>
+
+	<!--SCTN-PAGINATION-BAR-->
+	<!--Pagination navigation that allows visitors to search through divided pages of content.-->
+
+	<div id="pagination"></div>
+
+	<!--SCTN-CONTENT-BODY-->
+	<!--This is the secondary div containing the download button and code preview of your friends list.-->
+
+	<div class="frnds-index-content-area">
+          
+		<!--POST-CONTENT-->         
+          
+		<div class="frnds-index-friends-txt-title">
+			<span class="frnds-index-content-title-text"><b>Friends.txt</b></span>
+		</div>
+		<div class="frnds-index-content-body">
+			<span class="frnds-index-content-body-text">Download the following text file, copy the contents out of it, and paste it below the code of your friends list on your friends page within your profile space in order to update your own mirror of the friends list. If the download button opens a new tab displaying the file in your browser, simply press Ctrl+S on Linux and Windows or Command+S on Mac to download the file.</span>
+		</div>
+      
+		<!--DOWNLOAD-BUTTON-->
+
+		<a href="https://cdn.asveora.social/Content/Serve/Friends/Friends.txt" download>
+			<div class="frnds-index-download-button">
+				<span class="frnds-index-dl-button-text"><b>Download Friends.txt</b></span>
+			</div>
+		</a>
+      
+		<!--CODE-PREVIEW-->
+      
+		<div class="frnds-index-code-block">
+ 			<pre>
+				<code class="frnds-index-code-block-text">           
+&lt;ul id="searchUL"&gt;
+
+	&lt;!--USER-SLOT-0000000018--&gt;
+    
+	&lt;li id="asveora-framework"&gt;
+		&lt;a href="https://framework.asveora.social/"&gt;
+			&lt;div class="frnds-index-user-entry"&gt;
+				&lt;span class="frnds-index-hidden-name"&gt;Asveora Framework&lt;/span&gt;
+				&lt;img class="frnds-index-avatar-dec" alt="Asveora Framework" data-original-height="1000" data-original-width="1000" height="200" width="200" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/&gt;	
+				&lt;br&gt;
+				&lt;span class="frnds-index-user-text">&lt;b>Asveora&lt;br>Framework&lt;/b&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/a&gt;
+	&lt;/li&gt;
+				</code>
+			</pre>
+		</div>
+
+	</div>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This is the return button of the page.-->
+
+	<a href="https://framework.asveora.social/">
+		<div class="frnds-index-return-button">
+			<span class="frnds-index-lb-text-02"><b>Return to Profile</b></span>
+		</div>
+	</a>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+      
+<script>
+
+	//SCTN-SEARCH-FUNCTION
+
+	function searchFunction() {
+    	var input, filter, ul, li, a, i, txtValue;
+    	input = document.getElementById("searchFriendsInput");
+    	filter = input.value.toUpperCase();
+    	ul = document.getElementById("searchFriendsUL");
+    	li = ul.getElementsByTagName("li");
+    	for (i = 0; i < li.length; i++) {
+        	a = li[i].getElementsByTagName("a")[0];
+        	txtValue = a.textContent || a.innerText;
+        	if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            	li[i].style.display = "";
+        	} else {
+            	li[i].style.display = "none";
+        	}
+    	}
+	}
+  
+	//PAGINATION-FUNCTIONS
+
+	//Pagination is handled by multiple javascript functions since the entire component is quite involved and has to be flexible enough to account for a changing amount of content.
+	//This first part determines how many items are rendered on each page of pagination. The more items you show on a page the less pagination pages there will be.
+	//The pagination is always calculated off the current page of pagination and how many items have already been "presented" from unordered list where all of the list items are stored.
+	//To make sure that every item can be searched via a direct # link for direct linking to a list item we include an item id declaration.
+	const list = document.getElementById("searchFriendsUL");
+	const items = list.querySelectorAll("li");
+
+	const idToIndexMap = new Map();
+  
+	items.forEach((item, index) => {
+		if (item.id) {
+			idToIndexMap.set(item.id, index);
+		}
+	});
+  
+	const pagination = document.getElementById("pagination");
+
+	const itemsPerPage = 9;
+	let currentPage = 1;
+
+	function showPage(page) {
+		currentPage = page;
+
+		const start = (page - 1) * itemsPerPage;
+		const end = start + itemsPerPage;
+
+		items.forEach((item, index) => {
+			item.style.display = (index >= start && index < end) ? "list-item" : "none";
+		});
+
+		renderPagination();
+	}
+
+	//This dictates how many pagination page numbers are visible at any given time. Increase the number to add more page number buttons or decrease to display fewer.
+	function renderPagination() {
+	const totalPages = Math.ceil(items.length / itemsPerPage);
+	const maxVisible = 8;
+	pagination.innerHTML = "";
+
+	let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+	let endPage = startPage + maxVisible - 1;
+
+	if (endPage > totalPages) {
+		endPage = totalPages;
+		startPage = Math.max(1, endPage - maxVisible + 1);
+	}
+
+		//Navigation button for returning to the previous page of pagination. Change the character(s) in "textContent" to change the rendered symbol.
+		const prev = document.createElement("button");
+		prev.textContent = "\u25C0";
+		prev.disabled = currentPage === 1;
+		prev.onclick = () => showPage(currentPage - 1);
+		pagination.appendChild(prev);
+
+		//Determines where the ellipsis should be placed on the starting (left) side of listed pagination page numbers in relation to the current pagination page number range you are viewing.
+		if (startPage > 1) {
+			addPageButton(1);
+			if (startPage > 2) {
+				addEllipsis();
+			}
+  		}
+
+		// Shows a number of pages around the current page number that you are viewing. This number is determined by const maxVisible that is declared in an earlier part of the function.
+		for (let i = startPage; i <= endPage; i++) {
+			addPageButton(i);
+		}
+
+		//Determines where the ellipsis should be placed on the ending (right) side of listed pagination page numbers in relation to the current pagination page number range you are viewing.
+		if (endPage < totalPages) {
+			if (endPage < totalPages - 1) {
+				addEllipsis();
+			}
+			addPageButton(totalPages);
+		}
+
+		//Navigation button for going to the next page of pagination. Change the character(s) in "textContent" to change the rendered symbol.
+		const next = document.createElement("button");
+		next.textContent = "\u25B6";
+		next.disabled = currentPage === totalPages;
+		next.onclick = () => showPage(currentPage + 1);
+		pagination.appendChild(next);
+	}
+
+
+	//This function adds the placeholder ellipsis that stand in for a range of page numbers that are not presently being displayed within the range of visible page numbers.
+	//The bullet points being used in textContent are written in JS unicode escape. You can find a list of unicode IDs that look like U+XXXX where XXXX is the ID.
+	//Then take that XXXX ID and format it into \uXXXX which will be a JS safe escaped way to show the symbol.
+	function addEllipsis() {
+		const span = document.createElement("span");
+		span.textContent = "\u2022\u2022\u2022";
+		span.style = "display: inline; padding-top: 24px; padding-top: 24px; text-decoration: none; background-color: var(--primary-color); flex-grow: 1; border: none; border-radius: 50px; font-family: helvetica, arial, sans-serif; font-size: 26px; font-weight: 700; color: var(--secondary-color); text-align: center;";
+		pagination.appendChild(span);
+	}
+  
+	//Determines the current page being viewed out of the limited pagination range of visible page numbers.
+	function addPageButton(page) {
+		const btn = document.createElement("button");
+		btn.textContent = page;
+
+		if (page === currentPage) {
+			btn.classList.add("active");
+			btn.disabled = true;
+		} else {
+			btn.onclick = () => showPage(page);
+		}
+
+		pagination.appendChild(btn);
+	}
+
+	//This makes sure that the pagination component starts at the first page. If you want it to default to another paginated page number, then change the value to 3, 10, or whatever page number you'd like.
+	function handleHashNavigation() {
+		const hash = window.location.hash; 
+		if (!hash) {
+			showPage(1);
+			return;
+		}
+
+		const id = hash.substring(1); 
+		const index = idToIndexMap.get(id);
+
+		if (index === undefined) {
+			showPage(1);
+			return;
+		}
+
+		const page = Math.floor(index / itemsPerPage) + 1;
+
+		showPage(page, true);
+
+		//Ensures the DOM updates correctly before scrolling to the request.
+		requestAnimationFrame(() => {
+			const el = document.getElementById(id);
+			if (el) {
+				el.scrollIntoView({ behavior: "smooth", block: "center" });
+			}
+		});
+	}
+
+	//Enables direct linking by ID via address updates.
+	handleHashNavigation();
+  
+	window.addEventListener("hashchange", handleHashNavigation);
+  
+	//Saves the current scroll of a page before it changes and creates a new history entry. This also ensures that by default, clicking pagination buttons will return the user to the top of the list.
+	//This also ensures that any preexisting hash gets preserved if it is already a part of the URL. Those hashes are the item IDs mentioned earlier in the pagination functions.
+	function showPage(page) {
+		history.replaceState(
+			{ page: currentPage, scrollY: window.scrollY },
+			""
+		);
+
+		currentPage = page;
+
+		const url = new URL(window.location);
+		url.searchParams.set("page", page);
+
+		url.hash = window.location.hash;
+
+		history.pushState({ page, scrollY: 0 }, "", url);
+
+		const start = (page - 1) * itemsPerPage;
+		const end = start + itemsPerPage;
+
+		items.forEach((item, index) => {
+			item.style.display = (index >= start && index < end)
+				? "list-item"
+				: "none";
+		});
+
+		renderPagination();
+
+		window.scrollTo({ top: 0, behavior: "auto" });
+	}
+
+	//Allows for updating the URL hash without jumping to the section of the search results containing the ID.  
+	items.forEach((item) => {
+		if (!item.id) return;
+
+		item.addEventListener("click", () => {
+			history.replaceState(null, "", "#" + item.id);
+		});
+	});
+  
+	//Returns the proper behavior depending on whether an item id hash is present or not.
+	window.addEventListener("popstate", (event) => {
+
+		if (window.location.hash) {
+			handleHashNavigation();
+			return;
+		}
+
+		if (!event.state) return;
+
+		const { page, scrollY } = event.state;
+
+		if (page) {
+			showPage(page, true);
+		}
+
+		requestAnimationFrame(() => {
+			window.scrollTo({
+				top: scrollY || 0,
+				behavior: "auto"
+			});
+		});
+	});
+
+</script>
+
+<!--JS-END-->

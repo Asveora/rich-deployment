@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<!--Replace 'EntityName' with either your username or the name of the landhub, system, federation, etc. Replace 'PageName' with the name of the page.-->
+	<title>EntityName: Profile v4</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="This Asveora v4.0.0 file was last updated on 2026-05-02 at 09:11:44.581 by AmzroSevca." />
+	<link rel="stylesheet" type="text/css" href="styles/main-style.css" />
+	<link rel="icon" href="favicons/ASV_Network_GE_Favicon_M4X.png">
+	<meta content='PlaceYourZoomentEmbeddingIDHere' name='zoomment'/>
+</head>
+<body>
+
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--HTML-START-->
+
+	<!--SCTN-NAVIGATION-BAR-->
+	<!--This is the navigation bar component of the page that allows others to browse the network of Asveora. You can also set a custom logomark by replacing the first link with an image that is 4000 x 850 in size. Do not change the words or hyperlinks of any of the other links unless you are building your own version of Asveora.-->
+	
+	<div id="navbar"></div>
+	
+	<!--SCTN-INTRO-CARD-->
+	<!--Contains all elements of the intro card including the RSS feed button, name plate, profile avatar, truncated biography, and connction buttons.-->
+
+	<div class="profile-v4-intro-card">
+      
+		<!--RSS-FEED-->
+
+		<a href="/media/Content/Serve/RSS-Feeds/demo_rss.xml">
+			<img alt="Subscribe to this profile's RSS feed." class="profile-v4-rss-feed-icon" src="/media/Buttons/Theme-Parts/rss_feed.png"/>
+		</a>
+      
+		<!--NAME-PLATE-->
+      
+		<div class="profile-v4-nameplate-area">
+			<img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="/media/Buttons/Name-Plates/ASV_Name_Plate_Default_0003.png" width="800" height="120"/>
+		</div>
+      
+		<!--AVATAR-BIO-AREA-->
+      
+		<div class="profile-v4-avatar-bio">
+          
+			<!--PROFILE-AVATAR-->
+          
+			<div class="profile-v4-avatar-area">
+				<img alt="Black and white rings surrounding an user icon." class="profile-v4-avatar-dec" data-original-height="2000" data-original-width="2000" src="/media/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="300" width="300"/>
+			</div>
+
+			<!--RIGHT-HAND-COLUMN-->
+          
+			<div class="profile-v4-right-stack">
+
+				<!--TRUNCATED-BIOGRAPHY-->
+              
+				<a href="about-me.html">
+					<div class="profile-v4-truncated-bio">
+						<span class="profile-v4-intro-tb-text">Welcome to your profile's biography! The recommended character limit is 150. Tell the world about yourself! Click this paragraph to see more...</span>
+					</div>
+				</a>
+              
+				<!--CONNECTION-BUTTONS-->
+
+          		<div class="profile-v4-connection-area">
+                  
+					<!--FRIENDS-BUTTON-->
+                  
+					<a href="friends.html">
+						<div class="profile-v4-contact-button">
+							<div class="profile-v4-cb-items">
+								<img class="profile-v4-friends-icon" alt="Friends" data-original-height="512" data-original-width="512" src="/media/Buttons/Theme-Parts/friends.png" width="30" height="30"/>
+								<span class="profile-v4-cb-text"><strong>Friends</strong></span>
+							</div>
+						</div>
+					</a>
+                  
+					<!--CONNECT-BUTTON-->
+                  
+					<a href="https://stoat.chat/">
+						<div class="profile-v4-contact-button">
+							<div class="profile-v4-cb-items">
+								<img class="profile-v4-connect-icon" alt="Connect" data-original-height="512" data-original-width="512" src="/media/Buttons/Theme-Parts/chat.png" width="30" height="30"/>
+								<span class="profile-v4-cb-text"><strong>Connect</strong></span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--SCTN-PROFILE-ID-->
+	<!--Contains your Asveora Profile Code (APC). Replace the default string with your string.-->
+	
+	<div class="profile-v4-profile-id">
+		<span class="profile-v4-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+	</div>
+
+
+	<!--SCTN-PROFILE-ID-PLUS-MUSIC-->
+	<!--Alternative to the standard profile ID layout. This version adds a music button next to the profile ID field where you can insert your own music track which will play upon a viewer clicking it.-->
+
+	<div class="profile-v4-id-music-area">	
+      
+		<!--MUSIC-BUTTON-->
+		<!--To change the music track played when the button is clicked, replaced the MP3 file under the music button function JS code section.-->
+      
+		<button class="profile-v4-music-button-style">
+			<div class="profile-v4-music-button">
+              
+				<!--This is the image icon for the music button.-->
+              
+				<div class="profile-v4-music-img-area">
+					<img class="profile-v4-music-img" data-original-height="512" data-original-width="512" src="/media/Buttons/Theme-Parts/music_player.png"/>
+				</div>       
+				
+				<!--This is the music title scroll for the music button that states the title of the track that will play when the button is clicked. The title is duplicated to ensure smooth scrolling.-->
+              
+				<div class="profile-v4-music-scroll">
+					<ul>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+					</ul>
+					<ul aria-hidden="true">
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-v4-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+					</ul>
+				</div>
+              
+			</div>
+		</button>
+      
+		<!--PROFILE-ID-ALT-->
+      
+		<div class="profile-v4-profile-id-alt">
+			<span class="profile-v4-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+		</div>
+      
+	</div>
+
+	<!--SCTN-BADGES-BAR-->
+	<!--This is the badges bar where you can display any number of badges. Either adopt ones others have created or make your own!-->
+	<!--If you change the number of badges you may have to edit CSS values for the badge container and badges bar divs to keep them aligned and spaced to your liking.-->
+	
+	<div class="profile-v4-badges-bar">
+		<div class="profile-v4-badge-container">
+			<div class="profile-v4-badgetip">
+				<img alt="Happy Badge" class="profile-v4-badge-token" src="/media/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-v4-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>
+			<div class="profile-v4-badgetip">
+				<img alt="Happy Badge" class="profile-v4-badge-token" src="/media/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-v4-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>  
+			<div class="profile-v4-badgetip">
+				<img alt="Happy Badge" class="profile-v4-badge-token" src="/media/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-v4-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>
+			<div class="profile-v4-badgetip">
+				<img alt="Happy Badge" class="profile-v4-badge-token" src="/media/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-v4-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>          
+			<div class="profile-v4-badgetip">
+				<img alt="Happy Badge" class="profile-v4-badge-token" src="/media/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-v4-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>          
+		</div>
+	</div>
+
+	<!--SCTN-ARCHIVE-SPACES-->
+	<!--Contains the two primary buttons that allow viewers to see all of your blogs and spaces.-->
+
+	<div class="profile-v4-content-portals">
+		<a href="museum.html">
+			<div class="profile-v4-museum-button">
+				<span class="profile-v4-lb-text-02"><b>Museum</b></span>
+			</div>
+		</a>
+		<a href="spaces.html">		
+			<div class="profile-v4-spaces-button">
+				<span class="profile-v4-spaces-text"><b>Spaces</b></span>
+			</div>
+		</a>
+	</div>
+
+	<!--SCTN-LIBRARY-->
+	<!--Button that leads to your library of wikis. Your latest five wiki entries can be displayed within this button by replacing the images and titles.--> 
+
+	<a href="library.html">
+		<div class="profile-v4-library-card">
+			<div class="profile-v4-library-title">
+				<span class="profile-v4-lb-text-01"><b>Library</b></span>
+        	</div>
+          
+			<div class="profile-v4-cards-container">
+              
+				<!--WIKI-ENTRY--01-->
+
+				<div class="profile-v4-card-entry">
+					<div class="profile-v4-card-img-area">
+						<img class="profile-v4-card-image" alt="Wiki Entry" data-original-height="512" data-original-width="512" width="3840" height="2160" src="/media/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/>
+					</div>
+					<div class="profile-v4-card-text-area">
+						<span class="profile-v4-card-text"><b>Wiki<br>Entry</b></span>
+					</div>
+				</div>
+              
+				<!--WIKI-ENTRY--02-->
+
+				<div class="profile-v4-card-entry">
+					<div class="profile-v4-card-img-area">
+						<img class="profile-v4-card-image" alt="Quick Deployment" data-original-height="512" data-original-width="512" width="3840" height="2160" src="/media/Content/Wikis/quick-deployment/Image-Select/Quick_Deployment_Cover_M4X.png"/>
+					</div>
+					<div class="profile-v4-card-text-area">
+						<span class="profile-v4-card-text"><b>Quick<br>Deploy</b></span>
+					</div>
+				</div>
+              
+				<!--WIKI-ENTRY--03-->
+              
+				<div class="profile-v4-card-entry">
+					<div class="profile-v4-card-img-area">
+						<img class="profile-v4-card-image" alt="Versions" data-original-height="512" data-original-width="512" width="3840" height="2160" src="/media/Content/Wikis/versions/Image-Select/Frame_Versions_Cover_M4X.png"/>
+					</div>
+					<div class="profile-v4-card-text-area">
+						<span class="profile-v4-card-text"><b>Versions</b></span>
+					</div>
+				</div>
+            
+				<!--WIKI-ENTRY--04-->
+              
+				<div class="profile-v4-card-entry">
+					<div class="profile-v4-card-img-area">
+						<img class="profile-v4-card-image" alt="Redirect" data-original-height="512" data-original-width="512" width="3840" height="2160" src="/media/Content/Wikis/redirect/Image-Select/Redirection_Page_Cover_M4X.png"/>
+					</div>
+					<div class="profile-v4-card-text-area">
+						<span class="profile-v4-card-text"><b>Redirect</b></span>
+					</div>
+				</div>
+              
+				<!--WIKI-ENTRY--05-->
+              
+				<div class="profile-v4-card-entry">
+					<div class="profile-v4-card-img-area">
+						<img class="profile-v4-card-image" alt="Age Verification" data-original-height="512" data-original-width="512" width="3840" height="2160" src="/media/Content/Wikis/age-verification/Image-Select/Age_Verification_Cover_M4X.png"/>
+					</div>
+					<div class="profile-v4-card-text-area">
+						<span class="profile-v4-card-text"><b>Age<br>Verify</b></span>
+					</div>
+				</div>
+              
+			</div>
+		</div>
+	</a>
+
+	<!--SCTN-BLOG-POSTS-GRID-->
+	<!--This grid contains previews of the latest blogs you have written as list items. You can change the number of latest blogs displayed by duplicating a list item-->
+	<!--To change blog previews simply replace the information within the post slots such as blog post link, title, author, date, and the preview text.-->
+	<!--Keep the preview text to three lines and truncate with ellipses.-->
+      
+	<ul id="postsUL">
+      
+		<!--POST-SLOT-000000004-->
+      
+		<li>
+			<a href="under-construction.html">
+				<div class="profile-v4-blog-post-preview">
+					<div class="profile-v4-blog-post-img-area">
+						<img class="profile-v4-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="/media/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="profile-v4-blog-post-lead">
+						<div class="profile-v4-content-indicator">
+							<img class="profile-v4-content-favicon" src="/media/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-v4-blog-post-title">
+							<span class="profile-v4-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="profile-v4-blog-post-info">
+						<span class="profile-v4-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="profile-v4-blog-post-body">
+						<span class="profile-v4-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--POST-SLOT-000000003-->
+      
+		<li>
+			<a href="under-construction.html">
+				<div class="profile-v4-blog-post-preview">
+					<div class="profile-v4-blog-post-img-area">
+						<img class="profile-v4-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="/media/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="profile-v4-blog-post-lead">
+						<div class="profile-v4-content-indicator">
+							<img class="profile-v4-content-favicon" src="/media/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-v4-blog-post-title">
+							<span class="profile-v4-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="profile-v4-blog-post-info">
+						<span class="profile-v4-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="profile-v4-blog-post-body">
+						<span class="profile-v4-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+		<!--POST-SLOT-000000002-->
+      
+		<li>
+			<a href="blog-post-v1.html">
+				<div class="profile-v4-blog-post-preview">
+					<div class="profile-v4-blog-post-img-area">
+						<img class="profile-v4-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="/media/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="profile-v4-blog-post-lead">
+						<div class="profile-v4-content-indicator">
+							<img class="profile-v4-content-favicon" src="/media/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-v4-blog-post-title">
+							<span class="profile-v4-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="profile-v4-blog-post-info">
+						<span class="profile-v4-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="profile-v4-blog-post-body">
+						<span class="profile-v4-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+
+		<!--POST-SLOT-000000001-->
+      
+		<li>
+			<a href="blog-post-v1.html">
+				<div class="profile-v4-blog-post-preview">
+					<div class="profile-v4-blog-post-img-area">
+						<img class="profile-v4-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="/media/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="profile-v4-blog-post-lead">
+						<div class="profile-v4-content-indicator">
+							<img class="profile-v4-content-favicon" src="/media/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-v4-blog-post-title">
+							<span class="profile-v4-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="profile-v4-blog-post-info">
+						<span class="profile-v4-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="profile-v4-blog-post-body">
+						<span class="profile-v4-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+	</ul>
+
+	<!--SCTN-DISABLE-EXTRAS-->
+	<!--This button allows viewers to disable the extra elements of the Asveora framework's profile space.-->
+
+	<a href="profile-home.html">
+		<div class="profile-v4-return-button">
+			<img class="profile-v4-rb-image" alt="Disable Extras" data-original-height="512" data-original-width="512" src="/media/Buttons/Theme-Parts/power_button.png" width="100" height="100"/>
+			<span class="profile-v4-lb-text-02"><b>Disable Extras</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-RETURN-TO-WHEELCORE-->
+	<!--This button allows viewers to return to the wheelcore that you belong to.-->
+
+	<a href="https://wheelcore.asveora.social/">
+		<div class="profile-v4-return-button">
+			<img class="profile-v4-rb-image" alt="Visit Wheelcore" data-original-height="512" data-original-width="512" src="/media/Buttons/Theme-Parts/wheelcore_0001.png" width="100" height="100"/>
+			<span class="profile-v4-lb-text-02"><b>Visit Wheelcore</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-RETURN-TO-LANDHUB-->
+	<!--This button allows viewers to return a landhub you created or your choice of landhub.-->
+
+	<a href="landhub-demo.html">
+		<div class="profile-v4-return-button">
+			<img class="profile-v4-rb-image" alt="Return to LandHub" data-original-height="512" data-original-width="512" src="/media/Buttons/Theme-Parts/landhub.png" width="100" height="100"/>
+			<span class="profile-v4-lb-text-02"><b>Return to LandHub</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-RETURN-TO-ASVEORA-->
+	<!--This button allows viewers to return a to the main Asveora landhub.-->
+
+	<a href="https://www.asveora.social/p/app.html">
+		<div class="profile-v4-return-button">
+			<img class="profile-v4-rb-image" alt="Return to Asveora" data-original-height="512" data-original-width="512" src="/media/Buttons/Theme-Parts/asveora_icon.png" width="100" height="100"/>
+			<span class="profile-v4-lb-text-02"><b>Return to Asveora</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-PROFILE-WALL-->
+	<!--This is the wall of the profile page where viewers can leave comments.-->
+
+	<div class="profile-v4-comments-area">
+
+		<div class="profile-v4-comments-txt-title">
+			<span class="profile-v4-content-title-text"><b>Profile Wall</b></span>
+		</div>
+		<div class="profile-v4-content-body">
+			<span class="profile-v4-content-body-text">Remember to follow Asveora's guidelines when participating in the comments section. Press one of the reaction buttons to send a friendly wave or tell the person how cool they are! The comments section is powered by <a href="https://zoomment.com/"><span class="profile-v4-link-text">Zoomment!</span></a></span>
+		</div>
+      
+		<!--COMMENTS-FEED-->
+
+		<div
+			id="zoomment"
+			data-theme="light"
+			data-language="en"
+			data-gravatar="identicon"
+			data-emotions="👋,🩵,💐,🫂,😎,🤔"
+			data-visitors="true"
+		></div>
+		<script src="https://cdn.zoomment.com/zoomment.min.js"></script>
+
+	</div>
+	
+	<!--SCTN-FOOTER-->
+	<!--This is the footer of the webpage where you can place copyright information, links to various resources, contact information, etc.-->
+
+	<div id="footer"></div>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+
+	<script type="text/javascript" src="scripts/fetch-elements.js"></script>
+	<script type="text/javascript" src="scripts/music-button-v4.js"></script>
+
+<!--JS-END-->
+
+</body>
+</html>

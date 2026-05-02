@@ -1,0 +1,1266 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.profile-home-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*SCTN-INTRO-CARD-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of the intro card and its elements.*/
+
+	.profile-home-intro-card{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 40px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 60px;
+	}
+  
+	.profile-home-rss-feed-icon{
+		width: 40px;
+		height: 40px;
+		border-radius: 8px;
+		z-index: 2;
+		position: absolute;
+		margin-left: 824px;
+	}
+  
+	.profile-home-nameplate-area{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+  
+	.profile-home-avatar-bio{
+		display: flex;
+		justify-content: flex-start;
+	}
+  
+	.profile-home-avatar-area{
+		padding-right: 60px;
+	}
+  
+	.profile-home-avatar-dec{
+		border-radius: 50%;
+	}
+  
+	.profile-home-truncated-bio{
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+		text-align: left;
+		background: transparent;
+		border-radius: 25px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-truncated-bio:hover{
+		background: var(--hover-color);
+	} 
+  
+	.profile-home-intro-tb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-home-connection-area{
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-contact-button{
+		background-color: var(--primary-color);
+		border-radius: 80px;
+		border: 7px solid rgb(255, 255, 255);
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		width: 215px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-contact-button:hover{
+		background: var(--hover-color);
+	}
+
+	.profile-home-cb-items{
+		align-items: center;
+	}
+
+	.profile-home-friends-icon{
+		float: left;
+		padding-left: 40px;
+		padding-right: 10px;
+	}
+
+	.profile-home-connect-icon{
+		float: left;
+		padding-left: 35px;
+		padding-right: 10px;
+	}
+
+	.profile-home-cb-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-PROFILE-ID-CLASSES*/
+	/*Controls the styling, spacing, color, and properties of the profile ID, alternate profile ID layout, and music button.*/
+
+	.profile-home-profile-id{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-home-id-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-home-id-music-area{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-profile-id-alt{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--secondary-color);
+		padding-top: 23px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		width: 660px;
+	}
+  
+	.profile-home-music-button-style{
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.profile-home-music-button{
+		display: flex;
+		justify-content: space-between;
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid rgb(255, 255, 255);
+		padding: 15px;
+		text-align: center;
+	}
+  
+	.profile-home-music-img-area{
+		margin-right: 10px;
+	}
+  
+	.profile-home-music-img{
+		padding-top: 5px;
+		width: 40px;
+		height: 40px;
+	}
+  
+	.profile-home-music-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+
+	}
+
+	.profile-home-music-scroll{
+		--gap: 5px;
+		display: flex;
+		overflow: hidden;
+		user-select: none;
+		width: 125px;
+		gap: var(--gap);
+		height: 40px;
+		margin-bottom: 10px;
+	}
+  
+	.profile-home-music-scroll ul{
+		list-style: none;
+		flex-shrink: 0;
+		min-width: 100%;
+		gap: 1rem;
+		display: flex;
+		justify-content: space-between;
+		animation: scroll 40s linear infinite;
+	}
+
+	@keyframes scroll {
+		to {
+			transform: translateX(calc(-100% - var(--gap)));;
+		}
+	}
+  
+	/*SCTN-BADGES-BAR-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the badges bar, badge container, and the badge name bubbles that show up on hover.*/
+  
+	.profile-home-badges-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.profile-home-badge-container{
+		width: 500px;
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-badgetip {
+		position: relative;
+		display: inline-block;
+	}
+
+	.profile-home-badgetip .profile-home-badgetiptext {
+		visibility: hidden;
+		width: 150px;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: #a1ffd5;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+		position: absolute;
+		z-index: 1;
+		bottom: 125%;
+		left: 50%;
+		margin-left: -70px;
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+
+	.profile-home-badgetip .profile-home-badgetiptext::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -10px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+	}
+
+	.profile-home-badgetip:hover .profile-home-badgetiptext {
+		visibility: visible;
+		opacity: 1;
+	}
+  
+	.profile-home-badge-token{
+		width: 50px;
+		height: 50px;
+	}
+  
+	/*SCTN-ARCHIVE-SPACES-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the museum and spaces buttons.*/
+
+	.profile-home-content-portals{
+		display: flex;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.profile-home-museum-button{
+		background: var(--primary-color);
+		padding: 25px;
+		border-radius: 50px 0px 0px 50px;
+		width: 434px; /*If you are using Blogger, the width should be 434px. If you are using anything then it should be 450px.*/
+		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-home-museum-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-home-spaces-button{
+		background: var(--secondary-color);
+		padding: 15px;
+		border-radius: 0px 50px 50px 0px;
+		border: 10px solid var(--primary-color);
+		width: 434px; /*If you are using Blogger, the width should be 434px. If you are using anything then it should be 450px.*/
+		text-align: center;
+		transition: 0.3s;
+		color: var(--primary-color);
+	}
+  
+	.profile-home-spaces-button:hover{
+		background: var(--hover-color);
+		border: 10px solid var(--hover-color);
+		color: #ffffff;
+	}
+  
+	.profile-home-spaces-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.profile-home-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.profile-home-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+
+	/*SCTN-WIKI-LIBRARY-BUTTON-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the library card and the wiki entries displayed on it.*/
+  
+	.profile-home-library-card{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 60px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-library-card:hover{
+		transform: scale(1.05);
+	}	
+  
+	.profile-home-library-title{
+		text-align: left;
+	}
+  
+	.profile-home-cards-container{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+	.profile-home-card-entry{
+		background: var(--primary-color);
+		border-radius: 24px;
+		padding: 12px;
+		text-align: center;
+	}
+  
+	.profile-home-card-img-area {
+		width: 130px;
+		height: 130px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-home-card-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+  
+	.profile-home-card-image{
+		border-radius: 14px 14px 0px 0px;
+	}
+  
+	.profile-home-card-text-area{
+		margin-top: 8px;
+	}
+  
+	.profile-home-card-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-LATEST-BLOG-POST-CLASSES*/
+	/*Determines the color, spacing, styling, and layout of the most recent blog posts displayed on the main profile page.*/
+  
+	#postsUL {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 44px; /*Change the gap to 44px if using Blogger. Change the gap to 76px if using anything else.*/
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#postsUL li a {
+		text-decoration: none;
+	}
+
+	#postsUL li a:hover:not(.header) {
+	}
+  
+	.profile-home-blog-post-preview{
+		padding: 16px;
+		background: var(--primary-color);
+		border-radius: 50px;
+		transition: 0.3s;
+	}
+  
+	.profile-home-blog-post-preview:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-home-blog-post-img-area {
+		width: 430px;
+		height: 240px;
+		border-radius: 36px 36px 0px 0px;
+	}
+
+	.profile-home-blog-post-img-area img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.profile-home-blog-post-img{
+		border-radius: 36px 36px 0px 0px;
+	}
+  
+	.profile-home-blog-post-title{
+		margin-top: 10px;
+		text-align: left;
+	}
+  
+	.profile-home-blog-post-title-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+	}
+  
+	.profile-home-content-favicon{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+	}
+  
+	.profile-home-content-favicon-alt{
+		width: 35px;
+		height: 35px;
+		float: right;
+		margin-top: 11px;
+		border-radius: 5px;
+	}
+
+	.profile-home-blog-post-info{
+		text-align: left;
+	}
+
+	.profile-home-blog-post-info-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+
+	.profile-home-blog-post-body{
+		text-align: left;
+		margin-bottom: 30px;
+		width: 430px;
+	}
+
+	.profile-home-blog-post-body-text{
+		color: var(--secondary-color);
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+
+	.profile-home-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 50px;
+		padding-right: 50px;
+ 		display: flex;
+		align-items: center;
+		transition: 0.3s;
+	}
+
+	.profile-home-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	.profile-home-rb-image{
+		float: left;
+		margin-left: 125px;
+		margin-right: 20px;
+
+	}
+  
+	/*SCTN-PROFILE-WALL*/
+	/*Determines the color, spacing, font styling, field styling, and presentation of the comment section div, its fields, and the published comments.*/
+
+	.profile-home-content-title{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+  	.profile-home-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.profile-home-content-body{
+		margin-top: 40px;
+	}
+  
+  	.profile-home-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+
+	.profile-home-comments-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+  
+	.profile-home-comments-txt-title{
+		text-align: center;
+	}
+  
+	#zoomment{
+		margin-top: 60px;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.gKnrUR{
+		display: none;
+	}
+
+	/*Hides default zoommment statement.*/
+  
+	.beCpri{
+		display: none;
+	}
+
+	/*Font styling for the number counter in the comment section.*/
+  
+	.gsmuov{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+  
+	/*Font styling for the word "View" in the comment section.*/
+  
+  	.jmmNHI{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);		
+	}
+
+	/*Font styling for the word "Post" and its background in the comment section.*/
+  
+  	.jpJyCg{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 16px;
+		color: var(--secondary-color);
+		background: var(--hover-color);
+	}
+  
+  	.jpJyCg:hover{
+		background: #454545;
+	}
+
+	/*Font styling for user entered text in main comment section field.*/
+  
+  	.lmOcFQ{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+
+	/*Font styling for user entered text in user id comment section field.*/
+  
+  	.vPMAp{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+  
+	/*Font styling for comment counter under comment section field.*/
+  
+	.cAzkdF{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for border between comment counter and comments list.*/
+  
+	.lbBTjp{
+		border-bottom: 5px solid #ffffff;
+		margin-bottom: 5px;
+	}
+
+	/*Styling for comment sorting buttons.*/
+  
+	.gsniG{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+  
+	.bOCNnA{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		padding: 5px;
+		border-bottom: none;
+		background: #ffffff;
+		border-radius: 10px;
+	}
+
+	/*Styling for comment avatars.*/
+  
+	.dHFrgi{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	/*Font styling for commenter names.*/
+  
+	.dHhnUu{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Font styling for comment date stamps.*/
+  
+	.fAeiix{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #9c9c9c;
+	}
+  
+	/*Font styling for comment body.*/
+
+	.jTeMWm{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--secondary-color);
+	}
+
+	/*Styling for reply button.*/
+  
+	.cgQJCP{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #a1a1ff;
+	}
+
+	/*Font styling for "Show X reply" prompt.*/
+  
+	.jSDwIc{
+		margin-top: 10px;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9c9c9c;
+		transitioin 0.3s;
+	}
+
+	.jSDwIC:hover{
+		color: #a1a1ff;
+	}
+  
+	/*Styling for comment voting counter.*/
+  
+	.gSVtBc{
+		display: none;
+    }
+  
+	/*Styling for the 'Be the first to comment' message that displays when no comments have been posted.*/
+  
+	.gKnrUR{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px !important;
+		color: var(--hover-color) !important;
+	}
+
+	/*Font styling for the placeholder text in the comment section fields*/
+
+	#zoomment::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 20px;
+		color: #9e9e9e;		
+	}
+
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<!--SCTN-INTRO-CARD-->
+	<!--Contains all elements of the intro card including the RSS feed button, name plate, profile avatar, truncated biography, and connction buttons.-->
+
+	<div class="profile-home-intro-card">
+      
+		<!--RSS-FEED-->
+
+		<a href="https://cdn.asveora.social/Content/Serve/RSS-Feeds/demo_rss.xml">
+			<img alt="Subscribe to this profile's RSS feed." class="profile-home-rss-feed-icon" src="https://cdn.asveora.social/Buttons/Theme-Parts/rss_feed.png"/>
+		</a>
+      
+		<!--NAME-PLATE-->
+      
+		<div class="profile-home-nameplate-area">
+			<img alt="The word 'Asveora Social' written in the Lequire bold font." data-original-height="600" data-original-width="4000" src="https://cdn.asveora.social/Buttons/Name-Plates/ASV_Name_Plate_Default_0003.png" width="800" height="120"/>
+		</div>
+      
+		<!--AVATAR-BIO-AREA-->
+      
+		<div class="profile-home-avatar-bio">
+          
+			<!--PROFILE-AVATAR-->
+          
+			<div class="profile-home-avatar-area">
+				<img alt="Black and white rings surrounding an user icon." class="profile-home-avatar-dec" data-original-height="2000" data-original-width="2000" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png" height="300" width="300"/>
+			</div>
+
+			<!--RIGHT-HAND-COLUMN-->
+          
+			<div class="profile-home-right-stack">
+
+				<!--TRUNCATED-BIOGRAPHY-->
+              
+				<a href="https://framework.asveora.social/p/about-me.html">
+					<div class="profile-home-truncated-bio">
+						<span class="profile-home-intro-tb-text">Welcome to your profile's biography! The recommended character limit is 150. Tell the world about yourself! Click this paragraph to see more...</span>
+					</div>
+				</a>
+              
+				<!--CONNECTION-BUTTONS-->
+
+          		<div class="profile-home-connection-area">
+                  
+					<!--FRIENDS-BUTTON-->
+                  
+					<a href="https://framework.asveora.social/p/friends.html">
+						<div class="profile-home-contact-button">
+							<div class="profile-home-cb-items">
+								<img class="profile-home-friends-icon" alt="Friends" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/friends.png" width="30" height="30"/>
+								<span class="profile-home-cb-text"><strong>Friends</strong></span>
+							</div>
+						</div>
+					</a>
+                  
+					<!--CONNECT-BUTTON-->
+                  
+					<a href="https://stoat.chat/">
+						<div class="profile-home-contact-button">
+							<div class="profile-home-cb-items">
+								<img class="profile-home-connect-icon" alt="Connect" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/chat.png" width="30" height="30"/>
+								<span class="profile-home-cb-text"><strong>Connect</strong></span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--SCTN-PROFILE-ID-->
+	<!--Contains your Asveora Profile Code (APC). Replace the default string with your string.-->
+	
+	<div class="profile-home-profile-id">
+		<span class="profile-home-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+	</div>
+
+	<!--This code block is currently disabled. To enable it, remove the comment wrapper from the top and bottom. Any lines with "xx" are HTML comments that should be wrapped when the block is enabled.
+	xxSCTN-PROFILE-ID-PLUS-MUSICxx
+	xxAlternative to the standard profile ID layout. This version adds a music button next to the profile ID field where you can insert your own music track which will play upon a viewer clicking it.xx
+
+	<div class="profile-home-id-music-area">	
+      
+		xxMUSIC-BUTTONxx
+		xxTo change the music track played when the button is clicked, replaced the MP3 file under the music button function JS code section.xx
+      
+		<button class="profile-home-music-button-style">
+			<div class="profile-home-music-button">
+              
+				xxThis is the image icon for the music button.xx
+              
+				<div class="profile-home-music-img-area">
+					<img class="profile-home-music-img" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/music_player.png"/>
+				</div>       
+				
+				xxThis is the music title scroll for the music button that states the title of the track that will play when the button is clicked. The title is duplicated to ensure smooth scrolling.xx
+              
+				<div class="profile-home-music-scroll">
+					<ul>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+					</ul>
+					<ul aria-hidden="true">
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+						<li>
+							<span class="profile-home-music-text"><b>Chillhop Mix by AlphaProxy – </b></span>
+						</li>
+					</ul>
+				</div>
+              
+			</div>
+		</button>
+      
+		xxPROFILE-ID-ALTxx
+      
+		<div class="profile-home-profile-id-alt">
+			<span class="profile-home-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+		</div>
+      
+	</div>
+	This code block is currently disabled. To enable it, remove the comment wrapper from the top and bottom. Any lines with "xx" are HTML comments that should be wrapped when the block is enabled.-->
+
+	<!--SCTN-BADGES-BAR-->
+	<!--This is the badges bar where you can display any number of badges. Either adopt ones others have created or make your own!-->
+	<!--If you change the number of badges you may have to edit CSS values for the badge container and badges bar divs to keep them aligned and spaced to your liking.-->
+	
+	<div class="profile-home-badges-bar">
+		<div class="profile-home-badge-container">
+			<div class="profile-home-badgetip">
+				<img alt="Happy Badge" class="profile-home-badge-token" src="https://cdn.asveora.social/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-home-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>
+			<div class="profile-home-badgetip">
+				<img alt="Happy Badge" class="profile-home-badge-token" src="https://cdn.asveora.social/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-home-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>  
+			<div class="profile-home-badgetip">
+				<img alt="Happy Badge" class="profile-home-badge-token" src="https://cdn.asveora.social/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-home-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>
+			<div class="profile-home-badgetip">
+				<img alt="Happy Badge" class="profile-home-badge-token" src="https://cdn.asveora.social/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-home-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>          
+			<div class="profile-home-badgetip">
+				<img alt="Happy Badge" class="profile-home-badge-token" src="https://cdn.asveora.social/CardTile/BadgeTokens/happy_badge.png"/>
+				<span class="profile-home-badgetiptext"><strong>Happy Badge</strong></span>
+			</div>          
+		</div>
+	</div>
+
+	<!--SCTN-ARCHIVE-SPACES-->
+	<!--Contains the two primary buttons that allow viewers to see all of your blogs and spaces.-->
+
+	<div class="profile-home-content-portals">
+		<a href="https://framework.asveora.social/p/museum.html">
+			<div class="profile-home-museum-button">
+				<span class="profile-home-lb-text-02"><b>Museum</b></span>
+			</div>
+		</a>
+		<a href="https://framework.asveora.social/p/spaces.html">		
+			<div class="profile-home-spaces-button">
+				<span class="profile-home-spaces-text"><b>Spaces</b></span>
+			</div>
+		</a>
+	</div>
+
+	<!--SCTN-LIBRARY-->
+	<!--Button that leads to your library of wikis. Your latest five wiki entries can be displayed within this button by replacing the images and titles.--> 
+
+	<a href="https://framework.asveora.social/p/library.html">
+		<div class="profile-home-library-card">
+			<div class="profile-home-library-title">
+				<span class="profile-home-lb-text-01"><b>Library</b></span>
+        	</div>
+          
+			<div class="profile-home-cards-container">
+
+				<!--WIKI-ENTRY--01-->
+
+				<div class="profile-home-card-entry">
+					<div class="profile-home-card-img-area">
+						<img class="profile-home-card-image" alt="Wiki Entry" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/wiki-page-v1/Image-Select/Pexels_Iriser_Berries_Photo_CMS.jpg"/>
+					</div>
+					<div class="profile-home-card-text-area">
+						<span class="profile-home-card-text"><b>Wiki<br>Entry</b></span>
+					</div>
+				</div>
+              
+				<!--WIKI-ENTRY--02-->
+
+				<div class="profile-home-card-entry">
+					<div class="profile-home-card-img-area">
+						<img class="profile-home-card-image" alt="Quick Deployment" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/quick-deployment/Image-Select/Quick_Deployment_Cover_M4X.png"/>
+					</div>
+					<div class="profile-home-card-text-area">
+						<span class="profile-home-card-text"><b>Quick<br>Deploy</b></span>
+					</div>
+				</div>
+              
+				<!--WIKI-ENTRY--03-->
+              
+				<div class="profile-home-card-entry">
+					<div class="profile-home-card-img-area">
+						<img class="profile-home-card-image" alt="Versions" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/versions/Image-Select/Frame_Versions_Cover_M4X.png"/>
+					</div>
+					<div class="profile-home-card-text-area">
+						<span class="profile-home-card-text"><b>Versions</b></span>
+					</div>
+				</div>
+            
+				<!--WIKI-ENTRY--04-->
+              
+				<div class="profile-home-card-entry">
+					<div class="profile-home-card-img-area">
+						<img class="profile-home-card-image" alt="Redirect" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/redirect/Image-Select/Redirection_Page_Cover_M4X.png"/>
+					</div>
+					<div class="profile-home-card-text-area">
+						<span class="profile-home-card-text"><b>Redirect</b></span>
+					</div>
+				</div>
+              
+				<!--WIKI-ENTRY--05-->
+              
+				<div class="profile-home-card-entry">
+					<div class="profile-home-card-img-area">
+						<img class="profile-home-card-image" alt="Age Verification" data-original-height="512" data-original-width="512" width="3840" height="2160" src="https://cdn.asveora.social/Content/Wikis/age-verification/Image-Select/Age_Verification_Cover_M4X.png"/>
+					</div>
+					<div class="profile-home-card-text-area">
+						<span class="profile-home-card-text"><b>Age<br>Verify</b></span>
+					</div>
+				</div>
+              
+			</div>
+		</div>
+	</a>
+
+	<!--SCTN-BLOG-POSTS-GRID-->
+	<!--This grid contains previews of the latest blogs you have written as list items. You can change the number of latest blogs displayed by duplicating a list item-->
+	<!--To change blog previews simply replace the information within the post slots such as blog post link, title, author, date, and the preview text.-->
+	<!--Keep the preview text to three lines and truncate with ellipses.-->
+      
+	<ul id="postsUL">
+      
+		<!--POST-SLOT-000000004-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/under-construction.html">
+				<div class="profile-home-blog-post-preview">
+					<div class="profile-home-blog-post-img-area">
+						<img class="profile-home-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="profile-home-blog-post-lead">
+						<div class="profile-home-content-indicator">
+							<img class="profile-home-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-home-blog-post-title">
+							<span class="profile-home-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="profile-home-blog-post-info">
+						<span class="profile-home-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="profile-home-blog-post-body">
+						<span class="profile-home-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+      
+		<!--POST-SLOT-000000003-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/under-construction.html">
+				<div class="profile-home-blog-post-preview">
+					<div class="profile-home-blog-post-img-area">
+						<img class="profile-home-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Buttons/Theme-Parts/169_blank.png"/>
+					</div>
+					<div class="profile-home-blog-post-lead">
+						<div class="profile-home-content-indicator">
+							<img class="profile-home-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-home-blog-post-title">
+							<span class="profile-home-blog-post-title-text"><b>Post Title</b></span>
+						</div>
+					</div>	
+					<div class="profile-home-blog-post-info">
+						<span class="profile-home-blog-post-info-text"><b>Author • Date</b></span>
+					</div>		
+					<div class="profile-home-blog-post-body">
+						<span class="profile-home-blog-post-body-text">This is a sample blog with sample text and clicking on this preview does not lead to a blog...</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+		<!--POST-SLOT-000000002-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<div class="profile-home-blog-post-preview">
+					<div class="profile-home-blog-post-img-area">
+						<img class="profile-home-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="profile-home-blog-post-lead">
+						<div class="profile-home-content-indicator">
+							<img class="profile-home-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-home-blog-post-title">
+							<span class="profile-home-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="profile-home-blog-post-info">
+						<span class="profile-home-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="profile-home-blog-post-body">
+						<span class="profile-home-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+
+		<!--POST-SLOT-000000001-->
+      
+		<li>
+			<a href="https://framework.asveora.social/p/blog-post-v1.html">
+				<div class="profile-home-blog-post-preview">
+					<div class="profile-home-blog-post-img-area">
+						<img class="profile-home-blog-post-img" data-original-height="720" data-original-width="1280" width="430" height="241" src="https://cdn.asveora.social/Content/Blogs/blog-post-v1/Image-Select/Asveora_Animated_Blog_Cover.gif"/>
+					</div>
+					<div class="profile-home-blog-post-lead">
+						<div class="profile-home-content-indicator">
+							<img class="profile-home-content-favicon" src="https://cdn.asveora.social/TitleBox/Favicons/ASV_Network_GE_Favicon_M4X.png"/>
+						</div>
+						<div class="profile-home-blog-post-title">
+							<span class="profile-home-blog-post-title-text"><b>Another Blog Post?</b></span>
+						</div>
+					</div>	
+					<div class="profile-home-blog-post-info">
+						<span class="profile-home-blog-post-info-text"><b>Asveora Social • 2021-08-01</b></span>
+					</div>		
+					<div class="profile-home-blog-post-body">
+						<span class="profile-home-blog-post-body-text">Welcome to this blog post where we will be discussing things that you would discuss in a blog post!</span>				
+					</div>
+				</div>
+			</a>
+		</li>
+          
+	</ul>
+
+	<!--SCTN-ENABLE-EXTRAS-->
+	<!--This button allows viewers to enable the extra elements of the Asveora framework's profile space.-->
+
+	<a href="https://framework.asveora.social/p/profile-v4.html">
+		<div class="profile-home-return-button">
+			<img class="profile-home-rb-image" alt="Enable Extras" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/power_button.png" width="100" height="100"/>
+			<span class="profile-home-lb-text-02"><b>Enable Extras</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-RETURN-TO-WHEELCORE-->
+	<!--This button allows viewers to return to the wheelcore that you belong to.-->
+
+	<a href="https://wheelcore.asveora.social/">
+		<div class="profile-home-return-button">
+			<img class="profile-home-rb-image" alt="Visit Wheelcore" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/wheelcore_0001.png" width="100" height="100"/>
+			<span class="profile-home-lb-text-02"><b>Visit Wheelcore</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-RETURN-TO-LANDHUB-->
+	<!--This button allows viewers to return a landhub you created or your choice of landhub.-->
+
+	<a href="https://framework.asveora.social/p/landhub-demo.html">
+		<div class="profile-home-return-button">
+			<img class="profile-home-rb-image" alt="Return to LandHub" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/landhub.png" width="100" height="100"/>
+			<span class="profile-home-lb-text-02"><b>Return to LandHub</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-RETURN-TO-ASVEORA-->
+	<!--This button allows viewers to return a to the main Asveora landhub.-->
+
+	<a href="https://www.asveora.social/p/app.html">
+		<div class="profile-home-return-button">
+			<img class="profile-home-rb-image" alt="Return to Asveora" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/asveora_icon.png" width="100" height="100"/>
+			<span class="profile-home-lb-text-02"><b>Return to Asveora</b></span>
+		</div>
+	</a>
+
+	<!--SCTN-PROFILE-WALL-->
+	<!--This is the wall of the profile page where viewers can leave comments.-->
+
+	<div class="profile-home-comments-area">
+
+		<div class="profile-home-comments-txt-title">
+			<span class="profile-home-content-title-text"><b>Profile Wall</b></span>
+		</div>
+		<div class="profile-home-content-body">
+			<span class="profile-home-content-body-text">Remember to follow Asveora's guidelines when participating in the comments section. Press one of the reaction buttons to send a friendly wave or tell the person how cool they are! The comments section is powered by <a href="https://zoomment.com/"><span class="profile-home-link-text">Zoomment!</span></a></span>
+		</div>
+      
+		<!--COMMENTS-FEED-->
+
+		<div
+			id="zoomment"
+			data-theme="light"
+			data-language="en"
+			data-gravatar="identicon"
+			data-emotions="👋,🩵,💐,🫂,😎,🤔"
+			data-visitors="true"
+		></div>
+		<script src="https://cdn.zoomment.com/zoomment.min.js"></script>
+
+	</div>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+
+<script>
+ 
+	//SCTN-MUSIC-BUTTON-FUNCTION
+	//This music button function determines what music plays when the button is clicked on. Change the link within the quotes of new Audio to a link of any supported audio filetype.
+
+	const audio = new Audio("https://cdn.asveora.social/PageBin/profile-v4/Sound-Select/alphaproxy-chillhop-mix-136000.mp3");
+	const buttons = document.querySelectorAll(".profile-home-music-button");
+
+	buttons.forEach(button => {
+		button.addEventListener("click", () => {
+			audio.play();
+		});
+	});
+  
+</script>
+
+<!--JS-END-->

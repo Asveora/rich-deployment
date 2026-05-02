@@ -1,0 +1,710 @@
+<!--READ-ME-->
+<!--Welcome to Asveora! Are you ready to edit this document? We sure hope you are! What you are reading right now is called an HTML comment. Everything coded within this webpage has been documented in precise detail led by easy-to-understand language so that editing parts of the webpage is a breeze even for those who have never interacted with HTML, CSS, JS, or XML before! If you are new to coding, read each section carefully and start out by just replacing links, values, and text statements. If you ever get stuck feel free to reach out in the Asveora community at https://stt.gg/5wB2Zzb0 or consult online resources such as W3Schools and MDN Web Docs. Use an HTML color picker tool online to help find the hex codes for various colors. Once you become more comfortable with web development or if you already are, you can rearrange sections, make heavy modifications or even delete all the code within this document and write your own! The document is split into three major regions for HTML code, CSS code, and JS code which are separated by ten blank lines. You can identify where they start and end by the region boundary comments. These comments look like 'HTML-START' and 'HTML-END', 'CSS-START' and 'CSS-END', or 'JS-START' and 'JS-END' in the document. Under those regions there are sections indicated by titles beginning with 'SCTN' that have explicit instructions below them on what those sections display, modify, and dictate. While all sections can be freely rearranged, rearranging HTML sections may require changes to CSS and JS code to adjust spacing, padding, and functionality. Do not move or delete the '<style>' and '<script>' tags since those are HTML elements which tell the browser that the code within those tags are CSS code and JS code respectively instead of HTML code. Remember to create regular backups of this document in case something goes wrong while editing and you want to revert to a previous version! To do so, simply press 'Ctrl+A' on Windows and Linux or 'Command+A' to select all of the text within this document and then copy it to an IDE of your choice (even something as simple as the Windows Notepad or MacOS TextEdit works) where you can save it as an HTML document with the '.html' file extension. Feel free to delete any and all HTML comments once you're comfortable. Cheers!-->
+
+<!--CSS-START-->
+
+<style>
+
+	/*SCTN-PAGE-VARIABLES*/
+	/*These variables dictate the color scheme of common elements on the page.*/
+	/*The primary color is typically employed for primary divs and elements.*/
+	/*The secondary color is typically employed for text and visual contrast.*/
+	/*The hover color is employed for the color elements will turn when hovered over.*/
+
+	:root{
+		--primary-color: #616161;
+		--secondary-color: #ffffff;
+		--hover-color: #292929;
+	}
+  
+	/*SCTN-BODY-TAG*/
+	/*Controls the page background image and background color.*/
+	/*The background color will be displayed under the background image.*/
+	/*Change the link inside of url('') to change the background image.
+	/*It is also displayed on the navigation bar of mobile device browsers as a sort of accent color.*/
+	/*To remove the page background image delete all properties other than 'background-color:' from the body tag.*/
+	/*For gradient colors replace 'background-color:' with 'background-image:' followed by a linear, radial, or conic gradient value.*/
+  
+  	body{
+		background: url('https://cdn.asveora.social/Banners/Body/ASV_Profile_Banner_0001_M4X.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		overscroll-behavior-y: contain;
+		background-color: var(--primary-color);
+	}
+  
+	/*SCTN-LINK-TEXT-CLASS*/
+	/*Controls the styling of any text that has an href hyperlink.*/
+  
+	.blklist-link-text{
+		color: #bdbdbd;
+	}
+  
+	/*PAGE-BANNER*/
+	/*The title banner of the page that states what the purpose or category of the page is.*/
+  
+	.blklist-title-banner{
+		background: var(--secondary-color);
+		border-radius: 50px;
+		margin-top: 150px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	/*SCTN-LABEL-TEXT-CLASSES*/
+	/*Controls the font styling of label text used on banners and large button divs.*/
+
+	.blklist-lb-text-01{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--primary-color);
+	}
+  
+	.blklist-lb-text-02{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);
+	}
+  
+	/*SCTN-RETURN-BUTTON-CLASSES*/
+	/*Controls the color, spacing, size, and alignment of the return button div.*/
+  
+	.blklist-return-button{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+		transition: 0.3s;
+	}
+  
+	.blklist-return-button:hover{
+		background: var(--hover-color);
+	}
+  
+	/*SCTN-SEARCH-BOX-CLASSES*/
+	/*Controls the color, spacing, size, alignment, and text-styling of the search box and its elements.*/
+  
+	.blklist-search-box-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;	
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 100%;
+	}
+  
+	.blklist-hidden-name{
+		display: none;
+	}
+  
+	#searchWideInput {
+		background-color: var(--hover-color);
+		background-position: 10px 12px;
+		background-repeat: no-repeat;
+		width: 850px; /*Change the width to 850px if using Blogger. Change the width to 890px if using anything else.*/
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		padding: 15px;
+		border: none;
+		border-radius: 15px;
+	}
+  
+	#searchWideUL {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#searchWideUL li a {
+		text-decoration: none;
+	}
+
+	#searchWideUL li a:hover:not(.header) {
+	}
+
+	::placeholder{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #b3b3b3;
+	}
+
+	#searchWideUL li{
+		transition: 0.3s;
+	}
+
+	#searchWideUL li:hover{
+		transform: scale(1.05);
+	}
+  
+	input {
+		border: 1px solid transparent;
+		outline: none;
+		box-shadow: none;
+	}
+
+	input:focus {
+		border-color: transparent;
+		outline: none;
+		box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+	}
+  
+	/*SCTN-CONTENT-AREA-CLASSES*/
+	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
+
+	.blklist-content-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding: 80px;
+	}
+
+	.blklist-content-title{
+		margin-top: 0px;
+		text-align: center;
+	}
+
+  	.blklist-content-title-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 60px;
+		color: var(--secondary-color);		
+	}
+  
+	.blklist-content-subtitle{
+		margin-top: 0px;
+		text-align: center;
+	}
+  
+  	.blklist-content-subtitle-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 25px;
+		color: #6e6e6e;		
+	}
+
+	.blklist-content-body-first{
+		margin-top: 0px;
+		text-align: left;
+	}
+
+	.blklist-content-body{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.blklist-centered-body{
+		margin-top: 40px;
+		text-align: center;
+	}
+  
+  	.blklist-content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+  
+	/*SCTN-ENTRY-CLASSES*/
+	/*Dictates the styling, spacing, and layout of entry cards in the blacklist index.*/
+  
+	.blklist-card-area{
+		background: var(--primary-color);
+		border-radius: 50px;
+		margin-top: 50px;
+		padding-top: 10px;
+		padding-left: 40px;
+		padding-right: 40px;  
+		padding-bottom: 50px;
+	}
+
+	.blklist-comment-slot{
+		margin-top: 40px;
+		border-radius: 20px;
+		padding: 15px;
+		background: transparent;
+    }
+
+	.blklist-avatar-area{
+		float: left;
+		margin-right: 20px;
+		display: table-cell;
+	}
+
+	.blklist-user-avatar{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	.blklist-comment-area{
+		width: 700px;
+		display: table-cell;
+	}
+
+	.blklist-comment-head{
+		margin-top: 0px;
+	}
+
+	.blklist-comment-name{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #DCDCDC;
+		margin-right: 10px;
+	}
+  
+	.blklist-comment-time{
+		font-family: Inter, arial, sans-serif;
+		font-size: 24px;
+		color: #b0b0b0;
+	}
+  
+	.blklist-comment-content{
+		margin-top: 0px;
+	}
+  
+	.blklist-comment-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.blklist-comment-link-text{
+		font-family: Inter, arial, sans-serif;
+		font-size: 28px;
+		color: #b8b8ff;
+		text-decoration: underline;
+	}
+  
+	.blklist-comment-img-slot{
+		margin-top: 40px;
+		text-align: left;
+	}
+  
+	.blklist-comment-img{
+		border-radius: 10px;
+	}
+
+	/*SCTN-PAGINATION-BAR*/
+  
+	#pagination {
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		gap: 19.4px;
+		list-style: none; 
+		padding: 0px;
+	}
+
+	#pagination button{
+		display: block; 
+		padding-top: 24px;
+		padding-bottom: 24px;         
+		text-decoration: none;
+		background-color: var(--primary-color);
+		flex-grow: 1;
+		border: none;
+		border-radius: 50px; 
+		font-family: helvetica, arial, sans-serif;
+		font-size: 26px;
+		font-weight: 700;
+		color: var(--secondary-color);
+	}
+  
+	#pagination button.active {
+		background-color: var(--secondary-color);
+		color: var(--primary-color);
+	}
+  
+	#pagination button.disabled {
+		color: #757575;
+		cursor: not-allowed;
+		pointer-events: none;
+	}
+  
+	.widget .post-body ul {
+		padding: 0em;
+		margin: 0em 0;
+		line-height: 1.4;
+	}
+
+</style>
+
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+          
+	<!--SCTN-TITLE-BANNER-->
+	<!--Page banner that sits at the top before all other content on the page.-->
+
+	<div class="blklist-title-banner">
+		<span class="blklist-lb-text-01"><b>Blacklist</b></span>
+	</div>
+
+	<!--SCTN-INTRODUCTION-->
+	<!--Introduction paragraph div of the page.-->
+
+	<div class="blklist-content-area">	
+		<div class="blklist-content-body-first">
+			<span class="blklist-content-body-text">This is a sample blacklist that allows users to see what a blacklist is and how it functions. Blacklists allow users to readily keep track of those who they have blocked across protocols or set to Do-Not-Interact (DNI) within their circles. Blacklists can be employed by individual users, communities, wheelcores, landhubs, systems, federations, and any other kind of entity within Asveora. Some blacklists may be publicly shared for others to reference such as Asveora's <a href="https://wheelcore.asveora.social/p/blacklist.html"><span class="blklist-link-text">network blacklist</span></a> or kept private depending on the needs of the blacklist's author.<br><br>What you are reading right now is the blacklist's description where you can detail how the blacklist functions and its use cases. To make a blacklist private simply remove it from your library index, store it on a .html page that is not named 'blacklist' to avoid others being able to view it, and do not share a link to it. Blacklists are not just limited to entities within Asveora either. You can also add websites, organizations, or individuals and groups from other platforms to your blacklist as well.
+			</span>
+		</div>
+	</div>
+
+	<!--SCTN-SEARCH-FIELD-->
+	<!--Search field where users can search for a certain piece of content by its tagged hidden name. Change the placeholder text based on what kind of index page you are building.-->
+	<!--For example since this page is for storing an archive of wiki entries it has the placeholder text of 'Search for Wiki Entries...' as the default string in the field.-->
+
+	<div class="blklist-search-box-area">
+		<input type="text" id="searchWideInput" onkeyup="searchFunction()" placeholder="Search for Entities... (Serving 10 Most Recent Results Per Page)" title="Type an Entity's name">
+	</div>
+
+	<!--SCTN-BLACKLIST-->
+	<!--Blacklist index with entries corresponding to entities who are on the blacklist. To add more entries simply duplicate one of the existing entries and change the key information.-->
+	<!--Entries are counted from oldest to newest.-->
+
+	<ul id="searchWideUL">
+      
+	<!--ENTRY-000000002-->
+   
+	<li id="flagged-user-a">
+		<a href="https://framework.asveora.social/p/profile-home.html">
+			<div class="blklist-card-area">	
+				<span class="blklist-hidden-name">Flagged User A</span>
+				<div class="blklist-comment-slot">
+					<div class="blklist-avatar-area">
+						<img class="blklist-user-avatar" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>
+					</div>
+					<div class="blklist-comment-area">
+						<div class="blklist-comment-head">
+							<span class="blklist-comment-name"><strong>Flagged User A</strong></span>
+							<span class="blklist-comment-time">2000-01-01 @ 12:00:00 AM UTC</span>
+						</div>
+						<div class="blklist-comment-content">
+							<span class="blklist-comment-text"><strong>ID: [flaggeduser.wheelcore.xyz]=[xxxxxxxxxxxx-000000000-000000000-000000000]</strong></span>
+						</div>
+						<div class="blklist-comment-content">
+							<span class="blklist-comment-text"><strong>Status: Flagged ⚠️</strong></span>
+						</div>
+						<div class="blklist-comment-content">
+							<span class="blklist-comment-text">This is an example of what a blacklist entry looks like. It states the entity's name, its ID (which is either an AUID or a web address), its blacklist status, and the reason why the entity has been placed on the blacklist.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
+	</li>
+      
+	<!--ENTRY-000000001-->
+      
+	<li id="banner-user-b">
+		<a href="https://framework.asveora.social/p/profile-home.html">
+			<div class="blklist-card-area">	
+				<span class="blklist-hidden-name">Banned User B</span>
+				<div class="blklist-comment-slot">
+					<div class="blklist-avatar-area">
+						<img class="blklist-user-avatar" src="https://cdn.asveora.social/AvtarBin/Default/ASV_Profile_Icon_Default_M4X.png"/>
+					</div>
+					<div class="blklist-comment-area">
+						<div class="blklist-comment-head">
+							<span class="blklist-comment-name"><strong>Banned User B</strong></span>
+							<span class="blklist-comment-time">2000-01-01 @ 12:00:00 AM UTC</span>
+						</div>
+						<div class="blklist-comment-content">
+							<span class="blklist-comment-text"><strong>ID: [banneduser.wheelcore.xyz]=[xxxxxxxxxxxx-000000000-000000000-000000000]</strong></span>
+						</div>
+						<div class="blklist-comment-content">
+							<span class="blklist-comment-text"><strong>Status: Banned ⛔</strong></span>
+						</div>
+						<div class="blklist-comment-content">
+							<span class="blklist-comment-text">This is an example of what a blacklist entry looks like. It states the entity's name, its ID (which is either an AUID or a web address), its blacklist status, and the reason why the entity has been placed on the blacklist.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
+	</li>
+      
+	<!--SCTN-PAGINATION-BAR-->
+	<!--Pagination navigation that allows visitors to search through divided pages of content.-->
+
+	<div id="pagination"></div>
+
+	<!--SCTN-RETURN-BANNER-->
+	<!--This is the return button of the page.-->
+
+	<a href="https://framework.asveora.social/p/library.html">
+		<div class="blklist-return-button">
+			<span class="blklist-lb-text-02"><b>Return to Library</b></span>
+		</div>
+	</a>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--JS-START-->
+      
+<script>
+
+	//SCTN-SEARCH-FUNCTION
+
+	function searchFunction() {
+    	var input, filter, ul, li, a, i, txtValue;
+    	input = document.getElementById("searchWideInput");
+    	filter = input.value.toUpperCase();
+    	ul = document.getElementById("searchWideUL");
+    	li = ul.getElementsByTagName("li");
+    	for (i = 0; i < li.length; i++) {
+        	a = li[i].getElementsByTagName("a")[0];
+        	txtValue = a.textContent || a.innerText;
+        	if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            	li[i].style.display = "";
+        	} else {
+            	li[i].style.display = "none";
+        	}
+    	}
+	}
+  
+	//PAGINATION-FUNCTIONS
+
+	//Pagination is handled by multiple javascript functions since the entire component is quite involved and has to be flexible enough to account for a changing amount of content.
+	//This first part determines how many items are rendered on each page of pagination. The more items you show on a page the less pagination pages there will be.
+	//The pagination is always calculated off the current page of pagination and how many items have already been "presented" from unordered list where all of the list items are stored.
+	//To make sure that every item can be searched via a direct # link for direct linking to a list item we include an item id declaration.
+	const list = document.getElementById("searchWideUL");
+	const items = list.querySelectorAll("li");
+
+	const idToIndexMap = new Map();
+  
+	items.forEach((item, index) => {
+		if (item.id) {
+			idToIndexMap.set(item.id, index);
+		}
+	});
+  
+	const pagination = document.getElementById("pagination");
+
+	const itemsPerPage = 10;
+	let currentPage = 1;
+
+	function showPage(page) {
+		currentPage = page;
+
+		const start = (page - 1) * itemsPerPage;
+		const end = start + itemsPerPage;
+
+		items.forEach((item, index) => {
+			item.style.display = (index >= start && index < end) ? "list-item" : "none";
+		});
+
+		renderPagination();
+	}
+
+	//This dictates how many pagination page numbers are visible at any given time. Increase the number to add more page number buttons or decrease to display fewer.
+	function renderPagination() {
+	const totalPages = Math.ceil(items.length / itemsPerPage);
+	const maxVisible = 8;
+	pagination.innerHTML = "";
+
+	let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+	let endPage = startPage + maxVisible - 1;
+
+	if (endPage > totalPages) {
+		endPage = totalPages;
+		startPage = Math.max(1, endPage - maxVisible + 1);
+	}
+
+		//Navigation button for returning to the previous page of pagination. Change the character(s) in "textContent" to change the rendered symbol.
+		const prev = document.createElement("button");
+		prev.textContent = "\u25C0";
+		prev.disabled = currentPage === 1;
+		prev.onclick = () => showPage(currentPage - 1);
+		pagination.appendChild(prev);
+
+		//Determines where the ellipsis should be placed on the starting (left) side of listed pagination page numbers in relation to the current pagination page number range you are viewing.
+		if (startPage > 1) {
+			addPageButton(1);
+			if (startPage > 2) {
+				addEllipsis();
+			}
+  		}
+
+		// Shows a number of pages around the current page number that you are viewing. This number is determined by const maxVisible that is declared in an earlier part of the function.
+		for (let i = startPage; i <= endPage; i++) {
+			addPageButton(i);
+		}
+
+		//Determines where the ellipsis should be placed on the ending (right) side of listed pagination page numbers in relation to the current pagination page number range you are viewing.
+		if (endPage < totalPages) {
+			if (endPage < totalPages - 1) {
+				addEllipsis();
+			}
+			addPageButton(totalPages);
+		}
+
+		//Navigation button for going to the next page of pagination. Change the character(s) in "textContent" to change the rendered symbol.
+		const next = document.createElement("button");
+		next.textContent = "\u25B6";
+		next.disabled = currentPage === totalPages;
+		next.onclick = () => showPage(currentPage + 1);
+		pagination.appendChild(next);
+	}
+
+
+	//This function adds the placeholder ellipsis that stand in for a range of page numbers that are not presently being displayed within the range of visible page numbers.
+	//The bullet points being used in textContent are written in JS unicode escape. You can find a list of unicode IDs that look like U+XXXX where XXXX is the ID.
+	//Then take that XXXX ID and format it into \uXXXX which will be a JS safe escaped way to show the symbol.
+	function addEllipsis() {
+		const span = document.createElement("span");
+		span.textContent = "\u2022\u2022\u2022";
+		span.style = "display: inline; padding-top: 24px; padding-top: 24px; text-decoration: none; background-color: var(--primary-color); flex-grow: 1; border: none; border-radius: 50px; font-family: helvetica, arial, sans-serif; font-size: 26px; font-weight: 700; color: var(--secondary-color); text-align: center;";
+		pagination.appendChild(span);
+	}
+  
+	//Determines the current page being viewed out of the limited pagination range of visible page numbers.
+	function addPageButton(page) {
+		const btn = document.createElement("button");
+		btn.textContent = page;
+
+		if (page === currentPage) {
+			btn.classList.add("active");
+			btn.disabled = true;
+		} else {
+			btn.onclick = () => showPage(page);
+		}
+
+		pagination.appendChild(btn);
+	}
+
+	//This makes sure that the pagination component starts at the first page. If you want it to default to another paginated page number, then change the value to 3, 10, or whatever page number you'd like.
+	function handleHashNavigation() {
+		const hash = window.location.hash; 
+		if (!hash) {
+			showPage(1);
+			return;
+		}
+
+		const id = hash.substring(1); 
+		const index = idToIndexMap.get(id);
+
+		if (index === undefined) {
+			showPage(1);
+			return;
+		}
+
+		const page = Math.floor(index / itemsPerPage) + 1;
+
+		showPage(page, true);
+
+		//Ensures the DOM updates correctly before scrolling to the request.
+		requestAnimationFrame(() => {
+			const el = document.getElementById(id);
+			if (el) {
+				el.scrollIntoView({ behavior: "smooth", block: "center" });
+			}
+		});
+	}
+
+	//Enables direct linking by ID via address updates.
+	handleHashNavigation();
+  
+	window.addEventListener("hashchange", handleHashNavigation);
+  
+	//Saves the current scroll of a page before it changes and creates a new history entry. This also ensures that by default, clicking pagination buttons will return the user to the top of the list.
+	//This also ensures that any preexisting hash gets preserved if it is already a part of the URL. Those hashes are the item IDs mentioned earlier in the pagination functions.
+	function showPage(page) {
+		history.replaceState(
+			{ page: currentPage, scrollY: window.scrollY },
+			""
+		);
+
+		currentPage = page;
+
+		const url = new URL(window.location);
+		url.searchParams.set("page", page);
+
+		url.hash = window.location.hash;
+
+		history.pushState({ page, scrollY: 0 }, "", url);
+
+		const start = (page - 1) * itemsPerPage;
+		const end = start + itemsPerPage;
+
+		items.forEach((item, index) => {
+			item.style.display = (index >= start && index < end)
+				? "list-item"
+				: "none";
+		});
+
+		renderPagination();
+
+		window.scrollTo({ top: 0, behavior: "auto" });
+	}
+
+	//Allows for updating the URL hash without jumping to the section of the search results containing the ID.  
+	items.forEach((item) => {
+		if (!item.id) return;
+
+		item.addEventListener("click", () => {
+			history.replaceState(null, "", "#" + item.id);
+		});
+	});
+  
+	//Returns the proper behavior depending on whether an item id hash is present or not.
+	window.addEventListener("popstate", (event) => {
+
+		if (window.location.hash) {
+			handleHashNavigation();
+			return;
+		}
+
+		if (!event.state) return;
+
+		const { page, scrollY } = event.state;
+
+		if (page) {
+			showPage(page, true);
+		}
+
+		requestAnimationFrame(() => {
+			window.scrollTo({
+				top: scrollY || 0,
+				behavior: "auto"
+			});
+		});
+	});
+
+</script>
+
+<!--JS-END-->

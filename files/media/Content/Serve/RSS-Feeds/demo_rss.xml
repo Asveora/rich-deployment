@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+	<channel>
+
+		<title>Asveora Framework Latest Blogs</title>
+		<link>https://www.asveora.social/p/updates.html</link>
+		<description>Latest blog posts from Asveora Framework!</description>
+
+		<item>
+			<title>Post Title</title>
+			<link>https://framework.asveora.social/p/under-construction.html</link>
+			<description>Sometimes content can take awhile to craft and it would seem that we are still hard at work behind the scenes.</description>
+		</item>
+
+		<item>
+			<title>Post Title</title>
+			<link>https://framework.asveora.social/p/under-construction.html</link>
+			<description>Sometimes content can take awhile to craft and it would seem that we are still hard at work behind the scenes.</description>
+		</item>
+
+		<item>
+			<title>Another Blog Post?</title>
+			<link>https://framework.asveora.social/p/blog-post-v1.html</link>
+			<description>This is a demonstrative blog post written to show you what a blog post can look like in Asveora v4!</description>
+		</item>
+
+		<item>
+			<title>Another Blog Post?</title>
+			<link>https://framework.asveora.social/p/blog-post-v1.html</link>
+			<description>This is a demonstrative blog post written to show you what a blog post can look like in Asveora v4!</description>
+		</item>
+
+	</channel>
+
+</rss>

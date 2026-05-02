@@ -1,0 +1,83 @@
+<!--HTML-START-->
+      
+	<div class="content-body">
+		<a href=""><span class="item-download"><strong>Accordion</strong></span></a>
+	</div>
+	<div class="content-body">
+		<span class="content-body-text">Allows for the consolidation of content into a stack of buttons that reveal cards like an accordion when clicked on.
+		</span>
+	</div>
+      
+	<div class="accordion-container">
+      
+		<button class="accordion"><strong>Topic 01</strong></button>
+		<div class="panel">
+			<p>About topic one.</p>
+		</div>
+
+		<button class="accordion"><strong>Topic 02</strong></button>
+		<div class="panel">
+			<p>About topic two.</p>
+		</div>
+
+		<button class="accordion"><strong>Topic 03</strong></button>
+		<div class="panel">
+			<p>About topic three.</p>
+		</div>
+          
+	</div>
+
+<!--HTML-END-->
+
+
+
+
+
+
+
+
+
+
+<!--CSS-START-->
+
+	.accordion-container{
+		margin-top: 40px;
+    }
+  
+	.accordion{
+		background: transparent;
+		border-bottom: 5px solid #9696ff;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		text-align: left;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	.active, .accordion:hover{
+		background-color: #9696ff; 
+	}
+
+	.panel{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: var(--primary-color);
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: white;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out;
+	}
+	
+<!--CSS-END-->
+
+		
+		

@@ -1,0 +1,12 @@
+$url = "https://matrix-client.matrix.org/_matrix/client/v3/login"
+
+$password = 'YOUR_PASSWORD'
+
+$body = @{
+    type = "m.login.password"
+    user = "YOUR_USERNAME"
+    password = $password
+} | ConvertTo-Json
+
+$response = Invoke-RestMethod -Uri $url -Method Post -ContentType "application/json" -Body $body
+$response
