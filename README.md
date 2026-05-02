@@ -1,4 +1,4 @@
-# About the licenses!
+# About the Licenses
 
 "LICENSE-code" governs all of the code within this repository. "LICENSE-assets" governs all of Asveora's branded and copyrighted assets. This is to ensure that Asveora remains an open source project that people can freely use the code from while avoiding any legal problems surrounding Asveora's IP.
 
