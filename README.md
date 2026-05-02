@@ -1,6 +1,6 @@
 # Welcome to Asveora's Rich Deployment Repository!
 
-Hey there! AmzroSevca typing! This repo is for the Rich Deployment (RD) version of Asveora which is the full Asveora project. This contains all of the building blocks necessary to deploy the full Asveora experience and or begin the construction of your own digital network. Whether you are looking to build profiles, search indexes, dashboards, wiki pages, blog posts, or storefront pages, all of it can be done with the code in this repository. We recommend that you start small with something such as building a nice profile space for yourself and then scaling up to larger creations such as marketplaces, landhubs, systems, federations, or your own full-blown digital network.
+Hey there! [AmzroSevca](https://www.amzrosevca.com/) typing! This repo is for the Rich Deployment (RD) version of Asveora which is the full Asveora project. This contains all of the building blocks necessary to deploy the full Asveora experience and or begin the construction of your own digital network. Whether you are looking to build profiles, search indexes, dashboards, wiki pages, blog posts, or storefront pages, all of it can be done with the code in this repository. We recommend that you start small with something such as building a nice profile space for yourself and then scaling up to larger creations such as marketplaces, landhubs, systems, federations, or your own full-blown digital network.
 
 # About the Licenses
 
