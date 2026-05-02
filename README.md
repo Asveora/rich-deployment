@@ -6,8 +6,6 @@ Hey there! [AmzroSevca](https://www.amzrosevca.com/) typing! This repo is for th
 
 "LICENSE-code" governs all of the code within this repository. "LICENSE-assets" governs all of Asveora's branded and copyrighted assets. "LICENSE-blogger" governs a single xml file within the blogger directory that contains some code from Google at the time of writing this. If this changes in the future the license will be updated. These licenses exist to ensure that Asveora remains an open source project that people can freely use the code from while avoiding any legal problems surrounding Asveora's IP.
 
-This git repo is still a work in progress and has no official release build yet. The code is all functional but the organization and deployment of various data files and objects is in a phase of transition to a new model. Continue reading to learn more!
-
 # I just want to be an user and not a contributor...
 
 Head over to https://www.asveora.social/p/join.html and start having fun! It is expected that most users of Asveora will become contributors at some point in due time. Why so? Because Asveora is a self-deployable project. The more you do yourself, the more options, customization, and freedom you gain. However if you are just starting out with Asveora it is understandable if you do not want to immediately jump into deploying the RD version of Asveora. It is recommended that you go find an existing wheelcore to join, have the wheelcore admin get you set up with Quick Deployment (QD) and then slowly start taking control of your Asveora presence as you become more familiar with computers, networking, and web development. Yes, even smarpthones are computers!
