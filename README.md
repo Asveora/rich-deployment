@@ -1,10 +1,12 @@
-# WARNING
+# About the licenses!
+
+"LICENSE-code" governs all of the code within this repository. "LICENSE-assets" governs all of Asveora's branded and copyrighted assets. This is to ensure that Asveora remains an open source project that people can freely use the code from while avoiding any legal problems surrounding Asveora's IP.
 
 This git repo is still a work in progress and has no official release build yet. The code is all functional but the organization and deployment of various data files and objects is in a phase of transition to a new model. Continue reading to learn more!
 
-## What does that mean and what is this repo for?
+## What is this repo for?
 
-This means you can pull this code right now and all of it will "work", but it is not properly structured since some of the code is on the new model while some is on the old model. Therefore this repo is "unstable" in a sense. As for what this repo is? It is the Rich Deployment (RD) version of Asveora. Aka the full Asveora project. This contains all of the building blocks necessary to deploy the full Asveora experience and or begin the construction of your own digital network. Whether you are looking to build profiles, search indexes, dashboards, wiki pages, blog posts, or storefront pages, all of it can be done with the code in this repository. We recommend that you start small with something such as building a nice profile space for yourself and then scaling up to larger creations such as marketplaces, landhubs, systems, federations, or your own full-blown digital network.
+This repo is for the Rich Deployment (RD) version of Asveora. Aka the full Asveora project. This contains all of the building blocks necessary to deploy the full Asveora experience and or begin the construction of your own digital network. Whether you are looking to build profiles, search indexes, dashboards, wiki pages, blog posts, or storefront pages, all of it can be done with the code in this repository. We recommend that you start small with something such as building a nice profile space for yourself and then scaling up to larger creations such as marketplaces, landhubs, systems, federations, or your own full-blown digital network.
 
 ## I just want to be an user and not a contributor...
 
