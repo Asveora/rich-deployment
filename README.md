@@ -4,7 +4,7 @@ Hey there! [AmzroSevca](https://www.amzrosevca.com/) typing! This repo is for th
 
 # About the Licenses
 
-"LICENSE-code" governs all of the code within this repository. "LICENSE-assets" governs all of Asveora's branded and copyrighted assets. This is to ensure that Asveora remains an open source project that people can freely use the code from while avoiding any legal problems surrounding Asveora's IP.
+"LICENSE-code" governs all of the code within this repository. "LICENSE-assets" governs all of Asveora's branded and copyrighted assets. "LICENSE-blogger" governs a single xml file within the blogger directory that contains some code from Google at the time of writing this. If this changes in the future the license will be updated. These licenses exist to ensure that Asveora remains an open source project that people can freely use the code from while avoiding any legal problems surrounding Asveora's IP.
 
 This git repo is still a work in progress and has no official release build yet. The code is all functional but the organization and deployment of various data files and objects is in a phase of transition to a new model. Continue reading to learn more!
 
