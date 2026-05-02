@@ -34,7 +34,7 @@ First, you will want to install the following on your system:
 * git
 * node.js
 * express.js
-* An IDE such as Notepad++ or Microsoft's Visual Studio Code (aka VSC or VS Code)
+* An Integrated Development Environment (IDE) such as Notepad++ or Microsoft's Visual Studio Code (also known as VSC or VS Code)
 
 Keep in mind that you install express once you have node.js with the `npm install express` command in terminal.
 If you do not know how to use git or node.js then please refer to the following guides:
