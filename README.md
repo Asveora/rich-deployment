@@ -1,12 +1,12 @@
+# Welcome to Asveora's Rich Deployment Repository!
+
+Hey there! AmzroSevca typing! This repo is for the Rich Deployment (RD) version of Asveora which is the full Asveora project. This contains all of the building blocks necessary to deploy the full Asveora experience and or begin the construction of your own digital network. Whether you are looking to build profiles, search indexes, dashboards, wiki pages, blog posts, or storefront pages, all of it can be done with the code in this repository. We recommend that you start small with something such as building a nice profile space for yourself and then scaling up to larger creations such as marketplaces, landhubs, systems, federations, or your own full-blown digital network.
+
 # About the Licenses
 
 "LICENSE-code" governs all of the code within this repository. "LICENSE-assets" governs all of Asveora's branded and copyrighted assets. This is to ensure that Asveora remains an open source project that people can freely use the code from while avoiding any legal problems surrounding Asveora's IP.
 
 This git repo is still a work in progress and has no official release build yet. The code is all functional but the organization and deployment of various data files and objects is in a phase of transition to a new model. Continue reading to learn more!
-
-# What is this repo for?
-
-This repo is for the Rich Deployment (RD) version of Asveora. Aka the full Asveora project. This contains all of the building blocks necessary to deploy the full Asveora experience and or begin the construction of your own digital network. Whether you are looking to build profiles, search indexes, dashboards, wiki pages, blog posts, or storefront pages, all of it can be done with the code in this repository. We recommend that you start small with something such as building a nice profile space for yourself and then scaling up to larger creations such as marketplaces, landhubs, systems, federations, or your own full-blown digital network.
 
 # I just want to be an user and not a contributor...
 
@@ -20,6 +20,10 @@ This is one of the easiest life-long ways to break away from centralized social 
 * Meta & YouTube Lawsuit (2025): https://www.yahoo.com/news/articles/meta-youtube-lose-social-media-175400791.html
 * Meta Scam Ads Lawsuit (2026): https://mashable.com/article/meta-accused-of-profiting-from-scam-ads-in-class-action-lawsuit
 * Reddit API Protests (2023): https://apnews.com/article/reddit-blackout-api-91f60aaec2eaf7cd0e3751e2fb3dd653
+
+# It's also a great entry point into programming!
+
+Always wanted to know how to code your own websites, web apps, local software apps, or even video games? Web development is a great way to get familiar with the general philosophy of programming! It is what I (AmzroSevca) started out with before branching out into languages such as Python and C#. HTML (Hypertext Markup Language) is incredibly simple once you get the hang of just a few basic tags. I would argue that anyone could learn the basics of HTML and CSS (Cascading Style Sheets) is an afternoon or a day. JS (Javascript) might take a little longer though since its a lot more involved with logic and math haha.
 
 # How do I get help if I need it?
 
