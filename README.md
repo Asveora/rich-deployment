@@ -23,7 +23,7 @@ This is one of the easiest life-long ways to break away from centralized social 
 
 # It's also a great entry point into programming!
 
-Always wanted to know how to code your own websites, web apps, local software apps, or even video games? Web development is a great way to get familiar with the general philosophy of programming! It is what I (AmzroSevca) started out with before branching out into languages such as Python and C#. HTML (Hypertext Markup Language) is incredibly simple once you get the hang of just a few basic tags. I would argue that anyone could learn the basics of HTML and CSS (Cascading Style Sheets) is an afternoon or a day. JS (Javascript) might take a little longer though since its a lot more involved with logic and math haha.
+Always wanted to know how to code your own websites, web apps, local software apps, or even video games? Web development is a great way to get familiar with the general philosophy of programming! It is what I started out with before branching out into languages such as Python and C#. HTML (Hypertext Markup Language) is incredibly simple once you get the hang of just a few basic tags. I would argue that anyone could learn the basics of HTML and CSS (Cascading Style Sheets) is an afternoon or a day. JS (Javascript) might take a little longer though since its a lot more involved with logic and math haha.
 
 # How do I get help if I need it?
 
