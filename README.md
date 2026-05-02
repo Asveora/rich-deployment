@@ -34,7 +34,11 @@ First, you will want to install the following on your system:
 * git
 * node.js
 * express.js
-* An Integrated Development Environment (IDE) such as Notepad++ or Microsoft's Visual Studio Code (also known as VSC or VS Code)
+* An Integrated Development Environment (IDE) such as:
+  * Notepad++ (Windows) – https://notepad-plus-plus.org/downloads/
+  * Visual Studio Code (Linux, MacOS, Windows) – https://code.visualstudio.com/download
+  * Eclipse (Linux, MacOS, Windows) – https://www.eclipse.org/downloads/
+  * Jetbrains' WebStorm (Linux, MacOS, Windows) – https://www.jetbrains.com/webstorm/
 
 Keep in mind that you install express once you have node.js with the `npm install express` command in terminal.
 If you do not know how to use git or node.js then please refer to the following guides:
@@ -81,6 +85,9 @@ Now open your terminal in the `YYYY-MM-DD` directory via `cd`ing to it or doing 
 Even if you are on a mobile device, you can still make use of Asveora! Yes, there ARE ways to code on your smartphone or tablet and manage files in the same way you would within the desktop environment of any other operating system. Below are a couple of options for both Android and iOS (we got everyone covered here)! Please keep in mind that any information or data presented here is based on available information from online sources. Please double check ALL details with OFFICIAL sources as Asveora will not be liable if you make a purchase and there is a mismatch in expectations based on what is listed here and what you get. Asveora is not sponsored by nor affiliated with any of these products.
 
 ## Android
+* For Terminal Access – Termux (Free / Open Source / No Ads) – https://play.google.com/store/apps/details?id=com.termux&hl=en-US
+* For Git Features – MGit (Free / Open Source / No Ads) – https://github.com/maks/MGit or https://play.google.com/store/apps/details?id=com.manichord.mgit
+* For the GitHub Experience – GitHub (Free / In-App Purchases) – https://play.google.com/store/apps/details?id=com.github.android&hl=en-US
 * For Editing Code – QuickEdit Text Editor (Free / Contains Ads) – https://play.google.com/store/apps/details?id=com.rhmsoft.edit&hl=en-US
 * For Editing Code – QuickEdit Text Editor Pro (Paid / Pay Once / No Ads) – https://play.google.com/store/apps/details?id=com.rhmsoft.edit.pro&hl=en
 * For Managing Files – Material Files (Free / Open Source / No Ads) – https://play.google.com/store/apps/details?id=me.zhanghai.android.files&hl=en-US
@@ -89,4 +96,6 @@ Even if you are on a mobile device, you can still make use of Asveora! Yes, ther
 ## iOS
 * For Editing Code – Koder Code Editor (May or may not be paid???) – https://apps.apple.com/us/app/koder-code-editor/id1447489375
 * For Managing Files – FileBrowser Professional (Paid / Pay Once / No Ads) – https://apps.apple.com/us/app/filebrowser-professional/id854618029
-
+* For Terminal Access – Termius (Free / In-App Purchases) – https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908
+* For Git Features – Working Copy (Free / In-App Purchases) – https://apps.apple.com/us/app/git-client-working-copy/id896694807
+* For the GitHub Experience – GitHub (Free / In-App Purchases) – https://apps.apple.com/us/app/github/id1477376905
