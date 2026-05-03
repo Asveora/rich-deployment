@@ -27,7 +27,7 @@ Always wanted to know how to code your own websites, web apps, local software ap
 
 Check the GET-HELP.txt file or the GET-HELP.md file! Whichever one suits your taste! :)
 
-# How do I clone this repo and begin contributing to Asveora?
+# How do I begin contributing to Asveora?
 
 *Contribution guidelines will be coming at some point!*
 
