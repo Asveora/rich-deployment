@@ -2,6 +2,8 @@
 
 This guide is written with the Windows operating system in mind but also generally applies to Linux and MacOS as well. Instead of Command Prompt or Powershell, you will be using Bash for Linux or Terminal for MacOS. If you run into any problems or have feedback on how the guide can be clarified, please check one of the GET-HELP files!
 
+Make sure to read one of the "directory-transition-README" files right after this to further understand how your files will need to be reorganized or changed if you plan on using this directory model template going forward. 
+
 # Directory Mapping
 
 This is a directory model template that is used for keeping files and associated objects organized within Asveora's project space. To get a look at the general layout open either the data-map.png file, data-map.txt file, or the data-map.html file. This model was created by AmzroSevca and the "Assets Directory Structure" was inherited from one of their other projects, Prisxane. You are free to use this model to keep your files organized and are encouraged to do so as it gives everything a proper home for life!

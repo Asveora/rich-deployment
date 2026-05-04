@@ -58,3 +58,7 @@ So what do the dots mean and how does this work? Well here is a quick breakdown 
 
 And that's it! You now have the ability to correctly write relative file paths and locate files with ease!
 
+**This guide was written by AmzroSevca (amzrosevca.aesnetivan.xyz) on 2026-05-02.**<br>
+**It is free for redistribution and teaching. This guide shall not be monetized or restricted.**<br>
+**🄯 2026 Asveora, LLC**
+

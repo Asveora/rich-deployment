@@ -785,6 +785,11 @@
 		border: 10px solid rgb(255, 255, 255);
 		padding: 15px;
 		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-home-music-button:hover{
+		background-color: var(--hover-color);
 	}
   
 	.profile-home-music-img-area{
@@ -2223,6 +2228,11 @@
 		border: 10px solid rgb(255, 255, 255);
 		padding: 15px;
 		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-v4-music-button:hover{
+		background-color: var(--hover-color);
 	}
   
 	.profile-v4-music-img-area{

@@ -4,6 +4,8 @@ Reading Notes
 
 This guide is written with the Windows operating system in mind but also generally applies to Linux and MacOS as well. Instead of Command Prompt or Powershell, you will be using Bash for Linux or Terminal for MacOS. If you run into any problems or have feedback on how the guide can be clarified, please check one of the GET-HELP files!
 
+Make sure to read one of the "directory-transition-README" files right after this to further understand how your files will need to be reorganized or changed if you plan on using this directory model template going forward. 
+
 ========================================
 Directory Mapping
 ========================================
