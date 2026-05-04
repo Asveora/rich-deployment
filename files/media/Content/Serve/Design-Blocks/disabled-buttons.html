@@ -1,42 +1,30 @@
-<!--HTML-START-->
-
-	<div class="connection-area-disabled">
-                  
-		<!--FRIENDS-BUTTON-->
-                  
-
-		<div class="contact-button-disabled">
-			<div class="cb-items">
-				<img class="friends-icon" alt="Friends" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/friends.png" width="30" height="30"/>
-				<span class="cb-text"><strong>Friends</strong></span>
-			</div>
-		</div>
-
-                  
-		<!--CONNECT-BUTTON-->
-                  
-
-		<div class="contact-button-disabled">
-			<div class="cb-items">
-				<img class="connect-icon" alt="Connect" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/chat.png" width="30" height="30"/>
-				<span class="cb-text"><strong>Connect</strong></span>
-			</div>
-		</div>
-
-	</div>
-	
-<!--HTML-END-->
-
-
-
-
-
-
-
-
-
-
 <!--CSS-START-->
+
+<style>
+
+	body{
+		margin: 50px;
+	}
+	
+	.content-title{
+		margin-bottom: 20px;
+	}
+
+	.content-body{
+		margin-top: 0px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+
+	.component-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: #000000;
+	}
 
 	.connection-area-disabled{
 		margin-top: 40px;
@@ -51,7 +39,7 @@
 	.contact-button-disabled{
 		background-color: #6b6b6b;
 		border-radius: 80px;
-		border: 7px solid rgb(255, 255, 255);
+		border: 7px solid rgb(0, 0, 0);
 		padding-top: 10px;
 		padding-right: 10px;
 		padding-bottom: 5px;
@@ -82,7 +70,54 @@
 	.cb-text{
 		font-family: helvetica, arial, sans-serif;
 		font-size: 28px;
-		color: var(--secondary-color);
+		color: #ffffff;
 	}
 	
+</style>
+	
 <!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
+<!--HTML-START-->
+
+	<div class="content-title">
+		<span class="component-title"><strong>Disabled Buttons Design Block</strong></span>
+	</div>
+	<div class="content-body">
+		<span class="content-body-text">Allows the disabling of elements while keeping them visible.
+		</span>
+	</div>
+
+	<div class="connection-area-disabled">
+                  
+		<!--FRIENDS-BUTTON-->
+
+		<div class="contact-button-disabled">
+			<div class="cb-items">
+				<img class="friends-icon" alt="Friends" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/friends.png" width="30" height="30"/>
+				<span class="cb-text"><strong>Friends</strong></span>
+			</div>
+		</div>
+
+                  
+		<!--CONNECT-BUTTON-->
+                  
+
+		<div class="contact-button-disabled">
+			<div class="cb-items">
+				<img class="connect-icon" alt="Connect" data-original-height="512" data-original-width="512" src="https://cdn.asveora.social/Buttons/Theme-Parts/chat.png" width="30" height="30"/>
+				<span class="cb-text"><strong>Connect</strong></span>
+			</div>
+		</div>
+
+	</div>
+	
+<!--HTML-END-->

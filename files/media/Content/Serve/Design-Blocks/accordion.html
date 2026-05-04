@@ -1,7 +1,85 @@
+<!--CSS-START-->
+
+<style>
+
+	body{
+		margin: 50px;
+	}
+	
+	.content-title{
+		margin-bottom: 20px;
+	}
+
+	.content-body{
+		margin-top: 0px;
+	}
+  
+  	.content-body-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);		
+	}
+
+	.component-title{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 36px;
+		color: #000000;
+	}
+
+	.accordion-container{
+		margin-top: 40px;
+    }
+  
+	.accordion{
+		background: #000042;
+		border-bottom: 5px solid #9696ff;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #ffffff;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		text-align: left;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	.active, .accordion:hover{
+		background-color: #9696ff; 
+	}
+
+	.panel{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 24px;
+		color: #000000;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: white;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out;
+	}
+	
+</style>
+	
+<!--CSS-END-->
+
+
+
+
+
+
+
+
+
+
 <!--HTML-START-->
       
-	<div class="content-body">
-		<a href=""><span class="item-download"><strong>Accordion</strong></span></a>
+	<div class="content-title">
+		<span class="component-title"><strong>Accordion Design Block</strong></span>
 	</div>
 	<div class="content-body">
 		<span class="content-body-text">Allows for the consolidation of content into a stack of buttons that reveal cards like an accordion when clicked on.
@@ -38,46 +116,27 @@
 
 
 
-<!--CSS-START-->
+<!--JS-START-->
 
-	.accordion-container{
-		margin-top: 40px;
-    }
+<script>
   
-	.accordion{
-		background: transparent;
-		border-bottom: 5px solid #9696ff;
-		border-left: none;
-		border-right: none;
-		border-top: none;
-		font-family: helvetica, arial, sans-serif;
-		font-size: 28px;
-		color: var(--secondary-color);
-		cursor: pointer;
-		padding: 18px;
-		width: 100%;
-		text-align: left;
-		outline: none;
-		transition: 0.4s;
-	}
+	//SCTN-ACCORDIAN-FUNCTION
+  
+	var acc = document.getElementsByClassName("accordion");
+	var i;
 
-	.active, .accordion:hover{
-		background-color: #9696ff; 
+	for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			} 
+		});
 	}
+  
+</script>
 
-	.panel{
-		font-family: helvetica, arial, sans-serif;
-		font-size: 24px;
-		color: var(--primary-color);
-		padding-left: 20px;
-		padding-right: 20px;
-		background-color: white;
-		max-height: 0;
-		overflow: hidden;
-		transition: max-height 0.3s ease-out;
-	}
-	
-<!--CSS-END-->
-
-		
-		
+<!--JS-END-->
