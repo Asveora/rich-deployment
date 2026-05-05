@@ -1,0 +1,91 @@
+========================================
+NETWORK DIRECTORY STRUCTURE
+========================================
+
+Network : Parent directory that holds all network subdirectories and files.
+====Market : Stores all marketplace data and listings.
+========Services
+============Communities
+============LandHubs
+============Network-Packages
+============Profile-Spaces
+============Storefronts
+============Themes
+============Wheelcores
+====Record : Stores all release snapshots of your network, to-do lists, and roadmap documents.
+========Archive
+============YYYY-MM-DD-Network-vX.X-Release
+========PlanList
+============App-Roadmap
+============Docs-Planning
+============HTML-Test-Bin
+====Region : Stores all information regarding entities within the network.
+========Federations
+============FederationName
+================dse-index
+================floor-data : The federation's "Username" folder where its profile contents are stored.
+========LandHubs
+============LandHubName
+================dse-index
+================floor-data : The landhub's "Username" folder where its dashboard contents are stored.
+========Systems
+============SystemName
+================dse-index
+================floor-data : The system's "Username" folder where its profile contents are stored.
+========UserStates : For remote user presences, VPN groups, VPS platforms, and multi-auth.
+============Presence-XXXX 
+========Wheelcores
+============WheelcoreName
+================dse-index
+====================Username : This is where the "Username" folder comes into play!
+================floor-data : The wheelcore's "Username" folder where its profile contents are stored.
+====VSCBin : Where all network code and framework files go. This is the core.
+========AdminBox : Stores all files regarding the network's admin profile space.
+================dse-index
+================floor-data
+========AssetsBox : For storing any assets of the network such as app icons or covers.
+============App-Icons
+========ForumBox : Stores all data regarding communities hosted on Protocols such as Stoat, Matrix, etc.
+============ProtocolName
+================AccountProfiles
+================Bot.Automation
+================DiscoverySpace
+================FeedbackNotes
+================GroupsBlankets
+================PlatformDumps
+================Servers.FilePack
+====================ServerName
+========================Banners
+============================Ruleset
+============================Sidebar
+========================Bubbles
+========================DataSet
+============================Channels
+========================EmteBin
+========================IconBox
+========================NewsRE
+============================YYYY
+================================Post-Category
+========================RoleNet
+================SessionIDTicket
+========GuidesList : Holds all files related to the network's framework. This is the core code.
+============asvfrw
+================develop
+====================asvfrw-vX.X.X-QD
+========================dYYYYMMDD-tHHMMSS-qd-main
+====================asvfrw-vX.X.X-RD
+========================dYYYYMMDD-tHHMMSS-rd-main
+====================asvfrw-vX.X.X-XX : XX represents a custom version of the Asveora framework.
+========================dYYYYMMDD-tHHMMSS-xx-main
+================releases
+====================asvfrw-vX.X.X-QD
+====================asvfrw-vX.X.X-RD
+====================asvfrw-vX.X.X-XX : XX represents a custom version of the Asveora framework.
+============asvidx : For video guides about your network deployment to keep users up to date or assist them.
+================TutorialVideo
+
+========================================
+
+This guide was written by AmzroSevca (amzrosevca.aesnetivan.xyz) on 2026-05-02.
+It is free for redistribution and teaching. This guide shall not be monetized or restricted.
+🄯 2026 Asveora, LLC
