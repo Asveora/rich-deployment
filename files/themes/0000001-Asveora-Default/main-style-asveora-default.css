@@ -785,6 +785,11 @@
 		border: 10px solid rgb(255, 255, 255);
 		padding: 15px;
 		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-home-music-button:hover{
+		background-color: var(--hover-color);
 	}
   
 	.profile-home-music-img-area{
@@ -2223,6 +2228,11 @@
 		border: 10px solid rgb(255, 255, 255);
 		padding: 15px;
 		text-align: center;
+		transition: 0.3s;
+	}
+  
+	.profile-v4-music-button:hover{
+		background-color: var(--hover-color);
 	}
   
 	.profile-v4-music-img-area{
@@ -3030,7 +3040,7 @@
 	/*Controls the spacing, color, padding, image styling, text styling, and layout of a content area div.*/
 
 	.wk-inf-content-area{
-		background: #616161;
+		background: var(--primary-color);
 		border-radius: 50px;
 		margin-top: 150px;
 		padding: 80px;
@@ -3261,7 +3271,7 @@
 	/*Controls the color, spacing, size, and alignment of the return button div.*/
 
 	.wk-inf-return-button{
-		background: #616161;
+		background: var(--primary-color);
 		border-radius: 50px;
 		margin-top: 50px;
 		margin-bottom: 50px;

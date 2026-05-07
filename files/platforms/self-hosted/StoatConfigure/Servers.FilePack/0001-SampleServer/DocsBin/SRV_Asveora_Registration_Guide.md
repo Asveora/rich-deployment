@@ -21,8 +21,7 @@
 > > **(11) Profile Picture:** (Link or direct upload an image or GIF.)<br>
 > > **(12) Background:** (Link or direct upload an image or GIF. For a solid color type a color hex code. For more options, please see the background formatting options below.)<br>
 
-
-
+**Insert image of Quick Deployment Diagram.**
 
 > **Background Formatting Options**<br>
 > > **Gradient:** If you want to have a gradient background, please submit the color hex codes in a linear order that you want to have seen in it. Linear gradients must be described from their starting point to their ending point for direction. For example a diagonal blue to white gradient would be:<br>
@@ -30,6 +29,14 @@
 > > where the gradient starts blue in the bottom left corner and ends at white in the top right corner.<br>
 > > Radial gradients are calculated from the inside to the outside.<br>
 > > **Tinting:** If you want the background image to have a color or gradient tint please state the color or gradient and % of tint which is from 0 (completely transparent) to 100 (completely opaque).<br>
+
+> **Biography Formatting Options (HTML Document Writer)**<br>
+> > You are free to opt for the HTML Document Writer option that allows users to write HTML pages in a word-processing application environment such as LibreOffice. This means you can completely bypass writing your biography using the formatting tags that you would have to use if you were sending your biography content as a normal Stoat message. Download LibreOffice and the HTML Document Writer template below if you want to use this option. Screenshots are provided of how this translates to what content gets published on the web in relation to the diagram provided above.<br>
+> > **LibreOffice Download:** https://www.libreoffice.org/download/<br>
+> > **HTML Document Writer template:** https://www.mediafire.com/file_premium/i1mclyzuzsp62tx/wrtr-docs.zip/file<br>
+
+**Insert image of Quick Deployment HTML Document Writer template open in LibreOffice.**<br>
+**Insert image of Quick Deployment HTML Document Writer template open in a web browser.**
 
 > **Biography Formatting Options**<br>
 > >  Use $L, $C, $R to denote a paragraph and determine text alignment as either left, center, or right. Use &BL to denote a blank line. Use [b], [i], [u], or [st] to denote whether the text should be bold, italics, or underlined. Use %T3, %T2, or %T1 for denoting title, subtitle, or standard sized text. Use [IMG#] to denote which image you want inserted. Use <a www.yourlinkhere.com></a> to denote a word as a hyperlink. Images are always displayed on their own line with blank lines on either side. Below is an example:<br>
