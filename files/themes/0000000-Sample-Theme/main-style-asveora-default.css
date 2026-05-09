@@ -5323,7 +5323,7 @@
 	/*SCTN-SPACE-ENTRY-CLASS*/
 	/*Determines the styling of the space entries displayed within the index.*/
   
-	.whlcrs-space-entry{
+	.whlcrs-wheelcore-entry{
 		border-radius: 50px;
 		margin-top: 50px;
 		margin-left: auto;
