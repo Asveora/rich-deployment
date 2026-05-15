@@ -835,6 +835,32 @@
 			transform: translateX(calc(-100% - var(--gap)));;
 		}
 	}
+	
+	/*SCTN-NETWORK-ASSOCIATION-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the network association div.*/
+  
+	.profile-home-net-assc-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.profile-home-net-assc-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-home-net-assc-link{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
   
 	/*SCTN-BADGES-BAR-CLASSES*/
 	/*Controls the spacing, color, padding, and layout of the badges bar, badge container, and the badge name bubbles that show up on hover.*/
@@ -2277,6 +2303,32 @@
 		to {
 			transform: translateX(calc(-100% - var(--gap)));;
 		}
+	}
+	
+	/*SCTN-NETWORK-ASSOCIATION-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the network association div.*/
+  
+	.profile-v4-net-assc-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.profile-v4-net-assc-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-v4-net-assc-link{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
 	}
   
 	/*SCTN-BADGES-BAR-CLASSES*/

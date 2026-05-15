@@ -261,6 +261,32 @@
 		}
 	}
   
+	/*SCTN-NETWORK-ASSOCIATION-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the network association div.*/
+  
+	.profile-home-net-assc-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.profile-home-net-assc-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-home-net-assc-link{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
+  
 	/*SCTN-BADGES-BAR-CLASSES*/
 	/*Controls the spacing, color, padding, and layout of the badges bar, badge container, and the badge name bubbles that show up on hover.*/
   
@@ -870,10 +896,10 @@
 	</div>
 
 	<!--SCTN-PROFILE-ID-->
-	<!--Contains your Asveora Profile Code (APC). Replace the default string with your string.-->
+	<!--Contains your Asveora Profile Core (APC). Replace the default string with your string.-->
 	
 	<div class="profile-home-profile-id">
-		<span class="profile-home-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+		<span class="profile-home-id-text"><b>xxxxxxxxxxxx:000000000-000000000-000000000</b></span>
 	</div>
 
 	<!--This code block is currently disabled. To enable it, remove the comment wrapper from the top and bottom. Any lines with "xx" are HTML comments that should be wrapped when the block is enabled.
@@ -939,11 +965,20 @@
 		xxPROFILE-ID-ALTxx
       
 		<div class="profile-home-profile-id-alt">
-			<span class="profile-home-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+			<span class="profile-home-id-text"><b>xxxxxxxxxxxx:000000000-000000000-000000000</b></span>
 		</div>
       
 	</div>
 	This code block is currently disabled. To enable it, remove the comment wrapper from the top and bottom. Any lines with "xx" are HTML comments that should be wrapped when the block is enabled.-->
+
+	<!--NETWORK-ASSOCIATION-->
+	<!--This div communicates network-level logical information about which Network the entity, along with any entities it hosts, belongs to.-->
+
+	<div class="profile-home-net-assc-bar">
+		<span class="profile-home-net-assc-text">
+			<strong>Network Association: <a href="https://www.asveora.social/"><span id="networkAssociation" class="profile-home-net-assc-link">asveora.social</span></a></strong>
+		</span>
+	</div>
 
 	<!--SCTN-BADGES-BAR-->
 	<!--This is the badges bar where you can display any number of badges. Either adopt ones others have created or make your own!-->

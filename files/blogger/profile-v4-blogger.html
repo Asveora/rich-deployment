@@ -261,6 +261,32 @@
 		}
 	}
   
+	/*SCTN-NETWORK-ASSOCIATION-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the network association div.*/
+  
+	.profile-v4-net-assc-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.profile-v4-net-assc-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.profile-v4-net-assc-link{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
+	}
+  
 	/*SCTN-BADGES-BAR-CLASSES*/
 	/*Controls the spacing, color, padding, and layout of the badges bar, badge container, and the badge name bubbles that show up on hover.*/
   
@@ -870,10 +896,10 @@
 	</div>
 
 	<!--SCTN-PROFILE-ID-->
-	<!--Contains your Asveora Profile Code (APC). Replace the default string with your string.-->
+	<!--Contains your Asveora Profile Core (APC). Replace the default string with your string.-->
 	
 	<div class="profile-v4-profile-id">
-		<span class="profile-v4-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+		<span class="profile-v4-id-text"><b>xxxxxxxxxxxx:000000000-000000000-000000000</b></span>
 	</div>
 
 
@@ -939,9 +965,18 @@
 		<!--PROFILE-ID-ALT-->
       
 		<div class="profile-v4-profile-id-alt">
-			<span class="profile-v4-id-text"><b>xxxxxxxxxxxx-000000000-000000000-000000000</b></span>
+			<span class="profile-v4-id-text"><b>xxxxxxxxxxxx:000000000-000000000-000000000</b></span>
 		</div>
       
+	</div>
+
+	<!--NETWORK-ASSOCIATION-->
+	<!--This div communicates network-level logical information about which Network the entity, along with any entities it hosts, belongs to.-->
+
+	<div class="profile-v4-net-assc-bar">
+		<span class="profile-v4-net-assc-text">
+			<strong>Network Association: <a href="https://www.asveora.social/"><span id="networkAssociation" class="profile-v4-net-assc-link">asveora.social</span></a></strong>
+		</span>
 	</div>
 
 	<!--SCTN-BADGES-BAR-->
