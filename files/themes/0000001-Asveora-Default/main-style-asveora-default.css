@@ -4532,7 +4532,7 @@
   
 	.cnstttn-section-title{
 		font-family: helvetica, arial, sans-serif;
-		font-size: 28px;
+		font-size: 36px;
 		color: #9e9e9e;
 	}
   
@@ -5574,6 +5574,32 @@
 	.qkdeploy-content-img{
 		border-radius: 10px;
 		width: 100%;
+	}
+	
+	/*SCTN-NETWORK-ASSOCIATION-CLASSES*/
+	/*Controls the spacing, color, padding, and layout of the network association div.*/
+  
+	.qkdeploy-net-assc-bar{
+		background-color: var(--primary-color);
+		border-radius: 50px;
+		border: 10px solid var(--primary-color);
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		text-align: center;
+	}
+  
+	.qkdeploy-net-assc-text{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: var(--secondary-color);
+	}
+  
+	.qkdeploy-net-assc-link{
+		font-family: helvetica, arial, sans-serif;
+		font-size: 28px;
+		color: #bdbdbd;
 	}
   
 	/*SCTN-LABEL-TEXT-CLASSES*/
