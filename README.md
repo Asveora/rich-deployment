@@ -4,6 +4,14 @@ Hey there! [AmzroSevca](https://www.amzrosevca.com/) typing! This repo is for th
 
 # About the Licenses
 
+This repository is dual-licensed under the **GNU General Public License v3.0 (GPLv3)** and the **Asveora Commercial License Agreement (ACLA)**.
+
+You may use, modify, and distribute this project under the terms of the **GPLv3**, or, if you are using this software in a commercial, closed-source, or non-GPL-compatible context, you may instead operate under the terms of the **ACLA**, subject to its separate conditions.
+
+By using this software, you agree that your usage must comply with **at least one of the applicable licenses**, depending on how the software is used or distributed.
+
+For full details, please refer to the `LICENSE-GPLv3` and `ACLA` license files included in this repository.
+
 "LICENSE-code" governs all of the code within this repository. "LICENSE-assets" governs all of Asveora's branded and copyrighted assets. "LICENSE-blogger" governs a single xml file within the blogger directory that contains some code from Google at the time of writing this. If this changes in the future the license will be updated. These licenses exist to ensure that Asveora remains an open source project that people can freely use the code from while avoiding any legal problems surrounding Asveora's IP.
 
 # I just want to be an user and not a contributor...
